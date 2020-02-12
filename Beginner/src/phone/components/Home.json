@@ -1,0 +1,265 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true",
+            "dropshadow": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DLabel-2",
+                    "state-format-value": "text",
+                    "widget-name": "3DLabel-2",
+                    "text": "Example",
+                    "rx": "0"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1562144121371",
+                        "source-type": "data",
+                        "source-name": "rotationXParameter",
+                        "source-item-type": "value",
+                        "source-item-name": "rotationXParameter",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['rotationXParameter']",
+                        "to-property": "rx"
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "attributes": {
+                        "databind-id": "db-1562144125585",
+                        "source-type": "data",
+                        "source-name": "rotationZParameter",
+                        "source-item-type": "value",
+                        "source-item-name": "rotationZParameter",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['rotationZParameter']",
+                        "to-property": "rz"
+                      },
+                      "name": "twx-databind"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "thingMark-1",
+                    "tracking-indicator": "true",
+                    "widget-name": "thingMark-1",
+                    "width": "0.0254",
+                    "x": "0.0452",
+                    "y": "0.0000",
+                    "z": "0.0344",
+                    "rx": "-90.00",
+                    "ry": "-0.00",
+                    "rz": "-0.00"
+                  },
+                  "name": "twx-dt-target",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1562144197350",
+                        "source-type": "data",
+                        "source-name": "vumark",
+                        "source-item-type": "value",
+                        "source-item-name": "vumark",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['vumark']",
+                        "to-property": "markerId"
+                      },
+                      "name": "twx-databind"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlay-1",
+            "widget-name": "2D Overlay",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "panel-1",
+                    "widget-name": "Top Panel",
+                    "is-widget-container": "true",
+                    "position": "top"
+                  },
+                  "name": "twx-overlay-container",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "2DOverlayBody-1",
+                    "widget-name": "2D Body",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-overlay-body",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-2",
+                            "widget-name": "Left Panel",
+                            "is-widget-container": "true",
+                            "position": "left"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "button-3",
+                                    "widget-name": "button-3",
+                                    "click-expression": "loadDeeplinkedExperience()",
+                                    "class": "navigateView"
+                                  },
+                                  "name": "twx-button"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-3",
+                            "widget-name": "Center Panel",
+                            "is-widget-container": "true",
+                            "position": "center"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "button-1",
+                                    "widget-name": "button-1",
+                                    "click-expression": "rotateZLabel()",
+                                    "text": "Rotate Z",
+                                    "class": "rotateZ"
+                                  },
+                                  "name": "twx-button"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "button-2",
+                                    "widget-name": "button-2",
+                                    "click-expression": "rotateXLabel()",
+                                    "text": "Rotate X",
+                                    "class": "rotateX"
+                                  },
+                                  "name": "twx-button"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-4",
+                            "widget-name": "Right Panel",
+                            "is-widget-container": "true",
+                            "position": "right"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "hyperlink-1",
+                                    "widget-name": "hyperlink-1",
+                                    "text": "Quadropter Experience",
+                                    "url": "https://view.vuforia.com/command/view-experience?url=https%3A%2F%2F90beb02cc9edbf9d.studio-trial.vuforia.io%2FExperienceService%2Fcontent%2Fprojects%2Fstudio%2520sample%2520-%2520quadcopter%2Findex.html%3FexpId%3D1%26vumark%3D36217%253A1"
+                                  },
+                                  "name": "twx-hyperlink"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "panel-5",
+                    "widget-name": "Bottom Panel",
+                    "is-widget-container": "true",
+                    "position": "bottom"
+                  },
+                  "name": "twx-overlay-container",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
