@@ -1,0 +1,22 @@
+[2020-02-10T13:12:54.843Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Begin upgrade of project
+[2020-02-10T13:12:54.845Z] info: [twx-studio:upgrade:HoloLens3dVideo] Upgrading project
+[2020-02-10T13:12:54.924Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Make sure there are not any stale files lying around
+[2020-02-10T13:12:54.927Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Create .gitignore for project dir
+[2020-02-10T13:12:54.928Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Copying /src/**/* to project, overwrite=false
+[2020-02-10T13:12:54.930Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-02-10T13:12:55.029Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Copy of project files complete
+[2020-02-10T13:12:55.029Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Updating version to 
+[2020-02-10T13:12:55.029Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Copying project specific default resources.
+[2020-02-10T13:12:55.153Z] debug: [twx-studio:upgrade:HoloLens3dVideo] onupgrade sucessful, now build the project
+[2020-02-10T13:12:55.154Z] debug: [twx-studio:upgrade:HoloLens3dVideo] BEGIN buildApp
+[2020-02-10T13:12:55.154Z] debug: [twx-studio:upgrade:HoloLens3dVideo] write settings
+[2020-02-10T13:12:55.155Z] debug: [twx-studio:upgrade:HoloLens3dVideo] copy runtime extensions
+[2020-02-10T13:12:55.682Z] debug: [twx-studio:upgrade:HoloLens3dVideo] packageThemeSet
+[2020-02-10T13:12:56.924Z] debug: [twx-studio:upgrade:HoloLens3dVideo] onBuild
+[2020-02-10T13:12:56.925Z] info: [twx-studio:upgrade:HoloLens3dVideo] Building ves-ar-extension app:
+[2020-02-10T13:12:57.192Z] debug: [twx-studio:upgrade:HoloLens3dVideo] pathDir
+[2020-02-10T13:12:57.192Z] debug: [twx-studio:upgrade:HoloLens3dVideo] scaffoldDir
+[2020-02-10T13:12:57.192Z] debug: [twx-studio:upgrade:HoloLens3dVideo] copySrc
+[2020-02-10T13:12:57.552Z] debug: [twx-studio:upgrade:HoloLens3dVideo] buildApp
+[2020-02-10T13:12:57.854Z] debug: [twx-studio:upgrade:HoloLens3dVideo] END buildApp
+[2020-02-10T13:12:57.854Z] debug: [twx-studio:upgrade:HoloLens3dVideo] Build succeeded.

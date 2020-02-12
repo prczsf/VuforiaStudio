@@ -1,0 +1,86 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true",
+            "dropshadow": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-1",
+                    "widget-name": "3DImage-1",
+                    "click-expression": "videoClicked();",
+                    "src": "Uploaded/video_background.png",
+                    "scale": "1.0000",
+                    "x": "0.0000",
+                    "y": "0.1911",
+                    "z": "0.0000",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "spatialTarget-1",
+                    "widget-name": "spatialTarget-1",
+                    "rx": "-90"
+                  },
+                  "name": "twx-dt-target-spatial"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DButton-1",
+                    "font-color": "rgba(255,43,43, 1);",
+                    "widget-name": "3DButton-1",
+                    "click-expression": "playVideo();",
+                    "text": "▶",
+                    "height": "0.04",
+                    "width": "0.04",
+                    "color": "rgba(255,255,255, 1);",
+                    "x": "-0.3347",
+                    "y": "0.1090",
+                    "z": "0.3371",
+                    "rx": "0.00",
+                    "ry": "50.56",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-3dbutton"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
