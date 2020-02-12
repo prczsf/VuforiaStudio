@@ -1,0 +1,61 @@
+{
+  "name": "BMWCockpitMobile Eyewear",
+  "projectType": "HMT",
+  "viewType": "hmt-2D",
+  "fileName": "BMWCockpitMobile Eyewear",
+  "thingworxServer": "https://3bd2760cf54a75ca.studio-trial.vuforia.io",
+  "viewTemplateFileName": "home-hmt-2d.json",
+  "device": {
+    "name": "realwear",
+    "width": "854",
+    "height": "450"
+  },
+  "theme": "hmt-light",
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        },
+        {
+          "name": "Camera",
+          "fileName": "Camera_1",
+          "showInMainMenu": true,
+          "viewType": "hmt-2D",
+          "title": "Camera"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "fragments": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "state": {
+    "orientation": "landscape"
+  },
+  "mainNavigationMenuStyle": "leftSideMenu",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/fonts",
+  "version": "1.42.1594"
+}

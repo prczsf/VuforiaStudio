@@ -1,0 +1,21 @@
+[2019-08-26T06:24:15.624Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Begin upgrade of project
+[2019-08-26T06:24:15.625Z] info: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Upgrading project
+[2019-08-26T06:24:15.630Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Make sure there are not any stale files lying around
+[2019-08-26T06:24:15.633Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Create .gitignore for project dir
+[2019-08-26T06:24:15.634Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Copying /src/**/* to project, overwrite=false
+[2019-08-26T06:24:15.636Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-08-26T06:24:15.777Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Copy of project files complete
+[2019-08-26T06:24:15.777Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Updating version to 
+[2019-08-26T06:24:15.777Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] onupgrade sucessful, now build the project
+[2019-08-26T06:24:15.777Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] BEGIN buildApp
+[2019-08-26T06:24:15.778Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] write settings
+[2019-08-26T06:24:15.779Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] copy runtime extensions
+[2019-08-26T06:24:16.053Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] packageThemeSet
+[2019-08-26T06:24:17.259Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] onBuild
+[2019-08-26T06:24:17.260Z] info: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Building ves-ar-extension app:
+[2019-08-26T06:24:17.280Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] pathDir
+[2019-08-26T06:24:17.280Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] scaffoldDir
+[2019-08-26T06:24:17.280Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] copySrc
+[2019-08-26T06:24:17.493Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] buildApp
+[2019-08-26T06:24:17.657Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] END buildApp
+[2019-08-26T06:24:17.657Z] debug: [twx-studio:upgrade:BMWCockpitMobile_Eyewear] Build succeeded.

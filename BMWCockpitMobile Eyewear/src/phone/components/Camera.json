@@ -1,0 +1,182 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "mobile-2D"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "gridLayout-1",
+            "widget-name": "gridLayout-1",
+            "is-widget-container": "true",
+            "evenlyspacedrows": "true"
+          },
+          "name": "twx-gridlayout",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-1",
+                    "widget-name": "row-1",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-2",
+                            "widget-name": "column-2",
+                            "is-widget-container": "true",
+                            "justification": "center",
+                            "alignment": "center"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "image-1",
+                                    "widget-name": "image-1"
+                                  },
+                                  "name": "twx-image2",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1566219686559",
+                                        "source-type": "data",
+                                        "source-name": "captureImage",
+                                        "source-item-type": "value",
+                                        "source-item-name": "captureImage",
+                                        "binding-type": "custom_field",
+                                        "from-expression": "app.params['captureImage']",
+                                        "to-property": "imgsrc"
+                                      },
+                                      "name": "twx-databind"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-1",
+                            "widget-name": "column-1",
+                            "is-widget-container": "true",
+                            "justification": "center",
+                            "alignment": "flex-end",
+                            "fixedcolsize": "96px"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "snapshotButton",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "snapshotButton",
+                                    "click-expression": "takePhoto();",
+                                    "class": "snapshot-button",
+                                    "src": "Uploaded/photo.png",
+                                    "srcnotpressed": "Uploaded/photo.png",
+                                    "width": "96px",
+                                    "height": "96px"
+                                  },
+                                  "name": "twx-toggle-button"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "snapshotButtonBack",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "snapshotButtonBack",
+                                    "click-expression": "snapBack();",
+                                    "class": "snapshot-button",
+                                    "src": "Uploaded/arrowLeft-removebg-preview.png",
+                                    "srcnotpressed": "Uploaded/arrowLeft-removebg-preview.png",
+                                    "width": "96px",
+                                    "height": "96px"
+                                  },
+                                  "name": "twx-toggle-button"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "acceptPhotoButton",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "acceptPhotoButton",
+                                    "click-expression": "clickedAcceptPhotoButton();",
+                                    "class": "snapshot-button",
+                                    "src": "Uploaded/check.png",
+                                    "srcnotpressed": "Uploaded/check.png",
+                                    "width": "96px",
+                                    "height": "96px",
+                                    "visible": "false"
+                                  },
+                                  "name": "twx-toggle-button"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "declinePhotoButton",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "declinePhotoButton",
+                                    "click-expression": "clickedDeclinePhotoButton();",
+                                    "class": "snapshot-button",
+                                    "src": "Uploaded/x.png",
+                                    "srcnotpressed": "Uploaded/x.png",
+                                    "width": "96px",
+                                    "height": "96px",
+                                    "visible": "false"
+                                  },
+                                  "name": "twx-toggle-button"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
