@@ -1,0 +1,389 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [
+    {
+      "attributes": {
+        "name": "ImageThing",
+        "twx-entity-type": "Things",
+        "twx-entity-name": "ImageThing"
+      },
+      "name": "twx-model",
+      "children": [
+        {
+          "attributes": {
+            "name": "id",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"ImageThing\"].properties[\"id\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "AddImageService",
+            "id": "AddImageService"
+          },
+          "name": "twx-model-service",
+          "children": [
+            {
+              "attributes": {
+                "name": "mediaFileName",
+                "value": ""
+              },
+              "name": "twx-service-parameter-value"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "name": "IncrementCheckIndex",
+            "id": "IncrementCheckIndex"
+          },
+          "name": "twx-model-service"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "vumark",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "ThingMark",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "template",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing Template",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "thing",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "currentStepIndex",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "currentStepIndex",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "steps",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "steps",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "currentStepLabelParam",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "currentStepLabelParam",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "errorWarningText",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "errorWarningText",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "srcFrame",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "srcFrame",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "xFrame",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "xFrame",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "yFrame",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "yFrame",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "zFrame",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "zFrame",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "xRotFrame",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "xRotFrame",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "yRotFrame",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "yRotFrame",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "zRotFrame",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "zRotFrame",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "currentStepNumberLabelParam",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "currentStepNumberLabelParam",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "UIVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "UIVisible",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "previousStepButtonVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "previousStepButtonVisible",
+        "value": "true"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "nextStepButtonVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "nextStepButtonVisible",
+        "value": "true"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "currentStepDescLabelParam",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "currentStepDescLabelParam",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "xHelpImage",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "xHelpImage",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "yHelpImage",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "yHelpImage",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "zHelpImage",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "zHelpImage",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "widthHelpImage",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "widthHelpImage",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "heightHelpImage",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "heightHelpImage",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "frameVisibility",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "frameVisibility",
+        "value": "true"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "helpImageVisibility",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "helpImageVisibility",
+        "value": "true"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "tempPhoto",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "tempPhoto",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "returningFromPhoto",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "returningFromPhoto",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "captureImage",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "captureImage",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "initialized",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "initialized",
+        "value": "0"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "tempFaultTypesList",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "tempFaultTypesList",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "backFromTakePhoto",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "backFromTakePhoto",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "tempNote",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "tempNote",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "debugLog",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "debugLog",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    }
+  ],
+  "name": "twx-app-mdl"
+}
