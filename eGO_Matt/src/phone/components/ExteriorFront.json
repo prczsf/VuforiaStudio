@@ -1,0 +1,1189 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true",
+            "dropshadow": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "carModel",
+                    "widget-name": "carModel",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/egoCar.pvz",
+                    "scale": "1.0000",
+                    "x": "-5.960464477539063e-8",
+                    "y": "0.30000001192092896",
+                    "rx": "-90",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "EFMI-1",
+                            "widget-name": "EFMI-1",
+                            "is-widget-container": "true",
+                            "model": "carModel",
+                            "idpath": "/245/238/238/252/1540/247",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "EFMI-2",
+                            "widget-name": "EFMI-2",
+                            "is-widget-container": "true",
+                            "model": "carModel",
+                            "idpath": "/242/248/311/239/239/238/293",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "EFMI-3",
+                            "widget-name": "EFMI-3",
+                            "is-widget-container": "true",
+                            "model": "carModel",
+                            "idpath": "/242/239/238/447/331",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "EFMI-4",
+                            "widget-name": "EFMI-4",
+                            "is-widget-container": "true",
+                            "model": "carModel",
+                            "idpath": "/242/239/239/261/252",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "180.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "EFMI-5",
+                            "widget-name": "EFMI-5",
+                            "is-widget-container": "true",
+                            "model": "carModel",
+                            "idpath": "/242/247/239/565/243",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "180.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "EFMI-6",
+                            "widget-name": "EFMI-6",
+                            "is-widget-container": "true",
+                            "model": "carModel",
+                            "idpath": "/242/247/238/288/248",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "EFMI-7",
+                            "widget-name": "EFMI-7",
+                            "is-widget-container": "true",
+                            "model": "carModel",
+                            "idpath": "/242/248/244/243/239",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "-180.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "EFMI-8",
+                            "widget-name": "EFMI-8",
+                            "is-widget-container": "true",
+                            "model": "carModel",
+                            "idpath": "/242/248/244/239/239",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-1",
+                    "widget-name": "EFSM-1",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "-0.4691",
+                    "y": "0.7889",
+                    "z": "0.3954",
+                    "rx": "92.90",
+                    "ry": "-6.17",
+                    "rz": "-112.34",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-2",
+                    "widget-name": "EFSM-2",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "-0.4763",
+                    "y": "0.7917",
+                    "z": "-0.3902",
+                    "rx": "84.57",
+                    "ry": "6.60",
+                    "rz": "-109.42",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-3",
+                    "widget-name": "EFSM-3",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "-0.4962",
+                    "y": "0.7846",
+                    "z": "-0.1236",
+                    "rx": "91.04",
+                    "ry": "-0.00",
+                    "rz": "-108.79",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-4",
+                    "widget-name": "EFSM-4",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "-0.4321",
+                    "y": "0.7152",
+                    "z": "0.6744",
+                    "rx": "52.27",
+                    "ry": "29.01",
+                    "rz": "-136.84",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-5",
+                    "widget-name": "EFSM-5",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "-0.3305",
+                    "y": "0.6466",
+                    "z": "0.8242",
+                    "rx": "53.56",
+                    "ry": "-6.54",
+                    "rz": "-117.48",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-6",
+                    "widget-name": "EFSM-6",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "-0.4889",
+                    "y": "0.7821",
+                    "z": "0.1347",
+                    "rx": "84.61",
+                    "ry": "-0.00",
+                    "rz": "-108.79",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-7",
+                    "widget-name": "EFSM-7",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.5359",
+                    "y": "1.1839",
+                    "z": "0.6460",
+                    "rx": "-32.88",
+                    "ry": "-65.83",
+                    "rz": "-16.76",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-8",
+                    "widget-name": "EFSM-8",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.8429",
+                    "y": "1.4686",
+                    "z": "0.4816",
+                    "rx": "70.72",
+                    "ry": "-11.95",
+                    "rz": "-144.51",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-9",
+                    "widget-name": "EFSM-9",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.7184",
+                    "y": "1.3626",
+                    "z": "0.5673",
+                    "rx": "-42.12",
+                    "ry": "-62.38",
+                    "rz": "-6.50",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-10",
+                    "widget-name": "EFSM-10",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.7805",
+                    "y": "1.4836",
+                    "z": "-0.1671",
+                    "rx": "92.83",
+                    "ry": "3.00",
+                    "rz": "-145.22",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-11",
+                    "widget-name": "EFSM-11",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.7881",
+                    "y": "1.4781",
+                    "z": "0.1746",
+                    "rx": "85.20",
+                    "ry": "-2.95",
+                    "rz": "-145.28",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-12",
+                    "widget-name": "EFSM-12",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.8204",
+                    "y": "1.4531",
+                    "z": "-0.4552",
+                    "rx": "100.67",
+                    "ry": "10.62",
+                    "rz": "-145.15",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-13",
+                    "widget-name": "EFSM-13",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.5405",
+                    "y": "1.1849",
+                    "z": "-0.6494",
+                    "rx": "148.32",
+                    "ry": "-56.14",
+                    "rz": "159.74",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-14",
+                    "widget-name": "EFSM-14",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.7182",
+                    "y": "1.3548",
+                    "z": "-0.5782",
+                    "rx": "135.92",
+                    "ry": "-57.92",
+                    "rz": "175.70",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-15",
+                    "widget-name": "EFSM-15",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "-0.4201",
+                    "y": "0.6988",
+                    "z": "-0.6922",
+                    "rx": "132.26",
+                    "ry": "-29.23",
+                    "rz": "-138.16",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-16",
+                    "widget-name": "EFSM-16",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "-0.3231",
+                    "y": "0.6377",
+                    "z": "-0.8277",
+                    "rx": "126.44",
+                    "ry": "7.08",
+                    "rz": "-121.41",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-17",
+                    "widget-name": "EFSM-17",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.0221",
+                    "y": "1.0447",
+                    "z": "0.0240",
+                    "rx": "-90.91",
+                    "ry": "-0.16",
+                    "rz": "13.68",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-18",
+                    "widget-name": "EFSM-18",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.0657",
+                    "y": "1.0516",
+                    "z": "0.3622",
+                    "rx": "-89.65",
+                    "ry": "15.51",
+                    "rz": "13.77",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-19",
+                    "widget-name": "EFSM-19",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.2038",
+                    "y": "1.0289",
+                    "z": "0.6264",
+                    "rx": "-77.46",
+                    "ry": "36.41",
+                    "rz": "22.41",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-20",
+                    "widget-name": "EFSM-20",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.0502",
+                    "y": "1.0406",
+                    "z": "-0.3269",
+                    "rx": "-95.18",
+                    "ry": "-11.00",
+                    "rz": "13.85",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "EFSM-21",
+                    "widget-name": "EFSM-21",
+                    "src": "Uploaded/gap_shader_static_green_001.png",
+                    "scale": "0.3000",
+                    "x": "0.1978",
+                    "y": "1.0305",
+                    "z": "-0.6269",
+                    "rx": "-106.56",
+                    "ry": "-48.81",
+                    "rz": "30.26",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "gaze3D",
+                    "widget-name": "gaze3D",
+                    "src": "Uploaded/gaze.png",
+                    "scale": "1.0000",
+                    "x": "0.0000",
+                    "y": "1.3738",
+                    "z": "0.0000",
+                    "rx": "180.00",
+                    "ry": "-90",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "spatialTarget-1",
+                    "widget-name": "spatialTarget-1",
+                    "x": "1.2090",
+                    "y": "0.0000",
+                    "z": "0.0000",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-target-spatial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlay-1",
+            "widget-name": "2D Overlay",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "panel-1",
+                    "widget-name": "Top Panel",
+                    "is-widget-container": "true",
+                    "position": "top"
+                  },
+                  "name": "twx-overlay-container",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "gridLayout-1",
+                            "widget-name": "gridLayout-1",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-gridlayout",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "row-1",
+                                    "widget-name": "row-1",
+                                    "is-widget-container": "true",
+                                    "rowheight": "10vh"
+                                  },
+                                  "name": "twx-row",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-1",
+                                            "widget-name": "column-1",
+                                            "is-widget-container": "true",
+                                            "class": ""
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "image-1",
+                                                    "widget-name": "image-1",
+                                                    "class": "inAppLogo",
+                                                    "imgsrc": "Uploaded/ego_logo.svg",
+                                                    "padding": "0px"
+                                                  },
+                                                  "name": "twx-image2"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-3",
+                                            "widget-name": "column-3",
+                                            "is-widget-container": "true",
+                                            "alignment": "flex-end"
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "button-2",
+                                                    "widget-name": "button-2",
+                                                    "text": "Change Area",
+                                                    "class": "goBackBtn",
+                                                    "margin": ""
+                                                  },
+                                                  "name": "twx-button",
+                                                  "children": [
+                                                    {
+                                                      "attributes": {
+                                                        "eventbind-id": "eb-1579054551744",
+                                                        "source-type": "widget",
+                                                        "source-label": "Button",
+                                                        "source-name": "button-2",
+                                                        "source-event": "click",
+                                                        "handler-namespace": "app",
+                                                        "handler-name": "fn",
+                                                        "handler-service": "navigate",
+                                                        "handler-path": "app-fn-navigate"
+                                                      },
+                                                      "name": "twx-eventbind",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "name": "viewname",
+                                                            "value": "MainMenu"
+                                                          },
+                                                          "name": "twx-event-data"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "2DOverlayBody-1",
+                    "widget-name": "2D Body",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-overlay-body",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-2",
+                            "widget-name": "Left Panel",
+                            "is-widget-container": "true",
+                            "position": "left"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "gridLayout-3",
+                                    "widget-name": "gridLayout-3",
+                                    "is-widget-container": "true",
+                                    "evenlyspacedrows": "true"
+                                  },
+                                  "name": "twx-gridlayout",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "row-3",
+                                            "widget-name": "row-3",
+                                            "is-widget-container": "true"
+                                          },
+                                          "name": "twx-row",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "column-4",
+                                                    "widget-name": "column-4",
+                                                    "is-widget-container": "true",
+                                                    "justification": "center",
+                                                    "alignment": "flex-start"
+                                                  },
+                                                  "name": "twx-col",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "placeMarker",
+                                                            "widget-name": "placeMarker",
+                                                            "click-expression": "EGO.METHODS.addLocalModel();",
+                                                            "text": "PLACE",
+                                                            "class": "reportBtn"
+                                                          },
+                                                          "name": "twx-button",
+                                                          "children": [
+                                                            {
+                                                              "attributes": {
+                                                                "databind-id": "db-1580212936277",
+                                                                "source-type": "data",
+                                                                "source-name": "dynamicPointerVisible",
+                                                                "source-item-type": "value",
+                                                                "source-item-name": "dynamicPointerVisible",
+                                                                "binding-type": "custom_field",
+                                                                "from-expression": "app.params['dynamicPointerVisible']",
+                                                                "to-property": "visible"
+                                                              },
+                                                              "name": "twx-databind"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-3",
+                            "widget-name": "Center Panel",
+                            "is-widget-container": "true",
+                            "position": "center"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "panel-6",
+                                    "widget-name": "panel-6",
+                                    "is-widget-container": "true",
+                                    "class": "operatorInfoPanel",
+                                    "justification": "center",
+                                    "alignment": "center"
+                                  },
+                                  "name": "twx-panel",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "operatorInfoLabel",
+                                            "state-format-value": "text",
+                                            "widget-name": "operatorInfoLabel",
+                                            "text": "PROSZE WYBRAC STATIC MARKER",
+                                            "class": "operatorInfoLabel",
+                                            "visible": "false"
+                                          },
+                                          "name": "twx-label"
+                                        },
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "debugLog",
+                                            "state-format-value": "text",
+                                            "widget-name": "debugLog",
+                                            "text": "",
+                                            "class": "operatorInfoLabel",
+                                            "visible": "false"
+                                          },
+                                          "name": "twx-label"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-4",
+                            "widget-name": "Right Panel",
+                            "is-widget-container": "true",
+                            "position": "right"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "gridLayout-4",
+                                    "widget-name": "gridLayout-4",
+                                    "is-widget-container": "true",
+                                    "evenlyspacedrows": "true"
+                                  },
+                                  "name": "twx-gridlayout",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "row-4",
+                                            "widget-name": "row-4",
+                                            "is-widget-container": "true"
+                                          },
+                                          "name": "twx-row",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "column-5",
+                                                    "widget-name": "column-5",
+                                                    "is-widget-container": "true",
+                                                    "justification": "center",
+                                                    "alignment": "flex-end"
+                                                  },
+                                                  "name": "twx-col",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "plusGaze",
+                                                            "widget-name": "plusGaze",
+                                                            "click-expression": "EGO.METHODS.plusGazeFun();",
+                                                            "text": "ZOOM IN",
+                                                            "class": "reportBtn"
+                                                          },
+                                                          "name": "twx-button",
+                                                          "children": [
+                                                            {
+                                                              "attributes": {
+                                                                "databind-id": "db-1580212927405",
+                                                                "source-type": "data",
+                                                                "source-name": "dynamicPointerVisible",
+                                                                "source-item-type": "value",
+                                                                "source-item-name": "dynamicPointerVisible",
+                                                                "binding-type": "custom_field",
+                                                                "from-expression": "app.params['dynamicPointerVisible']",
+                                                                "to-property": "visible"
+                                                              },
+                                                              "name": "twx-databind"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "minusGaze",
+                                                            "widget-name": "minusGaze",
+                                                            "click-expression": "EGO.METHODS.minusGazeFun();",
+                                                            "text": "ZOOM OUT",
+                                                            "class": "reportBtn"
+                                                          },
+                                                          "name": "twx-button",
+                                                          "children": [
+                                                            {
+                                                              "attributes": {
+                                                                "databind-id": "db-1580212930461",
+                                                                "source-type": "data",
+                                                                "source-name": "dynamicPointerVisible",
+                                                                "source-item-type": "value",
+                                                                "source-item-name": "dynamicPointerVisible",
+                                                                "binding-type": "custom_field",
+                                                                "from-expression": "app.params['dynamicPointerVisible']",
+                                                                "to-property": "visible"
+                                                              },
+                                                              "name": "twx-databind"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "panel-5",
+                    "widget-name": "Bottom Panel",
+                    "is-widget-container": "true",
+                    "position": "bottom"
+                  },
+                  "name": "twx-overlay-container",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "gridLayout-2",
+                            "widget-name": "gridLayout-2",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-gridlayout",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "row-2",
+                                    "widget-name": "row-2",
+                                    "is-widget-container": "true"
+                                  },
+                                  "name": "twx-row",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-2",
+                                            "widget-name": "column-2",
+                                            "is-widget-container": "true"
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "reportADefectButton",
+                                                    "widget-name": "reportADefectButton",
+                                                    "click-expression": "EGO.METHODS.categoryPopupController()",
+                                                    "text": "REPORT A DEFECT",
+                                                    "class": "reportBtn",
+                                                    "margin": ""
+                                                  },
+                                                  "name": "twx-button",
+                                                  "children": [
+                                                    {
+                                                      "attributes": {
+                                                        "databind-id": "db-1580285235077",
+                                                        "source-type": "data",
+                                                        "source-name": "reportADefectVisible",
+                                                        "source-item-type": "value",
+                                                        "source-item-name": "reportADefectVisible",
+                                                        "binding-type": "custom_field",
+                                                        "from-expression": "app.params['reportADefectVisible']",
+                                                        "to-property": "visible"
+                                                      },
+                                                      "name": "twx-databind"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "stopPlacingMarkers",
+                                                    "widget-name": "stopPlacingMarkers",
+                                                    "click-expression": "EGO.METHODS.buttonClicked();\nEGO.METHODS.turnOffAddPointerWidgets();\nEGO.METHODS.DynamicPointerPopup(EGO.$scope.app.params.ReportObj.areaName);\nview.wdg['operatorInfoLabel'].visible = false;\nview.wdg['reportADefectButton'].visible = true;",
+                                                    "text": "STOP PLACING",
+                                                    "class": "reportBtn"
+                                                  },
+                                                  "name": "twx-button",
+                                                  "children": [
+                                                    {
+                                                      "attributes": {
+                                                        "databind-id": "db-1580212936277",
+                                                        "source-type": "data",
+                                                        "source-name": "dynamicPointerVisible",
+                                                        "source-item-type": "value",
+                                                        "source-item-name": "dynamicPointerVisible",
+                                                        "binding-type": "custom_field",
+                                                        "from-expression": "app.params['dynamicPointerVisible']",
+                                                        "to-property": "visible"
+                                                      },
+                                                      "name": "twx-databind"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}

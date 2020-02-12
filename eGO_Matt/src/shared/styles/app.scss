@@ -1,0 +1,499 @@
+/*
+Add additional application styles or override styles provided by the selected theme or widgets.
+You can include SASS syntax, as this file is built to a css file using a SASS processor.
+
+Available Variables:
+
+Variable Name      Description
+----------------------------------------------------
+$resources         References the directory where resources reside (images, etc.), this directory may be different
+between the design time and the runtime directory structure.
+
+Example: background-image: url(#{$resources}/Uploaded/image.png)
+
+$font-path        References the relative directory where fonts are stored.
+*/
+
+
+
+// logo will have a fixed height - scale down the image accordingly
+.scaled-logo {
+  object-fit: scale-down;
+  margin: 5px;
+}
+
+.watermark {
+  opacity: 0.7;
+}
+
+.rounded-corners {
+  border-radius: 5px;
+}
+
+.toggle-button {
+  margin: 2px;
+}
+
+.slider-control {
+  height: 48px;
+  margin: 0px 2px 5px 2px;
+  padding: 1px 3px 2px 3px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+// override the default margins/size of range inputs (sliders) across the experience
+.range input {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.range .icon {
+  font-size: 18px;
+}
+
+// Media query to target landscape
+@media all and (orientation: landscape) {
+  // Selects the view and changes the background color
+  [twx-view="Welcome"] {
+    background: #00AEEF;
+  }
+  // Uses CSS border property to create a triangular shape
+  .welcomeHeader {
+    border-top: 15vh solid #fff;
+    border-right: 20vh solid transparent;
+    width: 50%;
+    height : 20%;
+  }
+  .welcomeFooter {
+    border-bottom: 20vh solid #2B95BE;// #5f7070;
+    border-right: 200vh solid transparent;
+    height: 20vh;
+    padding: 0;
+  }
+  // Uses vh and vw units to adjust for different resolutions
+  .welcomerow {
+    //   height: 40vh;
+    min-height: 40vh;
+  }
+
+  .logo {
+    //width: 20%;
+    height: 9vh;
+    // margin-top: 2vh;
+    //  padding:5px;
+  }
+  .scanBtn, .vert, .category {
+    padding-top: 52px;
+  }
+
+}
+
+// Media query to target portrait 
+@media all and (orientation: portrait) {
+  [twx-view="Welcome"] {
+    background: #00AEEF;
+  }
+  .welcomeHeader {
+    border-top: 10vh solid #fff;
+    border-right: 10vh solid transparent;
+    width: 70%;
+  }
+  .welcomerow {
+    //margin-top: 30%;
+    min-height: 35vh;
+  }
+  .welcomeFooter {
+    border-bottom: 30vh solid #2B95BE;
+    border-right: 60vh solid transparent;
+    height: 35vh;
+    padding: 0;
+  }
+  .logo {
+    //  width: 20%;
+    height: 5vh;
+  }
+  .scanBtn, .vert, .category {
+    line-height: 24px;
+    max-width: 140px;
+    min-width: 135px;
+    padding-bottom: 10px;
+    padding-top: 62px;
+  }
+
+  .grid {
+    //	background-position: center;
+    //  background-size: cover;
+  }
+
+
+}
+
+.logo {
+  //height: auto !important;
+  //height: 9vh;
+  position: fixed;
+  left: 3vh;
+  top: 3vh;
+}
+
+.welcomelabel {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: center;
+
+}
+
+.reportLabel {
+  color: #fff;
+  width: 90%;
+  text-align: center;
+}
+
+
+.usernamelabel {
+  background-color:rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: center;
+}
+
+.operatorInfoLabel {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+}
+
+.vinlabel {
+  background-color:rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+}
+.vinTlabel {
+  //background-color:rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+// Targets classes of buttons on the Choice view and adds background images to the buttons
+.scanBtn {
+  background: url(#{$resources}/Uploaded/qr-code.png) center 10px/ 48px 48px no-repeat;
+  background-color: #00aeef;
+  border: 1px solid #fff;
+  color: #fff !important;
+
+  //   height: 152px;
+  //    padding-left: 50px;
+  //    padding-right: 50px;
+  //   padding-top: 100px;
+  //    padding-bottom: 50px;
+  //   border-top-width: 1px;
+}
+
+.grid {
+  background: url(#{$resources}/Uploaded/eGoBG.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.vert {
+  background: url(#{$resources}/Uploaded/qr-code.png) center 10px/ 48px 48px no-repeat;
+  background-color: #00aeef;
+  border: 1px solid #fff;
+  color: #fff !important;
+  min-width: 170px;
+}
+
+
+.titleBg {
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+.inAppLogo {
+  //height: auto !important;
+  height: 4vh;
+  position: fixed;
+  left: 3vh;
+  top: 3vh;
+
+}
+
+.reportBtn {
+  //   background: url(#{$resources}/Uploaded/qr-code.png) center 10px/ 48px 48px no-repeat;
+  background-color: #00aeef;
+  border: 1px solid #fff;
+  color: #fff !important;
+  width: 100%;
+  padding: 5px;
+}
+
+.goBackBtn {
+  //   background: url(#{$resources}/Uploaded/reply.png) right 8px/ 30px 30px no-repeat;
+  background-color: #00aeef;
+  border: 1px solid #fff;
+  color: #fff !important;
+  position: fixed;
+  width: 120px;
+  right: 2vh;
+  top: 2vh;
+  height: 4vh;
+}
+
+
+.finishSessionBtn {
+  background-color: #ffbf22;// #ff4822;
+  border: 1px solid #fff;
+  color: #fff !important;
+  position: fixed;
+  width: 40vh;
+  right: 46vh;//4vh;
+  bottom: 9vh;
+  height: 4vh;
+}
+
+.startNewSessionBtn {
+  background-color: #ff4822;
+  border: 1px solid #fff;
+  color: #fff !important;
+  position: fixed;
+  width: 40vh;
+  right: 16vh;//4vh;
+  bottom: 9vh;
+  height: 4vh;
+}
+
+.returnToSessionBtn {
+  background-color: #ffbf22;
+  border: 1px solid #fff;
+  color: #fff !important;
+  position: fixed;
+  width: 40vh;
+  left: 16vh;//4vh;
+  bottom: 9vh;
+  height: 4vh;
+}
+/////
+
+.item {
+  border-color: rgba(0, 0, 0, 0.0);
+}
+
+.item-select select {
+  position:relative;
+  background-color:rgba(0, 0, 0, 0.0);
+  color: #ddd;
+}
+
+.item-input {
+  background-color:rgba(0, 0, 0, 0.4);
+  color: #ddd;
+}
+
+.input-label {
+  display: table;
+  padding: 7px 10px 7px 0px;
+  max-width: 200px;
+  width: 35%;
+  color: #ddd;
+  font-size: 16px;
+}
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.backdrop {
+  opacity: 0.8;
+}
+.backdrop.active {
+  opacity: 0.8;
+}
+
+.popup-container .popup {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.popup-body {
+  height: 100%;
+}
+
+.category {
+  background: url(#{$resources}/Uploaded/qr-code.png) center 10px/ 48px 48px no-repeat;
+  background-color: #00aeef;
+  border: 1px solid #fff;
+  color: #fff !important;
+  width: 150px;
+  //height: 150px;
+}
+
+.reportCategoryPopup {
+  .popup{
+    //styling for popup width, width: 300px;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.8);
+    //background-color: transparent !important;
+    color: #fff;
+    text-align: center;
+  }
+  .popup-head {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    background-color: #2B95BE;
+  }
+  .popup-title{
+    //styling for title
+    color: #fff;
+  }
+  .popup-body{
+    width: 100%;
+    height: 100%;
+
+  }
+  .popup-buttons .button{
+    background-color: #2B95BE;
+  }
+  // width: auto;
+  // height: auto;
+  //opacity: 0.7;
+  //background-color: rgba(0, 0, 0, 0.2);
+  //color: rgba(0, 0, 0, 0.2);
+}
+
+.SMPopup {
+  .popup{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  .popup-head {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    background-color: #2B95BE;
+  }
+  .popup-title{
+    color: #fff;
+  }
+  .popup-body{
+    width: 100%;
+    height: 100%;
+    font: 30px arial, sans-serif;
+
+  }
+  .popup-buttons .button{
+    background-color: #2B95BE;
+  }
+}
+
+
+
+.stepsPopup {
+  .popup{
+    //styling for popup width, width: 300px;
+    width: 90%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+  }
+  .popup-title{
+    //styling for title
+  }
+  .popup-body{
+    width: 100%;
+    height: 100%;
+
+  }
+  .popup-buttons .button-positive{
+    background-color: #FAD717;
+  }
+  .popup-buttons .button-next{
+    background-color: #0052BB;
+    color: #fff;
+  }
+  // width: auto;
+  // height: auto;
+  //opacity: 0.7;
+  //background-color: rgba(0, 0, 0, 0.2);
+  //color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/////// SUMMARY LIST 
+
+
+
+.wrapper{
+  margin: 10% auto;
+  width: 80vw;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  //border: 1px solid #fff;
+  border: none;
+  border-bottom: none;
+}
+
+label:hover{
+  background: #f6f6f6;
+}
+
+label.last{
+  border-bottom: 1px solid #fff;
+}
+
+ul ul li{
+  padding: 10px;
+  background: #59ABE3;
+}
+
+
+input[type="checkbox"]{
+  position: absolute;
+  left: -9999px;
+}
+
+input[type="checkbox"] ~ ul{
+  height: 0;
+  transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ ul{
+  height: 100%;
+  transform-origin: top;
+  transition: transform .2s ease-out;
+  transform: scaleY(1); 
+}
+
+input[type="checkbox"]:checked + label{
+  background: #26C281;
+  border-bottom: 1px solid #fff;
+}

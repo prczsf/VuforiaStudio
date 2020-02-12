@@ -1,0 +1,402 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "mobile-2D"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "gridLayout-1",
+            "widget-name": "gridLayout-1",
+            "is-widget-container": "true",
+            "class": "grid"
+          },
+          "name": "twx-gridlayout",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-1",
+                    "widget-name": "row-1",
+                    "is-widget-container": "true",
+                    "rowclass": "welcomeHeader",
+                    "rowheight": "15vh"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-1",
+                            "widget-name": "column-1",
+                            "is-widget-container": "true",
+                            "padding": "10px"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "image-1",
+                                    "widget-name": "image-1",
+                                    "class": "logo",
+                                    "imgsrc": "Uploaded/ego_logo.svg",
+                                    "padding": "0px"
+                                  },
+                                  "name": "twx-image2"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-3",
+                    "widget-name": "row-3",
+                    "is-widget-container": "true",
+                    "rowclass": "",
+                    "rowheight": "5vh"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-3",
+                            "widget-name": "column-3",
+                            "is-widget-container": "true",
+                            "class": ""
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-2",
+                    "widget-name": "row-2",
+                    "is-widget-container": "true",
+                    "rowclass": "labelsrow"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-6",
+                            "widget-name": "column-6",
+                            "is-widget-container": "true",
+                            "flexdirection": "row",
+                            "justification": "center",
+                            "alignment": "center",
+                            "padding": "10px"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "label-5",
+                                    "state-format-value": "text",
+                                    "widget-name": "label-5",
+                                    "text": "Welcome",
+                                    "class": "welcomelabel",
+                                    "padding": "10px"
+                                  },
+                                  "name": "twx-label"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "label-6",
+                                    "state-format-value": "text",
+                                    "widget-name": "label-6",
+                                    "text": "#USERNAME#",
+                                    "class": "usernamelabel",
+                                    "padding": "10px"
+                                  },
+                                  "name": "twx-label",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1579037098010",
+                                        "source-type": "data",
+                                        "source-name": "loggedUser",
+                                        "source-item-type": "value",
+                                        "source-item-name": "loggedUser",
+                                        "binding-type": "custom_field",
+                                        "from-expression": "app.params['loggedUser']",
+                                        "to-property": "text"
+                                      },
+                                      "name": "twx-databind"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-4",
+                    "widget-name": "row-4",
+                    "is-widget-container": "true",
+                    "rowclass": "labelsrow"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-8",
+                            "widget-name": "column-8",
+                            "is-widget-container": "true",
+                            "flexdirection": "row",
+                            "justification": "center",
+                            "alignment": "center",
+                            "padding": "10px"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "label-7",
+                                    "state-format-value": "text",
+                                    "widget-name": "label-7",
+                                    "text": "Select Quality Gate",
+                                    "class": "welcomelabel",
+                                    "padding": "10px"
+                                  },
+                                  "name": "twx-label"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "select-1",
+                                    "widget-name": "select-1",
+                                    "change-expression": "gateSelected()",
+                                    "class": "",
+                                    "valuefield": "name",
+                                    "displayfield": "displayName",
+                                    "label": "Gate ID:",
+                                    "itempadding": "10px"
+                                  },
+                                  "name": "twx-select",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1579030316033",
+                                        "source-type": "data",
+                                        "source-name": "gatesList",
+                                        "source-item-type": "value",
+                                        "source-item-name": "gatesList",
+                                        "binding-type": "custom_field",
+                                        "from-expression": "app.params['gatesList']",
+                                        "to-property": "list"
+                                      },
+                                      "name": "twx-databind"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-5",
+                    "widget-name": "row-5",
+                    "is-widget-container": "true",
+                    "rowclass": "welcomerow"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-9",
+                            "widget-name": "column-9",
+                            "is-widget-container": "true",
+                            "flexdirection": "row",
+                            "justification": "center",
+                            "alignment": "center",
+                            "padding": "10px"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "button-1",
+                                    "disabled": "true",
+                                    "widget-name": "button-1",
+                                    "text": "Scan Vin Number",
+                                    "class": "scanBtn"
+                                  },
+                                  "name": "twx-button",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "eventbind-id": "eb-1579047816254",
+                                        "source-type": "widget",
+                                        "source-label": "Button",
+                                        "source-name": "button-1",
+                                        "source-event": "click",
+                                        "handler-type": "ui",
+                                        "handler-name": "scan-1",
+                                        "handler-service": "startScan",
+                                        "handler-path": "app.view[\"Welcome\"].wdg[\"scan-1\"].svc.startScan"
+                                      },
+                                      "name": "twx-eventbind"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-6",
+                    "widget-name": "row-6",
+                    "is-widget-container": "true",
+                    "rowclass": "welcomeFooter"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-2",
+                            "widget-name": "column-2",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "scan-1",
+                            "widget-name": "scan-1",
+                            "text": "Point camera at barcode"
+                          },
+                          "name": "twx-barcode-scanner",
+                          "children": [
+                            {
+                              "attributes": {
+                                "eventbind-id": "eb-1579048010862",
+                                "source-type": "widget",
+                                "source-label": "Scan",
+                                "source-name": "scan-1",
+                                "source-event": "valueacquired",
+                                "handler-namespace": "app",
+                                "handler-name": "fn",
+                                "handler-service": "navigate",
+                                "handler-path": "app-fn-navigate"
+                              },
+                              "name": "twx-eventbind",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "name": "viewname",
+                                    "value": "MainMenu"
+                                  },
+                                  "name": "twx-event-data"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}

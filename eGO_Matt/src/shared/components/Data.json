@@ -1,0 +1,164 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [
+    {
+      "attributes": {
+        "id": "vumark",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "ThingMark",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "template",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing Template",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "thing",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "gatesList",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "gatesList",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "loggedUser",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "loggedUser",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "scannedBarcode",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "scannedBarcode",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "ReportObj",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "ReportObj",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "FullReportList",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "FullReportList",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "currentMethodsList",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "currentMethodsList",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "selectedCarArea",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "selectedCarArea",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "currentCarVinNo",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "currentCarVinNo",
+        "value": ""
+      },
+      "name": "twx-app-param",
+      "children": [
+        {
+          "attributes": {
+            "databind-id": "db-1579622729110",
+            "source-type": "ui",
+            "source-label": "Scan",
+            "source-name": "scan-1",
+            "source-item-type": "property",
+            "source-item-name": "scannedValue",
+            "binding-type": "widget_property",
+            "from-expression": "app.view['Welcome'].wdg['scan-1']['scannedValue']",
+            "to-property": "app.params['currentCarVinNo']"
+          },
+          "name": "twx-databind"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "currentQualityGate",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "currentQualityGate",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "dynamicPointerVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "dynamicPointerVisible",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "reportADefectVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "reportADefectVisible",
+        "value": "true"
+      },
+      "name": "twx-app-param"
+    }
+  ],
+  "name": "twx-app-mdl"
+}

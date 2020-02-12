@@ -1,0 +1,68 @@
+[2020-01-14T18:52:20.041Z] debug: [twx-studio:upgrade:eGO_Matt] Begin upgrade of project
+[2020-01-14T18:52:20.041Z] info: [twx-studio:upgrade:eGO_Matt] Upgrading project
+[2020-01-14T18:52:20.045Z] debug: [twx-studio:upgrade:eGO_Matt] Make sure there are not any stale files lying around
+[2020-01-14T18:52:20.047Z] debug: [twx-studio:upgrade:eGO_Matt] Create .gitignore for project dir
+[2020-01-14T18:52:20.048Z] debug: [twx-studio:upgrade:eGO_Matt] Copying /src/**/* to project, overwrite=false
+[2020-01-14T18:52:20.050Z] debug: [twx-studio:upgrade:eGO_Matt] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-01-14T18:52:20.127Z] debug: [twx-studio:upgrade:eGO_Matt] Copy of project files complete
+[2020-01-14T18:52:20.128Z] debug: [twx-studio:upgrade:eGO_Matt] Updating version to 
+[2020-01-14T18:52:20.128Z] debug: [twx-studio:upgrade:eGO_Matt] onupgrade sucessful, now build the project
+[2020-01-14T18:52:20.128Z] debug: [twx-studio:upgrade:eGO_Matt] BEGIN buildApp
+[2020-01-14T18:52:20.128Z] debug: [twx-studio:upgrade:eGO_Matt] write settings
+[2020-01-14T18:52:20.129Z] debug: [twx-studio:upgrade:eGO_Matt] copy runtime extensions
+[2020-01-14T18:52:20.594Z] debug: [twx-studio:upgrade:eGO_Matt] packageThemeSet
+[2020-01-14T18:52:22.043Z] debug: [twx-studio:upgrade:eGO_Matt] onBuild
+[2020-01-14T18:52:22.044Z] info: [twx-studio:upgrade:eGO_Matt] Building ves-ar-extension app:
+[2020-01-14T18:52:22.063Z] debug: [twx-studio:upgrade:eGO_Matt] pathDir
+[2020-01-14T18:52:22.063Z] debug: [twx-studio:upgrade:eGO_Matt] scaffoldDir
+[2020-01-14T18:52:22.063Z] debug: [twx-studio:upgrade:eGO_Matt] copySrc
+[2020-01-14T18:52:22.344Z] debug: [twx-studio:upgrade:eGO_Matt] buildApp
+[2020-01-14T18:52:22.681Z] debug: [twx-studio:upgrade:eGO_Matt] END buildApp
+[2020-01-14T18:52:22.682Z] debug: [twx-studio:upgrade:eGO_Matt] Build succeeded.
+[2020-01-19T21:59:28.524Z] debug: [twx-studio:upgrade:eGO_Matt] Begin upgrade of project
+[2020-01-19T21:59:28.524Z] info: [twx-studio:upgrade:eGO_Matt] Upgrading project
+[2020-01-19T21:59:28.529Z] debug: [twx-studio:upgrade:eGO_Matt] Make sure there are not any stale files lying around
+[2020-01-19T21:59:28.529Z] debug: [twx-studio:upgrade:eGO_Matt] Removing 
+[2020-01-19T21:59:28.538Z] debug: [twx-studio:upgrade:eGO_Matt] Removing 
+[2020-01-19T21:59:28.679Z] debug: [twx-studio:upgrade:eGO_Matt] Removing 
+[2020-01-19T21:59:28.711Z] debug: [twx-studio:upgrade:eGO_Matt] Removing 
+[2020-01-19T21:59:28.732Z] debug: [twx-studio:upgrade:eGO_Matt] Removing 
+[2020-01-19T21:59:28.738Z] debug: [twx-studio:upgrade:eGO_Matt] Copying /src/**/* to project, overwrite=false
+[2020-01-19T21:59:28.739Z] debug: [twx-studio:upgrade:eGO_Matt] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-01-19T21:59:28.876Z] debug: [twx-studio:upgrade:eGO_Matt] Copy of project files complete
+[2020-01-19T21:59:28.876Z] debug: [twx-studio:upgrade:eGO_Matt] Updating version to 
+[2020-01-19T21:59:28.876Z] debug: [twx-studio:upgrade:eGO_Matt] onupgrade sucessful, now build the project
+[2020-01-19T21:59:28.876Z] debug: [twx-studio:upgrade:eGO_Matt] BEGIN buildApp
+[2020-01-19T21:59:28.876Z] debug: [twx-studio:upgrade:eGO_Matt] write settings
+[2020-01-19T21:59:28.878Z] debug: [twx-studio:upgrade:eGO_Matt] copy runtime extensions
+[2020-01-19T21:59:29.241Z] debug: [twx-studio:upgrade:eGO_Matt] packageThemeSet
+[2020-01-19T21:59:30.443Z] debug: [twx-studio:upgrade:eGO_Matt] onBuild
+[2020-01-19T21:59:30.443Z] info: [twx-studio:upgrade:eGO_Matt] Building ves-ar-extension app:
+[2020-01-19T21:59:30.463Z] debug: [twx-studio:upgrade:eGO_Matt] pathDir
+[2020-01-19T21:59:30.463Z] debug: [twx-studio:upgrade:eGO_Matt] scaffoldDir
+[2020-01-19T21:59:30.463Z] debug: [twx-studio:upgrade:eGO_Matt] copySrc
+[2020-01-19T21:59:30.782Z] debug: [twx-studio:upgrade:eGO_Matt] buildApp
+[2020-01-19T21:59:31.357Z] debug: [twx-studio:upgrade:eGO_Matt] END buildApp
+[2020-01-19T21:59:31.357Z] debug: [twx-studio:upgrade:eGO_Matt] Build succeeded.
+[2020-01-24T07:19:12.792Z] debug: [twx-studio:upgrade:eGO_Matt] Begin upgrade of project
+[2020-01-24T07:19:12.795Z] info: [twx-studio:upgrade:eGO_Matt] Upgrading project
+[2020-01-24T07:19:12.840Z] debug: [twx-studio:upgrade:eGO_Matt] Make sure there are not any stale files lying around
+[2020-01-24T07:19:12.841Z] debug: [twx-studio:upgrade:eGO_Matt] Removing 
+[2020-01-24T07:19:12.859Z] debug: [twx-studio:upgrade:eGO_Matt] Create .gitignore for project dir
+[2020-01-24T07:19:12.860Z] debug: [twx-studio:upgrade:eGO_Matt] Copying /src/**/* to project, overwrite=false
+[2020-01-24T07:19:12.863Z] debug: [twx-studio:upgrade:eGO_Matt] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-01-24T07:19:12.950Z] debug: [twx-studio:upgrade:eGO_Matt] Copy of project files complete
+[2020-01-24T07:19:12.951Z] debug: [twx-studio:upgrade:eGO_Matt] Updating version to 
+[2020-01-24T07:19:12.951Z] debug: [twx-studio:upgrade:eGO_Matt] onupgrade sucessful, now build the project
+[2020-01-24T07:19:12.951Z] debug: [twx-studio:upgrade:eGO_Matt] BEGIN buildApp
+[2020-01-24T07:19:12.951Z] debug: [twx-studio:upgrade:eGO_Matt] write settings
+[2020-01-24T07:19:12.952Z] debug: [twx-studio:upgrade:eGO_Matt] copy runtime extensions
+[2020-01-24T07:19:13.264Z] debug: [twx-studio:upgrade:eGO_Matt] packageThemeSet
+[2020-01-24T07:19:14.371Z] debug: [twx-studio:upgrade:eGO_Matt] onBuild
+[2020-01-24T07:19:14.372Z] info: [twx-studio:upgrade:eGO_Matt] Building ves-ar-extension app:
+[2020-01-24T07:19:14.499Z] debug: [twx-studio:upgrade:eGO_Matt] pathDir
+[2020-01-24T07:19:14.499Z] debug: [twx-studio:upgrade:eGO_Matt] scaffoldDir
+[2020-01-24T07:19:14.499Z] debug: [twx-studio:upgrade:eGO_Matt] copySrc
+[2020-01-24T07:19:14.783Z] debug: [twx-studio:upgrade:eGO_Matt] buildApp
+[2020-01-24T07:19:15.791Z] debug: [twx-studio:upgrade:eGO_Matt] END buildApp
+[2020-01-24T07:19:15.791Z] debug: [twx-studio:upgrade:eGO_Matt] Build succeeded.
