@@ -1,0 +1,238 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [
+    {
+      "attributes": {
+        "name": "eGOImagesFileRepository",
+        "twx-entity-type": "Things",
+        "twx-entity-name": "eGOImagesFileRepository"
+      },
+      "name": "twx-model",
+      "children": [
+        {
+          "attributes": {
+            "name": "id",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"eGOImagesFileRepository\"].properties[\"id\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "AddImageService",
+            "id": "AddImageService"
+          },
+          "name": "twx-model-service"
+        },
+        {
+          "attributes": {
+            "name": "IncrementCheckIndex",
+            "id": "IncrementCheckIndex"
+          },
+          "name": "twx-model-service"
+        },
+        {
+          "attributes": {
+            "name": "SaveJSONToTWXFile",
+            "id": "SaveJSONToTWXFile"
+          },
+          "name": "twx-model-service"
+        },
+        {
+          "attributes": {
+            "name": "SaveBinary",
+            "id": "SaveBinary"
+          },
+          "name": "twx-model-service"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "vumark",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "ThingMark",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "template",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing Template",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "thing",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "addMarkVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "addMarkVisible",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "placeMarkVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "placeMarkVisible",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "actualModel",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "actualModel",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "faultTypeList",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "faultTypeList",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "faultTypeListVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "faultTypeListVisible",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "gazeVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "gazeVisible",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "imageGUID",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "imageGUID",
+        "value": ""
+      },
+      "name": "twx-app-param",
+      "children": [
+        {
+          "attributes": {
+            "databind-id": "db-1576753573223",
+            "source-type": "data",
+            "source-name": "eGOImagesFileRepository",
+            "source-item-type": "service",
+            "source-item-name": "AddImageService",
+            "source-item-field-name": "result",
+            "binding-type": "current_row_field",
+            "from-expression": "app.mdl['eGOImagesFileRepository'].svc['AddImageService'].data.current['result']",
+            "to-property": "app.params['imageGUID']"
+          },
+          "name": "twx-databind"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "forward_back_cancelVisible",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "forward_back_cancelVisible",
+        "value": "false"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "name": "doubletap",
+        "isdeletable": "false",
+        "isvoicealiasable": "true",
+        "expression": ""
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swipeleft",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swiperight",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swipeforward",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swipeback",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swipeup",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "hold",
+        "isdeletable": "false",
+        "isvoicealiasable": "true",
+        "expression": ""
+      },
+      "name": "twx-app-event"
+    }
+  ],
+  "name": "twx-app-mdl"
+}

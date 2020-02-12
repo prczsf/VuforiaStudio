@@ -1,0 +1,121 @@
+[2019-09-05T07:04:15.939Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Begin upgrade of project
+[2019-09-05T07:04:15.941Z] info: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Upgrading project
+[2019-09-05T07:04:15.973Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Make sure there are not any stale files lying around
+[2019-09-05T07:04:15.975Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Create .gitignore for project dir
+[2019-09-05T07:04:15.976Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Copying /src/**/* to project, overwrite=false
+[2019-09-05T07:04:15.977Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-09-05T07:04:16.070Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Copy of project files complete
+[2019-09-05T07:04:16.071Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Updating version to 
+[2019-09-05T07:04:16.071Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Copying project specific default resources.
+[2019-09-05T07:04:16.157Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] onupgrade sucessful, now build the project
+[2019-09-05T07:04:16.157Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] BEGIN buildApp
+[2019-09-05T07:04:16.157Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] write settings
+[2019-09-05T07:04:16.158Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] copy runtime extensions
+[2019-09-05T07:04:16.369Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] packageThemeSet
+[2019-09-05T07:04:17.461Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] onBuild
+[2019-09-05T07:04:17.461Z] info: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Building ves-ar-extension app:
+[2019-09-05T07:04:17.479Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] pathDir
+[2019-09-05T07:04:17.479Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] scaffoldDir
+[2019-09-05T07:04:17.479Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] copySrc
+[2019-09-05T07:04:17.717Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] buildApp
+[2019-09-05T07:04:17.890Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] END buildApp
+[2019-09-05T07:04:17.890Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Build succeeded.
+[2019-10-23T11:44:29.955Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Begin upgrade of project
+[2019-10-23T11:44:29.957Z] info: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Upgrading project
+[2019-10-23T11:44:29.962Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Make sure there are not any stale files lying around
+[2019-10-23T11:44:29.962Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Removing 
+[2019-10-23T11:44:29.972Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Removing 
+[2019-10-23T11:44:30.270Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Removing 
+[2019-10-23T11:44:30.309Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Removing 
+[2019-10-23T11:44:30.349Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Removing 
+[2019-10-23T11:44:30.358Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Copying /src/**/* to project, overwrite=false
+[2019-10-23T11:44:30.359Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-10-23T11:44:30.600Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Copy of project files complete
+[2019-10-23T11:44:30.600Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Updating version to 
+[2019-10-23T11:44:30.600Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Copying project specific default resources.
+[2019-10-23T11:44:30.841Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] onupgrade sucessful, now build the project
+[2019-10-23T11:44:30.841Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] BEGIN buildApp
+[2019-10-23T11:44:30.842Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] write settings
+[2019-10-23T11:44:30.843Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] copy runtime extensions
+[2019-10-23T11:44:31.248Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] packageThemeSet
+[2019-10-23T11:44:33.068Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] onBuild
+[2019-10-23T11:44:33.069Z] info: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Building ves-ar-extension app:
+[2019-10-23T11:44:33.095Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] pathDir
+[2019-10-23T11:44:33.095Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] scaffoldDir
+[2019-10-23T11:44:33.095Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] copySrc
+[2019-10-23T11:44:33.495Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] buildApp
+[2019-10-23T11:44:33.947Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] END buildApp
+[2019-10-23T11:44:33.947Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens] Build succeeded.
+[2019-11-19T17:36:04.620Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Begin upgrade of project
+[2019-11-19T17:36:04.621Z] info: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Upgrading project
+[2019-11-19T17:36:04.625Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Make sure there are not any stale files lying around
+[2019-11-19T17:36:04.626Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Removing 
+[2019-11-19T17:36:04.631Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Removing 
+[2019-11-19T17:36:04.772Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Removing 
+[2019-11-19T17:36:04.797Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Removing 
+[2019-11-19T17:36:04.826Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Removing 
+[2019-11-19T17:36:04.832Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Copying /src/**/* to project, overwrite=false
+[2019-11-19T17:36:04.835Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-11-19T17:36:04.911Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Copy of project files complete
+[2019-11-19T17:36:04.911Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Updating version to 
+[2019-11-19T17:36:04.911Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] onupgrade sucessful, now build the project
+[2019-11-19T17:36:04.911Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] BEGIN buildApp
+[2019-11-19T17:36:04.911Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] write settings
+[2019-11-19T17:36:04.912Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] copy runtime extensions
+[2019-11-19T17:36:05.185Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] packageThemeSet
+[2019-11-19T17:36:06.280Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] onBuild
+[2019-11-19T17:36:06.280Z] info: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Building ves-ar-extension app:
+[2019-11-19T17:36:06.303Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] pathDir
+[2019-11-19T17:36:06.303Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] scaffoldDir
+[2019-11-19T17:36:06.303Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] copySrc
+[2019-11-19T17:36:06.678Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] buildApp
+[2019-11-19T17:36:07.030Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] END buildApp
+[2019-11-19T17:36:07.031Z] debug: [twx-studio:upgrade:Multi_ModelPick_Visualization_HoloLens_in_iOS] Build succeeded.
+
+2019-12-09T14:49:29.782Z: Project "Multi_ModelPick_Visualization_HoloLens_in_iOS" saved as new project "GazeFollowingImageTest"[2019-12-09T14:49:35.858Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Begin upgrade of project
+[2019-12-09T14:49:35.861Z] info: [twx-studio:upgrade:GazeFollowingImageTest] Upgrading project
+[2019-12-09T14:49:35.922Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Make sure there are not any stale files lying around
+[2019-12-09T14:49:35.923Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Removing 
+[2019-12-09T14:49:35.944Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Create .gitignore for project dir
+[2019-12-09T14:49:35.946Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Copying /src/**/* to project, overwrite=false
+[2019-12-09T14:49:35.948Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-12-09T14:49:36.034Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Copy of project files complete
+[2019-12-09T14:49:36.035Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Updating version to 
+[2019-12-09T14:49:36.035Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] onupgrade sucessful, now build the project
+[2019-12-09T14:49:36.035Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] BEGIN buildApp
+[2019-12-09T14:49:36.035Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] write settings
+[2019-12-09T14:49:36.036Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] copy runtime extensions
+[2019-12-09T14:49:36.249Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] packageThemeSet
+[2019-12-09T14:49:37.281Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] onBuild
+[2019-12-09T14:49:37.281Z] info: [twx-studio:upgrade:GazeFollowingImageTest] Building ves-ar-extension app:
+[2019-12-09T14:49:37.299Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] pathDir
+[2019-12-09T14:49:37.299Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] scaffoldDir
+[2019-12-09T14:49:37.299Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] copySrc
+[2019-12-09T14:49:37.554Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] buildApp
+[2019-12-09T14:49:37.866Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] END buildApp
+[2019-12-09T14:49:37.867Z] debug: [twx-studio:upgrade:GazeFollowingImageTest] Build succeeded.
+[2020-01-24T13:22:39.463Z] debug: [twx-studio:upgrade:eGO] Begin upgrade of project
+[2020-01-24T13:22:39.466Z] info: [twx-studio:upgrade:eGO] Upgrading project
+[2020-01-24T13:22:39.546Z] debug: [twx-studio:upgrade:eGO] Make sure there are not any stale files lying around
+[2020-01-24T13:22:39.546Z] debug: [twx-studio:upgrade:eGO] Removing 
+[2020-01-24T13:22:39.551Z] debug: [twx-studio:upgrade:eGO] Removing 
+[2020-01-24T13:22:39.652Z] debug: [twx-studio:upgrade:eGO] Removing 
+[2020-01-24T13:22:39.674Z] debug: [twx-studio:upgrade:eGO] Removing 
+[2020-01-24T13:22:39.696Z] debug: [twx-studio:upgrade:eGO] Removing 
+[2020-01-24T13:22:39.705Z] debug: [twx-studio:upgrade:eGO] Copying /src/**/* to project, overwrite=false
+[2020-01-24T13:22:39.710Z] debug: [twx-studio:upgrade:eGO] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2020-01-24T13:22:39.803Z] debug: [twx-studio:upgrade:eGO] Copy of project files complete
+[2020-01-24T13:22:39.803Z] debug: [twx-studio:upgrade:eGO] Updating version to 
+[2020-01-24T13:22:39.804Z] debug: [twx-studio:upgrade:eGO] onupgrade sucessful, now build the project
+[2020-01-24T13:22:39.804Z] debug: [twx-studio:upgrade:eGO] BEGIN buildApp
+[2020-01-24T13:22:39.804Z] debug: [twx-studio:upgrade:eGO] write settings
+[2020-01-24T13:22:39.805Z] debug: [twx-studio:upgrade:eGO] copy runtime extensions
+[2020-01-24T13:22:40.063Z] debug: [twx-studio:upgrade:eGO] packageThemeSet
+[2020-01-24T13:22:41.153Z] debug: [twx-studio:upgrade:eGO] onBuild
+[2020-01-24T13:22:41.153Z] info: [twx-studio:upgrade:eGO] Building ves-ar-extension app:
+[2020-01-24T13:22:41.170Z] debug: [twx-studio:upgrade:eGO] pathDir
+[2020-01-24T13:22:41.170Z] debug: [twx-studio:upgrade:eGO] scaffoldDir
+[2020-01-24T13:22:41.171Z] debug: [twx-studio:upgrade:eGO] copySrc
+[2020-01-24T13:22:41.779Z] debug: [twx-studio:upgrade:eGO] buildApp
+[2020-01-24T13:22:42.085Z] debug: [twx-studio:upgrade:eGO] END buildApp
+[2020-01-24T13:22:42.085Z] debug: [twx-studio:upgrade:eGO] Build succeeded.

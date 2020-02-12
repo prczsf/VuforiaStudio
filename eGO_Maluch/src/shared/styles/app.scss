@@ -1,0 +1,116 @@
+$html-font-size-lg: 64px;
+$html-font-size-md: 32px;
+$html-font-size-sm: 20px;
+$html-font-size-xs: 16px;
+
+$paragraph-font-size-lg: 64px;
+$paragraph-font-size-md: 32px;
+$paragraph-font-size-sm: 20px;
+$paragraph-font-size-xs: 16px;
+
+.button-color {
+  background: #00aeef;
+  border-color: #2a95be;
+  color: white;
+  font-family: 'Roboto',sans-serif;
+
+  font-size: $html-font-size-lg;
+  line-height: 23px;
+
+  @media (max-width: 1024px) {
+    font-size: $html-font-size-md;
+  }
+
+  @media (max-width: 640px) {
+    font-size: $html-font-size-sm;
+  }
+
+  @media (max-width: 480px) {
+    font-size: $html-font-size-xs;
+  }
+}
+
+.button-color:active {
+  color: white; 
+}
+
+.button-color:hover {
+  color: white; 
+}
+
+.big {
+  font-size: $html-font-size-lg;
+}
+
+.green {
+  font-size: $html-font-size-lg;
+  color: #49fb35;
+}
+
+.green:active {
+  color: #49fb35; 
+}
+
+.green:hover {
+  color: #49fb35; 
+}
+
+.debug-log {
+  font-size: $html-font-size-lg;
+  line-height: 23px;
+
+  @media (max-width: 1024px) {
+    font-size: $html-font-size-md;
+  }
+
+  @media (max-width: 640px) {
+    font-size: $html-font-size-sm;
+  }
+
+  @media (max-width: 480px) {
+    font-size: $html-font-size-xs;
+  }
+}
+
+.popup-background {
+  background-image: linear-gradient(to top, #F0F2F0 0%, #000C40 100%);
+}
+
+.fault-types-list {
+  background: #00aeef;
+  border-color: #2a95be;
+  color: white;
+  font-family: 'Roboto',sans-serif;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-size: 2px;
+
+  font-size: $html-font-size-lg;
+  line-height: 23px;
+
+  @media (max-width: 1024px) {
+    font-size: $html-font-size-md;
+  }
+
+  @media (max-width: 640px) {
+    font-size: $html-font-size-sm;
+  }
+
+  @media (max-width: 480px) {
+    font-size: $html-font-size-xs;
+  }
+}
+
+.debug-animation {
+  -webkit-animation: rightToLeft 4s linear;
+}
+
+@-webkit-keyframes rightToLeft {
+  0%   {margin-right: 0;}
+  100%  {margin-right: 100%;}
+}
+
+.green-text {
+  color: green; 
+}

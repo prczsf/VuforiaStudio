@@ -1,0 +1,55 @@
+{
+  "name": "eGO_Maluch",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "eGO_Maluch",
+  "thingworxServer": "http://iot-demo.francecentral.cloudapp.azure.com:2019",
+  "viewTemplateFileName": "home-ar.json",
+  "state": {
+    "orientation": "portrait"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "fragments": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "device": {
+    "name": "iphone_x",
+    "width": "375",
+    "height": "812"
+  },
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/fonts",
+  "theme": "twx-light",
+  "version": "1.47.1668",
+  "mainNavigationMenuStyle": "leftSideMenu",
+  "thumbnail": "Uploaded/project-image.jpg"
+}

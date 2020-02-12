@@ -1,0 +1,702 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "class": "",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true",
+            "enabletrackingevents": "true",
+            "dropshadow": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "gaze3D",
+                    "widget-name": "gaze3D",
+                    "src": "Uploaded/gaze.png",
+                    "scale": "1",
+                    "x": "1.1034",
+                    "y": "0.0580",
+                    "z": "0.0000",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1576146916090",
+                        "source-type": "data",
+                        "source-name": "gazeVisible",
+                        "source-item-type": "value",
+                        "source-item-name": "gazeVisible",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['gazeVisible']",
+                        "to-property": "visible"
+                      },
+                      "name": "twx-databind"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-1",
+                    "widget-name": "model-1",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/maluch.pvz",
+                    "x": "-0.7465696036815643",
+                    "y": "-0.30327099561691284",
+                    "z": "1.5004156827926636"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "modelTarget-3",
+                    "detection-position": "{\"globalPosition\":{\"x\":-0.7327093555514628,\"y\":0.9103232223595812,\"z\":1.9156586685831956},\"axisAngle\":{\"x\":0.9999999993165497,\"y\":0.0026677359980000264,\"z\":0.013918674830335358,\"w\":3.325000143976701},\"cameraLocation\":{\"position\":{\"x\":0.6761118769645691,\"y\":1.2499815225601196,\"z\":1.7365823984146118},\"orientation\":{\"x\":-10.515607833862305,\"y\":-1.5535858869552612,\"z\":0.44867587089538574},\"scale\":{\"x\":0.9999999403953552,\"y\":1,\"z\":1.0000001192092896},\"size\":{\"x\":0.9999999403953552,\"y\":1,\"z\":1.0000001192092896},\"valid\":true},\"modelScale\":1,\"origModelSize\":{\"x\":1.3534756302833557,\"y\":1.0735378861427307,\"z\":3.000831365585327}}",
+                    "target-id": "976ddd37-f6b8-490a-83b0-712f1b5c7578",
+                    "widget-name": "modelTarget-3",
+                    "trackingacquired-expression": "trackingAcquired();",
+                    "url": "_generated_/mtg/976ddd37-f6b8-490a-83b0-712f1b5c7578.png",
+                    "x": "-0.7465696334838867",
+                    "y": "-0.30327099561691284",
+                    "z": "1.5004156827926636",
+                    "rx": "0",
+                    "model": "model-1"
+                  },
+                  "name": "twx-dt-target-model"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlay-1",
+            "widget-name": "2D Overlay",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "imagePopup",
+                    "is-visible-at-designtime": "false",
+                    "widget-name": "imagePopup",
+                    "is-widget-container": "true",
+                    "class": "",
+                    "width": "100%",
+                    "height": "100%",
+                    "type": "modal"
+                  },
+                  "name": "twx-popup",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "gridLayout-2",
+                            "widget-name": "gridLayout-2",
+                            "is-widget-container": "true",
+                            "class": "",
+                            "margin": "5px",
+                            "evenlyspacedrows": "true"
+                          },
+                          "name": "twx-gridlayout",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "row-5",
+                                    "widget-name": "row-5",
+                                    "is-widget-container": "true"
+                                  },
+                                  "name": "twx-row",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-9",
+                                            "widget-name": "column-9",
+                                            "is-widget-container": "true",
+                                            "flexdirection": "row",
+                                            "alignment": "center"
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "savePhotosButton",
+                                                    "widget-name": "savePhotosButton",
+                                                    "click-expression": "showDebugLog();\nsavePhotos();",
+                                                    "text": "Done",
+                                                    "class": "button-width button-color",
+                                                    "visible": "false"
+                                                  },
+                                                  "name": "twx-button",
+                                                  "children": [
+                                                    {
+                                                      "attributes": {
+                                                        "databind-id": "db-1576145860976",
+                                                        "source-type": "data",
+                                                        "source-name": "addMarkVisible",
+                                                        "source-item-type": "value",
+                                                        "source-item-name": "addMarkVisible",
+                                                        "binding-type": "custom_field",
+                                                        "from-expression": "app.params['addMarkVisible']",
+                                                        "to-property": "visible"
+                                                      },
+                                                      "name": "twx-databind"
+                                                    },
+                                                    {
+                                                      "attributes": {
+                                                        "eventbind-id": "eb-1581079183561",
+                                                        "source-type": "widget",
+                                                        "source-label": "Button",
+                                                        "source-name": "savePhotosButton",
+                                                        "source-event": "click",
+                                                        "handler-type": "ui",
+                                                        "handler-name": "imagePopup",
+                                                        "handler-service": "hidepopup",
+                                                        "handler-path": "app.view[\"Home\"].wdg[\"imagePopup\"].svc.hidepopup"
+                                                      },
+                                                      "name": "twx-eventbind"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-5",
+                                            "widget-name": "column-5",
+                                            "is-widget-container": "true",
+                                            "flexdirection": "row",
+                                            "justification": "flex-end",
+                                            "alignment": "center"
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "takePhotoButton",
+                                                    "widget-name": "takePhotoButton",
+                                                    "click-expression": "snapshotView();",
+                                                    "text": "Take photo",
+                                                    "class": "button-width button-color",
+                                                    "visible": "false"
+                                                  },
+                                                  "name": "twx-button",
+                                                  "children": [
+                                                    {
+                                                      "attributes": {
+                                                        "databind-id": "db-1576666594320",
+                                                        "source-type": "data",
+                                                        "source-name": "addMarkVisible",
+                                                        "source-item-type": "value",
+                                                        "source-item-name": "addMarkVisible",
+                                                        "binding-type": "custom_field",
+                                                        "from-expression": "app.params['addMarkVisible']",
+                                                        "to-property": "visible"
+                                                      },
+                                                      "name": "twx-databind"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "row-2",
+                                    "widget-name": "row-2",
+                                    "is-widget-container": "true"
+                                  },
+                                  "name": "twx-row",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-2",
+                                            "widget-name": "column-2",
+                                            "is-widget-container": "true",
+                                            "justification": "center",
+                                            "alignment": "center"
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "debugLabel",
+                                                    "state-format-value": "text",
+                                                    "widget-name": "debugLabel",
+                                                    "text": "Saved:",
+                                                    "class": "simple-label green-text debug-log",
+                                                    "visible": "false"
+                                                  },
+                                                  "name": "twx-label"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "gridLayout-1",
+                    "widget-name": "gridLayout-1",
+                    "is-widget-container": "true",
+                    "evenlyspacedrows": "true"
+                  },
+                  "name": "twx-gridlayout",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "row-1",
+                            "widget-name": "row-1",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-row",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "column-1",
+                                    "widget-name": "column-1",
+                                    "is-widget-container": "true",
+                                    "justification": "center"
+                                  },
+                                  "name": "twx-col",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "faultTypeList",
+                                            "state-format": "LogType",
+                                            "widget-name": "faultTypeList",
+                                            "itemclick-expression": "listItemClicked();",
+                                            "list": "",
+                                            "class": "fault-types-list",
+                                            "label": "name",
+                                            "visible": "false"
+                                          },
+                                          "name": "twx-list",
+                                          "children": [
+                                            {
+                                              "attributes": {
+                                                "databind-id": "db-1576155381394",
+                                                "source-type": "data",
+                                                "source-name": "faultTypeListVisible",
+                                                "source-item-type": "value",
+                                                "source-item-name": "faultTypeListVisible",
+                                                "binding-type": "custom_field",
+                                                "from-expression": "app.params['faultTypeListVisible']",
+                                                "to-property": "visible"
+                                              },
+                                              "name": "twx-databind"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "gridLayout-5",
+                                            "widget-name": "gridLayout-5",
+                                            "is-widget-container": "true"
+                                          },
+                                          "name": "twx-gridlayout",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-6",
+                                                    "widget-name": "row-6",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-6",
+                                                            "widget-name": "column-6",
+                                                            "is-widget-container": "true",
+                                                            "justification": "center",
+                                                            "alignment": "flex-end"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "gridLayout-3",
+                                                                    "widget-name": "gridLayout-3",
+                                                                    "is-widget-container": "true"
+                                                                  },
+                                                                  "name": "twx-gridlayout",
+                                                                  "children": [
+                                                                    {
+                                                                      "name": "twx-container-content",
+                                                                      "children": [
+                                                                        {
+                                                                          "attributes": {
+                                                                            "twx-widget": "",
+                                                                            "widget-id": "row-3",
+                                                                            "widget-name": "row-3",
+                                                                            "is-widget-container": "true"
+                                                                          },
+                                                                          "name": "twx-row",
+                                                                          "children": [
+                                                                            {
+                                                                              "name": "twx-container-content",
+                                                                              "children": [
+                                                                                {
+                                                                                  "attributes": {
+                                                                                    "twx-widget": "",
+                                                                                    "widget-id": "column-3",
+                                                                                    "widget-name": "column-3",
+                                                                                    "is-widget-container": "true",
+                                                                                    "justification": "center",
+                                                                                    "alignment": "flex-start"
+                                                                                  },
+                                                                                  "name": "twx-col",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "name": "twx-container-content",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "attributes": {
+                                                                                            "twx-widget": "",
+                                                                                            "widget-id": "placeMarker",
+                                                                                            "widget-name": "placeMarker",
+                                                                                            "click-expression": "buttonClicked();\naddLocalModel();\napp.params['gazeVisible']=false;\napp.params['forward_back_cancelVisible']=false;\napp.params['addMarkVisible']=true;\napp.params['placeMarkVisible']=false;",
+                                                                                            "text": "Place",
+                                                                                            "class": "button-color",
+                                                                                            "visible": "false"
+                                                                                          },
+                                                                                          "name": "twx-button",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "attributes": {
+                                                                                                "databind-id": "db-1576145846938",
+                                                                                                "source-type": "data",
+                                                                                                "source-name": "placeMarkVisible",
+                                                                                                "source-item-type": "value",
+                                                                                                "source-item-name": "placeMarkVisible",
+                                                                                                "binding-type": "custom_field",
+                                                                                                "from-expression": "app.params['placeMarkVisible']",
+                                                                                                "to-property": "visible"
+                                                                                              },
+                                                                                              "name": "twx-databind"
+                                                                                            },
+                                                                                            {
+                                                                                              "attributes": {
+                                                                                                "eventbind-id": "eb-1576663461660",
+                                                                                                "source-type": "widget",
+                                                                                                "source-label": "Button",
+                                                                                                "source-name": "placeMarker",
+                                                                                                "source-event": "click",
+                                                                                                "handler-type": "ui",
+                                                                                                "handler-name": "imagePopup",
+                                                                                                "handler-service": "showpopup",
+                                                                                                "handler-path": "app.view[\"Home\"].wdg[\"imagePopup\"].svc.showpopup"
+                                                                                              },
+                                                                                              "name": "twx-eventbind"
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                {
+                                                                                  "attributes": {
+                                                                                    "twx-widget": "",
+                                                                                    "widget-id": "column-4",
+                                                                                    "widget-name": "column-4",
+                                                                                    "is-widget-container": "true",
+                                                                                    "justification": "center",
+                                                                                    "alignment": "flex-end"
+                                                                                  },
+                                                                                  "name": "twx-col",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "name": "twx-container-content",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "attributes": {
+                                                                                            "twx-widget": "",
+                                                                                            "widget-id": "addMarker",
+                                                                                            "widget-name": "addMarker",
+                                                                                            "click-expression": "app.params['faultTypeListVisible']= true;\napp.params['addMarkVisible']= false;",
+                                                                                            "text": "Add remark",
+                                                                                            "class": "button-width button-color",
+                                                                                            "visible": "false",
+                                                                                            "margin": ""
+                                                                                          },
+                                                                                          "name": "twx-button",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "attributes": {
+                                                                                                "databind-id": "db-1576145860976",
+                                                                                                "source-type": "data",
+                                                                                                "source-name": "addMarkVisible",
+                                                                                                "source-item-type": "value",
+                                                                                                "source-item-name": "addMarkVisible",
+                                                                                                "binding-type": "custom_field",
+                                                                                                "from-expression": "app.params['addMarkVisible']",
+                                                                                                "to-property": "visible"
+                                                                                              },
+                                                                                              "name": "twx-databind"
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "attributes": {
+                                                                                            "twx-widget": "",
+                                                                                            "widget-id": "plusGaze",
+                                                                                            "widget-name": "plusGaze",
+                                                                                            "click-expression": "plusGazeFun();",
+                                                                                            "text": "🔼 forward",
+                                                                                            "class": "button-color",
+                                                                                            "visible": "false",
+                                                                                            "margin": "5px 0px 0px 0px"
+                                                                                          },
+                                                                                          "name": "twx-button",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "attributes": {
+                                                                                                "databind-id": "db-1581072775428",
+                                                                                                "source-type": "data",
+                                                                                                "source-name": "forward_back_cancelVisible",
+                                                                                                "source-item-type": "value",
+                                                                                                "source-item-name": "forward_back_cancelVisible",
+                                                                                                "binding-type": "custom_field",
+                                                                                                "from-expression": "app.params['forward_back_cancelVisible']",
+                                                                                                "to-property": "visible"
+                                                                                              },
+                                                                                              "name": "twx-databind"
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "attributes": {
+                                                                                            "twx-widget": "",
+                                                                                            "widget-id": "minusGaze",
+                                                                                            "widget-name": "minusGaze",
+                                                                                            "click-expression": "minusGazeFun();",
+                                                                                            "text": "🔽 backward",
+                                                                                            "class": "button-color",
+                                                                                            "visible": "false",
+                                                                                            "margin": "5px 0px 5px 0px"
+                                                                                          },
+                                                                                          "name": "twx-button",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "attributes": {
+                                                                                                "databind-id": "db-1581072782441",
+                                                                                                "source-type": "data",
+                                                                                                "source-name": "forward_back_cancelVisible",
+                                                                                                "source-item-type": "value",
+                                                                                                "source-item-name": "forward_back_cancelVisible",
+                                                                                                "binding-type": "custom_field",
+                                                                                                "from-expression": "app.params['forward_back_cancelVisible']",
+                                                                                                "to-property": "visible"
+                                                                                              },
+                                                                                              "name": "twx-databind"
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        {
+                                                                                          "attributes": {
+                                                                                            "twx-widget": "",
+                                                                                            "widget-id": "cancelButton",
+                                                                                            "widget-name": "cancelButton",
+                                                                                            "click-expression": "cancelButtonFun();",
+                                                                                            "text": "Cancel",
+                                                                                            "class": "button-width button-color",
+                                                                                            "visible": "false",
+                                                                                            "margin": ""
+                                                                                          },
+                                                                                          "name": "twx-button",
+                                                                                          "children": [
+                                                                                            {
+                                                                                              "attributes": {
+                                                                                                "databind-id": "db-1581072786365",
+                                                                                                "source-type": "data",
+                                                                                                "source-name": "forward_back_cancelVisible",
+                                                                                                "source-item-type": "value",
+                                                                                                "source-item-name": "forward_back_cancelVisible",
+                                                                                                "binding-type": "custom_field",
+                                                                                                "from-expression": "app.params['forward_back_cancelVisible']",
+                                                                                                "to-property": "visible"
+                                                                                              },
+                                                                                              "name": "twx-databind"
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "eyeup",
+                    "state-format-value": "text",
+                    "widget-name": "eyeup",
+                    "text": ""
+                  },
+                  "name": "twx-label"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "eyedir",
+                    "state-format-value": "text",
+                    "widget-name": "eyedir",
+                    "text": ""
+                  },
+                  "name": "twx-label"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
