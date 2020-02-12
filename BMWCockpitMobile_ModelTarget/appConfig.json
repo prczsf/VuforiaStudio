@@ -1,0 +1,71 @@
+{
+  "name": "BMWCockpitMobile ModelTarget",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "BMWCockpitMobile_ModelTarget",
+  "thingworxServer": "http://192.168.156.21:2019",
+  "viewTemplateFileName": "home-ar.json",
+  "state": {
+    "orientation": "landscape"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        },
+        {
+          "name": "Camera",
+          "fileName": "Camera",
+          "showInMainMenu": true,
+          "viewType": "mobile-2D",
+          "title": "Camera"
+        },
+        {
+          "name": "Splash Screen",
+          "fileName": "Splash_Screen",
+          "showInMainMenu": true,
+          "viewType": "mobile-2D",
+          "title": "Splash Screen"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "fragments": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "device": {
+    "name": "nexus9",
+    "width": "1024",
+    "height": "768"
+  },
+  "mainNavigationMenuStyle": "noMenu",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/fonts",
+  "theme": "twx-light",
+  "version": "1.47.1668",
+  "designedForOffline": true,
+  "thumbnail": "Uploaded/BMW-320d-M-Sport-package-Portimao-Blue-02.jpg",
+  "allowSelfSignedCerts": true
+}

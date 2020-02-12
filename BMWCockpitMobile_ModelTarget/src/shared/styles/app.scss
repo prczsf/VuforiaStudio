@@ -1,0 +1,441 @@
+body, html { width: 100%; height: 100%; }
+
+// Górny panel z informacjami o bieżącym kroku oraz stanie pozostałych
+.center-top-panel-column {
+  color: white;
+  font-size: 21px;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0px 0px 30px 30px;
+}
+
+// Dolny panel z informacjami o bieżącym kroku
+.center-bottom-panel-column {
+  color: white;
+  font-size: 19px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: auto;
+  border-radius: 30px 30px 0px 0px;
+}
+
+// Czerwony przycisk do zgłaszania błędu
+.fault-button {
+  padding: 5px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+// Zielony przycisk do akceptowania poprawności części
+.success-button {
+  padding: 5px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.snapshot-button {
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.snapshot-button-down {
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+// Zdjęcie w tabeli podsumowującej
+.captured-photos {
+  border-radius: 15px;
+}
+
+// Początkowa wartość każdego Labela z krokami w górnym panelu
+.step-info {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15px;
+}
+
+// Mniejsza czcionka
+.step-info-smaller {
+  font-size: 13px;
+}
+
+// Klasa z Labelami z zaakceptowaną prawidłowością części z danego kroku
+.step-success {
+  color: #28a745;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+// Klasa z Labelami z nieprawidłowością częsci z danego kroku
+.step-fail {
+  color: #dc3545;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+// Popup z żółtą informacją ostrzegawczą
+.warning-window {
+  margin: 10px 0px;
+  padding: 12px;
+  color: #9f6000;
+  background-color: #feefb3;
+  font-size: 19px;
+  border-radius: 10px 100px / 120px;
+}
+
+// Popup z czerwoną informacją o błędzie
+.error-window {
+  margin: 10px 0px;
+  padding: 12px;
+  color: #d8000c;
+  background-color: #ffd2d2;
+  font-size: 19px;
+  border-radius: 10px 100px / 120px;
+}
+
+// Czerwony przycisk w Popup'ie
+.red-button {
+  background-color: rgba(255, 255, 255, 0.3); 
+  color: black; 
+  border: 2px solid #f44336;
+  font-size: 18px;
+  border-radius: 10% / 50%;
+}
+
+.red-button:hover {
+  background-color: #f44336;
+  color: white;
+  border-radius: 10% / 50%;
+}
+
+// Zielony przycisk w Popup'ie z
+.green-button {
+  background-color: rgba(255, 255, 255, 0.3); 
+  color: black; 
+  border: 2px solid #4caf50;
+  font-size: 18px;
+  border-radius: 10% / 50%;
+}
+
+.green-button:hover {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 10% / 50%;
+}
+
+// Przycisk strzałki w prawo do ominięcia bieżącego kroku i przejścia do następnego
+.skip-button {
+  border-top-right-radius: 30px;
+}
+
+// Przycisk strzałki w lewo do ominięcia bieżącego kroku i przejścia do poprzedniego
+.back-button {
+  border-top-left-radius: 30px;
+}
+
+// Menu z możliwością zgłoszenia błedów
+.fault-menu {
+  background: rgba(204, 0, 0, 0.8);
+  width: 230px;
+  padding: 7px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+// Menu z listą z typami możliwych błędów do zgłoszenia
+.defect-types-menu {
+  background: rgba(204, 0, 0, 0.8);
+  width: 320px;
+  padding: 7px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+// Okno do wpisania notatek do zepsutej części
+.note-popup {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+}
+
+.black-background {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+// CSS for input with note
+.black-background-input {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 3px;
+}
+
+// Podkreślenie bieżącego kroku w górnym menu
+.current-step-underline {
+  border-bottom: 3px solid white;
+}
+
+// Przycisk przezroczysty w menu z możliwością zgłoszenia błedów
+.fault-menu-button {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  color: white;
+  font-size: 19px;
+  width: 150px;
+}
+.fault-menu-button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  color: white;
+  font-size: 19px;
+  width: 150px;
+}
+
+// Przycisk przezroczysty w menu z typami możliwych błędów do zgłoszenia
+.defect-types-menu-button {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  color: white;
+  font-size: 19px;
+  width: 270px;
+}
+.defect-types-menu-button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  color: white;
+  font-size: 19px;
+  width: 270px;
+}
+.defect-types-menu-button:active {
+  background-color: white;
+  color: rgba(204, 0, 0, 0.8);
+}
+
+// Przycisk biały akceptujący w menu z typami możliwych błędów do zgłoszenia
+.defect-types-menu-button-accept {
+  background-color: white;
+  color: rgba(204, 0, 0, 0.8); 
+  border: 2px solid white;
+  font-size: 19px;
+  border-radius: 5px;
+  width: 100px;
+}
+.defect-types-menu-button-accept:hover {
+  background-color: white;
+  color: rgba(204, 0, 0, 0.8); 
+  border: 2px solid white;
+  font-size: 19px;
+  border-radius: 5px;
+}
+
+.note-menu-button-accept {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8); 
+  border: 2px solid white;
+  font-size: 19px;
+  border-radius: 5px;
+  width: 50px;
+  margin: 5px;
+}
+.note-menu-button-accept:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8); 
+  border: 2px solid white;
+  font-size: 19px;
+  border-radius: 5px;
+}
+
+// Kolumna z przyciskiem biały akceptujący w menu z typami możliwych błędów do zgłoszenia
+.defect-types-menu-row-accept {
+  background-color: white;
+  font-size: 19px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+// Kolumna z przyciskiem przezroczystym w menu z możliwością zgłoszenia błedów
+.fault-menu-row {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 19px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+// Kolumna z przyciskiem biały akceptujący w menu z możliwością zgłoszenia błedów
+.fault-menu-row-accept {
+  background-color: white;
+  font-size: 19px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+// Przycisk biały akceptujący w menu z możliwością zgłoszenia błedów
+.fault-menu-button-accept {
+  background-color: white;
+  color: rgba(204, 0, 0, 0.8); 
+  border: 2px solid white;
+  font-size: 19px;
+  border-radius: 5px;
+  width: 140px;
+}
+
+.fault-menu-button-accept:hover {
+  background-color: white;
+  color: rgb(204, 0, 0); 
+  border: 2px solid white;
+  font-size: 19px;
+  border-radius: 5px;
+  width: 140px;
+}
+
+// Lista z typami możliwych błędów do zgłoszenia
+.fault-types-list {
+  color: white;
+  background-color: rgba(204, 0, 0, 0);
+  font-size: 19px;
+  text-align: center;
+  border-style: none;
+  width: 300px;
+}
+
+// Wiersz pierwszy ze zdjeciem
+.sum-up-image-grid {
+  background: rgba(0, 0, 0, 0);
+  height: 150px;
+}
+
+// Wiersz drugi z opisem kroku
+.sum-up-description-grid {
+  border: rgba(255, 255, 255, .6);
+}
+
+// Białe tlo dla tabeli z opisem usterek
+.white-background {
+  background-color: white; 
+}
+
+// Wyśrodkowanie tekstu w nagłówku
+.sum-up-center-header {
+  text-align: center;
+}
+
+// Nagłówek z nazwą kroku w tabeli podsumowującej
+.sum-up-header {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+// Podnagłówek z numerem ID kroku w tabeli podsumowującej
+.sum-up-half-header {
+  color: black;
+  font-size: 15px;
+}
+
+// 'Issues:' label and 'Note:' label
+.sum-up-bold {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+// Wylistowane nazwy typów zgłoszonych błędów oraz Opis dodany przez użytkownika
+.sum-up-description {
+  color: black;
+  font-size: 13px;
+}
+
+// Button for sending sum up and start again
+.send-report-button {
+  background-color: #4caf50;
+  color: white;
+  margin: 10px;
+}
+
+.send-report-button:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4caf50
+}
+
+.sum-up-table-popup {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+// Ikony z sukcesem lub porażką w tabeli z podsumowaniem
+.image-sum-up {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.note-button-accept {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.radius-border {
+  border-radius: 30px;
+  padding: 5px;
+}
+
+// Splash Screen
+/*.fade-in-image-anim {
+  animation: fade-in-android 2s ease-out forwards;
+  animation-iteration-count: 1;
+
+  -webkit-animation: fade-in-ios 2s;
+  -webkit-animation-iteration-count: 1;
+}
+
+@keyframes fade-in-android {
+  from {opacity: 0;}
+  to {opacity: 1}
+}
+
+@-webkit-keyframes fade-in-ios {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.fade-out-image-anim {
+  animation: fade-out-android 2s ease-out forwards;
+  animation-iteration-count: 1;
+
+  -webkit-animation: fade-out-ios 2s;
+  -webkit-animation-iteration-count: 1;
+}
+
+@keyframes fade-out-android {
+  from {opacity: 1;}
+  to {opacity: 0}
+}
+
+@-webkit-keyframes fade-out-ios {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+*/
+
+.background {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image-small {
+ width: 5%;
+ height: 5%;
+}
+
+.image-big {
+ width: 30%;
+ height: 30%;
+}
