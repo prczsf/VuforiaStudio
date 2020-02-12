@@ -1,0 +1,3228 @@
+{
+	"components": [
+		{
+			"cid": 0,
+			"shape": "l-Creo 3D_0_xq30t4f.json",
+			"bbox": {
+				"min": [
+					-1.0957823,
+					-0.30422014,
+					-0.801
+				],
+				"max": [
+					2.4398,
+					1.617,
+					0.79920006
+				]
+			},
+			"properties": {
+				"name": "xq30t4f_top_level.asm",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 3.1 - f000 (13.3.0.42)",
+				"adapter_platform": "x86e_win64",
+				"source_file_name": "xq30t4f.pvs"
+			}
+		},
+		{
+			"cid": 1,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_34.json",
+			"bbox": {
+				"min": [
+					-0.61700004,
+					0,
+					-0.046000004
+				],
+				"max": [
+					0.61700004,
+					0.125,
+					0.0020000001
+				]
+			},
+			"properties": {
+				"name": "4722462_cp03.prt",
+				"feature_id": "408",
+				"source_file_name": "4722462_cp03.prt.1",
+				"cat_id_chg_lvl": "01",
+				"f_cat_id_no": "",
+				"smt_thickness": "2.000000",
+				"smt_update_bend_allow_info": "false",
+				"smt_part_bend_allowance_factor": "0.640000",
+				"smt_part_bend_allow_factor_type": "y factor",
+				"smt_part_bend_table_name": "catable",
+				"smt_dflt_bend_radius": "2.000000",
+				"smt_dflt_radius_side": "inside",
+				"smt_dflt_bend_angle": "90.000000",
+				"smt_dflt_crnr_rel_type": "v notch",
+				"smt_dflt_crnr_rel_width": "2.000000",
+				"smt_dflt_crnr_rel_depth_type": "blind",
+				"smt_dflt_crnr_rel_depth": "2.000000",
+				"smt_dflt_bend_rel_type": "rip",
+				"smt_dflt_bend_rel_width": "2.000000",
+				"smt_dflt_bend_rel_depth_type": "up to bend",
+				"smt_dflt_bend_rel_depth": "4.000000",
+				"smt_dflt_bend_rel_angle": "45.000000",
+				"smt_gap": "1.000000",
+				"smt_dflt_edge_trea_type": "open",
+				"smt_dflt_edge_trea_width": "-1.000000",
+				"smt_dflt_miter_cut_width": "1.000000",
+				"smt_dflt_miter_cut_offset": "2.200000",
+				"weight": "3.206460",
+				"ptc_material_name": "1e4541",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"dsgn_ctl_cd": "w997",
+				"model_check": "fri jan 30 2015 17:57:47 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"itm_nm1": "03-frame-top",
+				"itm_nm2": "",
+				"partname": "03-frame-top",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": "",
+				"part_type": "pt",
+				"weight_type": "2",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "5",
+				"dc_pr": "",
+				"dwg_cls_txt": "in process",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e0013y",
+				"spec_g_2": "1e0012a",
+				"spec_g_3": "1e2722a",
+				"spec_g": "3",
+				"spec_h": "0",
+				"material": "1e4541 stl strip",
+				"spec_m": "1",
+				"spec_m_1": "1e4541",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "03-frame-top",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "03-frame-top",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "5"
+			}
+		},
+		{
+			"cid": 2,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_35.json",
+			"bbox": {
+				"min": [
+					-0.074000001,
+					-4.5131018e-22,
+					-0.048
+				],
+				"max": [
+					0.074000001,
+					0.98400003,
+					0.0020000001
+				]
+			},
+			"properties": {
+				"name": "4722462_cp04.prt",
+				"feature_id": "414",
+				"source_file_name": "4722462_cp04.prt.1",
+				"cat_id_chg_lvl": "01",
+				"f_cat_id_no": "",
+				"smt_thickness": "2.000000",
+				"smt_update_bend_allow_info": "false",
+				"smt_part_bend_allowance_factor": "0.640000",
+				"smt_part_bend_allow_factor_type": "y factor",
+				"smt_part_bend_table_name": "catable",
+				"smt_dflt_bend_radius": "2.000000",
+				"smt_dflt_radius_side": "inside",
+				"smt_dflt_bend_angle": "90.000000",
+				"smt_dflt_crnr_rel_type": "v notch",
+				"smt_dflt_crnr_rel_width": "2.000000",
+				"smt_dflt_crnr_rel_depth_type": "blind",
+				"smt_dflt_crnr_rel_depth": "2.000000",
+				"smt_dflt_bend_rel_type": "rip",
+				"smt_dflt_bend_rel_width": "2.000000",
+				"smt_dflt_bend_rel_depth_type": "up to bend",
+				"smt_dflt_bend_rel_depth": "4.000000",
+				"smt_dflt_bend_rel_angle": "45.000000",
+				"smt_gap": "1.000000",
+				"smt_dflt_edge_trea_type": "open",
+				"smt_dflt_edge_trea_width": "-1.000000",
+				"smt_dflt_miter_cut_width": "1.000000",
+				"smt_dflt_miter_cut_offset": "2.200000",
+				"weight": "3.597570",
+				"ptc_material_name": "1e4541",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"dsgn_ctl_cd": "w997",
+				"model_check": "fri jan 30 2015 17:59:15 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"itm_nm1": "04-frame-center",
+				"itm_nm2": "",
+				"partname": "04-frame-center",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": "",
+				"part_type": "pt",
+				"weight_type": "2",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "5",
+				"dc_pr": "",
+				"dwg_cls_txt": "in process",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e0013y",
+				"spec_g_2": "1e0012a",
+				"spec_g_3": "1e2722a",
+				"spec_g": "3",
+				"spec_h": "0",
+				"material": "1e4541 stl strip",
+				"spec_m": "1",
+				"spec_m_1": "1e4541",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "04-frame-center",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "04-frame-center",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "5"
+			}
+		},
+		{
+			"cid": 3,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_170.json",
+			"bbox": {
+				"min": [
+					-0.057150003,
+					-1.0658141e-17,
+					-0.0458
+				],
+				"max": [
+					0.057150003,
+					1.2698001,
+					0.0050000004
+				]
+			},
+			"properties": {
+				"name": "4710122_cp01.prt",
+				"feature_id": "50",
+				"source_file_name": "4710122_cp01.prt.1",
+				"cat_id_chg_lvl": "03",
+				"f_cat_id_no": "",
+				"smt_thickness": "5.000000",
+				"smt_update_bend_allow_info": "false",
+				"smt_part_bend_allowance_factor": "0.640000",
+				"smt_part_bend_allow_factor_type": "y factor",
+				"smt_part_bend_table_name": "catable",
+				"smt_dflt_bend_radius": "5.000000",
+				"smt_dflt_radius_side": "inside",
+				"smt_dflt_bend_angle": "90.000000",
+				"smt_dflt_crnr_rel_type": "v notch",
+				"smt_dflt_crnr_rel_width": "5.000000",
+				"smt_dflt_crnr_rel_depth_type": "blind",
+				"smt_dflt_crnr_rel_depth": "5.000000",
+				"smt_dflt_bend_rel_type": "rip",
+				"smt_dflt_bend_rel_width": "5.000000",
+				"smt_dflt_bend_rel_depth_type": "up to bend",
+				"smt_dflt_bend_rel_depth": "10.000000",
+				"smt_dflt_bend_rel_angle": "45.000000",
+				"smt_gap": "2.500000",
+				"smt_dflt_edge_trea_type": "open",
+				"smt_dflt_edge_trea_width": "-2.500000",
+				"smt_dflt_miter_cut_width": "2.500000",
+				"smt_dflt_miter_cut_offset": "5.500000",
+				"weight": "9.766382",
+				"ptc_material_name": "1e0166",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"dsgn_ctl_cd": "w997",
+				"model_check": "fri aug 07 2015 10:57:26 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"itm_nm1": "lift beam-leg",
+				"itm_nm2": "",
+				"partname": "01-lift beam-leg",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": "",
+				"part_type": "pt",
+				"weight_type": "2",
+				"v_pri": "",
+				"v_sec": "",
+				"vers_typ": "",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e0013y",
+				"spec_g_2": "1e0012a",
+				"spec_g_3": "1e2722a",
+				"spec_g": "3",
+				"spec_h": "0",
+				"spec_m": "1",
+				"spec_m_1": "1e0166",
+				"material": "1e0166 stl",
+				"partname_pdm": "01-lift beam-leg",
+				"f_cat_id_no_pdm": "",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "lift beam-leg",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1",
+				"meas_unit": "",
+				"spec_g_4": ""
+			}
+		},
+		{
+			"cid": 4,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_247.json",
+			"bbox": {
+				"min": [
+					-0.034000002,
+					-0.11100001,
+					-0.10700001
+				],
+				"max": [
+					0.034000002,
+					0.0063500004,
+					0.11100001
+				]
+			},
+			"properties": {
+				"name": "2471378_lsre01_cp03.prt",
+				"feature_id": "45",
+				"source_file_name": "2471378_lsre01_cp03.prt.1",
+				"units": "mm",
+				"job_number": "",
+				"engine_type_code": "",
+				"comp_with": "",
+				"rel_schemes": "",
+				"introduction_alt": "",
+				"material": "n/a",
+				"material_standard": "n/a",
+				"treatment": "",
+				"treatment_code": "",
+				"group": "",
+				"drawn_by": "",
+				"checked_by": "",
+				"checked_date": "",
+				"approved_by": "",
+				"approved_date": "",
+				"description1": "",
+				"description2": "",
+				"description3": "",
+				"description4": "",
+				"pattern_or_die_number": "",
+				"prototype_number": "",
+				"prototype_issue": "",
+				"part_number": "u35016350",
+				"part_issue": "-",
+				"td1": "",
+				"td2": "",
+				"td3": "",
+				"td4": "",
+				"td5": "",
+				"td6": "",
+				"td7": "",
+				"td8": "",
+				"td9": "",
+				"td10": "",
+				"td11": "",
+				"td12": "",
+				"td13": "",
+				"td14": "",
+				"td15": "",
+				"td16": "",
+				"copyright_date": "2004",
+				"model_name": "u35016350_cp05",
+				"f_cat_id_no": "",
+				"cat_id_chg_lvl": "01",
+				"partname": "2471378_cp03",
+				"cat_id_vers": "rr",
+				"dwg_cls": "6",
+				"weight": "",
+				"weight_type": "",
+				"ref_cat_id_no": "none",
+				"ref_cat_id_vers": "",
+				"data_type ": "prt",
+				"part_type ": "pt",
+				"dsgn_ctl_cd": "w184",
+				"mass": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "2471378_cp03",
+				"cat_id_vers_pdm": "rr",
+				"dsgn_ctl_cd_pdm": "w184",
+				"item_um": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6",
+				"vers_typ_pdm": "",
+				"model_check": "mon oct 08 2012 13:02:15 gmt+0000",
+				"mc_errors": "6",
+				"mc_mode": "batch"
+			}
+		},
+		{
+			"cid": 5,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_248.json",
+			"bbox": {
+				"min": [
+					-0.034000002,
+					-0.096780464,
+					-0.11100001
+				],
+				"max": [
+					0.034000002,
+					0.020000001,
+					0.10700001
+				]
+			},
+			"properties": {
+				"name": "2471378_lsre01_cp04.prt",
+				"feature_id": "47",
+				"source_file_name": "2471378_lsre01_cp04.prt.1",
+				"units": "mm",
+				"job_number": "",
+				"engine_type_code": "",
+				"comp_with": "",
+				"rel_schemes": "",
+				"introduction_alt": "",
+				"material": "n/a",
+				"material_standard": "n/a",
+				"treatment": "",
+				"treatment_code": "",
+				"group": "",
+				"drawn_by": "",
+				"checked_by": "",
+				"checked_date": "",
+				"approved_by": "",
+				"approved_date": "",
+				"description1": "",
+				"description2": "",
+				"description3": "",
+				"description4": "",
+				"pattern_or_die_number": "",
+				"prototype_number": "",
+				"prototype_issue": "",
+				"part_number": "u35016350",
+				"part_issue": "-",
+				"td1": "",
+				"td2": "",
+				"td3": "",
+				"td4": "",
+				"td5": "",
+				"td6": "",
+				"td7": "",
+				"td8": "",
+				"td9": "",
+				"td10": "",
+				"td11": "",
+				"td12": "",
+				"td13": "",
+				"td14": "",
+				"td15": "",
+				"td16": "",
+				"copyright_date": "2004",
+				"model_name": "u35016350_cp06",
+				"f_cat_id_no": "",
+				"cat_id_chg_lvl": "01",
+				"partname": "2471378_cp04",
+				"cat_id_vers": "rr",
+				"dwg_cls": "6",
+				"weight": "",
+				"weight_type": "",
+				"ref_cat_id_no": "none",
+				"ref_cat_id_vers": "",
+				"data_type ": "prt",
+				"part_type ": "pt",
+				"dsgn_ctl_cd": "w184",
+				"mass": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "2471378_cp04",
+				"cat_id_vers_pdm": "rr",
+				"dsgn_ctl_cd_pdm": "w184",
+				"item_um": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6",
+				"vers_typ_pdm": "",
+				"model_check": "mon oct 08 2012 13:02:09 gmt+0000",
+				"mc_errors": "6",
+				"mc_mode": "batch"
+			}
+		},
+		{
+			"cid": 6,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_249.json",
+			"bbox": {
+				"min": [
+					-0.1035,
+					-0.10350001,
+					-0.28200001
+				],
+				"max": [
+					0.1035,
+					0.13000001,
+					0.015
+				]
+			},
+			"properties": {
+				"name": "2471378_lsre01_cp05.prt",
+				"feature_id": "53",
+				"source_file_name": "2471378_lsre01_cp05.prt.1",
+				"units": "mm",
+				"job_number": "",
+				"engine_type_code": "",
+				"comp_with": "",
+				"rel_schemes": "",
+				"introduction_alt": "",
+				"material": "n/a",
+				"material_standard": "n/a",
+				"treatment": "",
+				"treatment_code": "",
+				"group": "",
+				"drawn_by": "",
+				"checked_by": "",
+				"checked_date": "",
+				"approved_by": "",
+				"approved_date": "",
+				"description1": "",
+				"description2": "",
+				"description3": "",
+				"description4": "",
+				"pattern_or_die_number": "",
+				"prototype_number": "",
+				"prototype_issue": "",
+				"part_number": "u35016350",
+				"part_issue": "-",
+				"td1": "",
+				"td2": "",
+				"td3": "",
+				"td4": "",
+				"td5": "",
+				"td6": "",
+				"td7": "",
+				"td8": "",
+				"td9": "",
+				"td10": "",
+				"td11": "",
+				"td12": "",
+				"td13": "",
+				"td14": "",
+				"td15": "",
+				"td16": "",
+				"copyright_date": "2004",
+				"model_name": "u35016350_cp01",
+				"f_cat_id_no": "",
+				"cat_id_chg_lvl": "01",
+				"partname": "2471378_cp05",
+				"cat_id_vers": "rr",
+				"dwg_cls": "6",
+				"weight": "",
+				"weight_type": "",
+				"ref_cat_id_no": "none",
+				"ref_cat_id_vers": "",
+				"data_type ": "prt",
+				"part_type ": "pt",
+				"dsgn_ctl_cd": "w184",
+				"mass": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "2471378_cp05",
+				"cat_id_vers_pdm": "rr",
+				"dsgn_ctl_cd_pdm": "w184",
+				"item_um": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6",
+				"vers_typ_pdm": "",
+				"model_check": "mon oct 08 2012 13:02:07 gmt+0000",
+				"mc_errors": "5",
+				"mc_mode": "batch"
+			}
+		},
+		{
+			"cid": 7,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_250.json",
+			"bbox": {
+				"min": [
+					-0.1027,
+					-0.061518293,
+					-0.1027
+				],
+				"max": [
+					0.13081476,
+					0.020000001,
+					0.1027
+				]
+			},
+			"properties": {
+				"name": "2471378_lsre01_cp06.prt",
+				"feature_id": "54",
+				"source_file_name": "2471378_lsre01_cp06.prt.1",
+				"units": "mm",
+				"job_number": "",
+				"engine_type_code": "",
+				"comp_with": "",
+				"rel_schemes": "",
+				"introduction_alt": "",
+				"material": "n/a",
+				"material_standard": "n/a",
+				"treatment": "",
+				"treatment_code": "",
+				"group": "",
+				"drawn_by": "",
+				"checked_by": "",
+				"checked_date": "",
+				"approved_by": "",
+				"approved_date": "",
+				"description1": "",
+				"description2": "",
+				"description3": "",
+				"description4": "",
+				"pattern_or_die_number": "",
+				"prototype_number": "",
+				"prototype_issue": "",
+				"part_number": "u35016350",
+				"part_issue": "-",
+				"td1": "",
+				"td2": "",
+				"td3": "",
+				"td4": "",
+				"td5": "",
+				"td6": "",
+				"td7": "",
+				"td8": "",
+				"td9": "",
+				"td10": "",
+				"td11": "",
+				"td12": "",
+				"td13": "",
+				"td14": "",
+				"td15": "",
+				"td16": "",
+				"copyright_date": "2004",
+				"model_name": "u35016350_cp02",
+				"f_cat_id_no": "",
+				"cat_id_chg_lvl": "01",
+				"partname": "2471378_cp06",
+				"cat_id_vers": "rr",
+				"dwg_cls": "6",
+				"weight": "",
+				"weight_type": "",
+				"ref_cat_id_no": "none",
+				"ref_cat_id_vers": "",
+				"data_type ": "prt",
+				"part_type ": "pt",
+				"dsgn_ctl_cd": "w184",
+				"mass": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "2471378_cp06",
+				"cat_id_vers_pdm": "rr",
+				"dsgn_ctl_cd_pdm": "w184",
+				"item_um": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6",
+				"vers_typ_pdm": "",
+				"model_check": "mon oct 08 2012 13:02:04 gmt+0000",
+				"mc_errors": "5",
+				"mc_mode": "batch"
+			}
+		},
+		{
+			"cid": 8,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_251.json",
+			"bbox": {
+				"min": [
+					-0.031000001,
+					-0.019000001,
+					-0.019000001
+				],
+				"max": [
+					0.025,
+					0.019000001,
+					0.019000001
+				]
+			},
+			"properties": {
+				"name": "2471378_lsre01_cp07.prt",
+				"feature_id": "57",
+				"source_file_name": "2471378_lsre01_cp07.prt.1",
+				"units": "mm",
+				"job_number": "",
+				"engine_type_code": "",
+				"comp_with": "",
+				"rel_schemes": "",
+				"introduction_alt": "",
+				"material": "n/a",
+				"material_standard": "n/a",
+				"treatment": "",
+				"treatment_code": "",
+				"group": "",
+				"drawn_by": "",
+				"checked_by": "",
+				"checked_date": "",
+				"approved_by": "",
+				"approved_date": "",
+				"description1": "",
+				"description2": "",
+				"description3": "",
+				"description4": "",
+				"pattern_or_die_number": "",
+				"prototype_number": "",
+				"prototype_issue": "",
+				"part_number": "u35016350",
+				"part_issue": "-0",
+				"td1": "",
+				"td2": "",
+				"td3": "",
+				"td4": "",
+				"td5": "",
+				"td6": "",
+				"td7": "",
+				"td8": "",
+				"td9": "",
+				"td10": "",
+				"td11": "",
+				"td12": "",
+				"td13": "",
+				"td14": "",
+				"td15": "",
+				"td16": "",
+				"copyright_date": "2004",
+				"model_name": "u35016350_cp03",
+				"f_cat_id_no": "",
+				"cat_id_chg_lvl": "01",
+				"cat_id_vers": "rr",
+				"dwg_cls": "6",
+				"weight": "",
+				"weight_type": "",
+				"ref_cat_id_no": "",
+				"ref_cat_id_vers": "",
+				"data_type ": "prt",
+				"part_type ": "pt",
+				"dsgn_ctl_cd": "",
+				"mass": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"part_type": "",
+				"item_um": "",
+				"data_type": "",
+				"model_check": "tue sep 11 2012 19:54:52 gmt+0000",
+				"mc_errors": "6",
+				"mc_mode": "batch",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "2471378_lsre01_cp07",
+				"cat_id_vers_pdm": "rr",
+				"dsgn_ctl_cd_pdm": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6",
+				"vers_typ_pdm": ""
+			}
+		},
+		{
+			"cid": 9,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_252.json",
+			"bbox": {
+				"min": [
+					-0.079603054,
+					-0.0048356461,
+					0.0091098221
+				],
+				"max": [
+					0.079603054,
+					0.080164358,
+					0.16831595
+				]
+			},
+			"properties": {
+				"name": "2471378_lsre01_cp01.prt",
+				"feature_id": "105",
+				"source_file_name": "2471378_lsre01_cp01.prt.1",
+				"cat_id_chg_lvl": "01",
+				"f_cat_id_no": "433-5702",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"weight": "99999",
+				"dsgn_ctl_cd": "w184",
+				"itm_nm1": "cap",
+				"itm_nm2": "",
+				"partname": "cap",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": "",
+				"part_type": "pt",
+				"weight_type": "",
+				"v_pri": "",
+				"v_sec": "",
+				"vers_typ": "",
+				"item_um": "",
+				"meas_unit": "",
+				"dwg_cls": "",
+				"dc_pr": "",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e0013y",
+				"spec_g_2": "1e0012a",
+				"spec_g_3": "1e2722a",
+				"spec_g_4": "1e0198r",
+				"spec_g": "4",
+				"spec_m": "0",
+				"spec_h": "0",
+				"partname_pdm": "cap",
+				"f_cat_id_no_pdm": "433-5702",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w184",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "cap",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": ""
+			}
+		},
+		{
+			"cid": 10,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_254.json",
+			"bbox": {
+				"min": [
+					0,
+					0,
+					0
+				],
+				"max": [
+					0.0095000006,
+					0.011500001,
+					0.022000002
+				]
+			},
+			"properties": {
+				"name": "holder2.prt",
+				"feature_id": "40",
+				"source_file_name": "holder2.prt.1"
+			}
+		},
+		{
+			"cid": 11,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_255.json",
+			"bbox": {
+				"min": [
+					-2.7755577e-20,
+					0.0000099999997,
+					-0.009449983
+				],
+				"max": [
+					0.015000001,
+					0.018804269,
+					0.029100001
+				]
+			},
+			"properties": {
+				"name": "clip.prt",
+				"feature_id": "41",
+				"source_file_name": "clip.prt.1"
+			}
+		},
+		{
+			"cid": 12,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_256.json",
+			"bbox": {
+				"min": [
+					-0.0015,
+					-0.0016330291,
+					0
+				],
+				"max": [
+					0.0015,
+					0.0016330291,
+					0.022000002
+				]
+			},
+			"properties": {
+				"name": "stift3.prt",
+				"feature_id": "44",
+				"source_file_name": "stift3.prt.1"
+			}
+		},
+		{
+			"cid": 13,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_254.json",
+			"bbox": {
+				"min": [
+					0,
+					0,
+					0
+				],
+				"max": [
+					0.0095000006,
+					0.011500001,
+					0.022000002
+				]
+			},
+			"properties": {
+				"name": "holder2.prt",
+				"feature_id": "40",
+				"source_file_name": "holder2.prt.1"
+			}
+		},
+		{
+			"cid": 14,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_255.json",
+			"bbox": {
+				"min": [
+					-2.7755577e-20,
+					0.0000099999997,
+					-0.009449983
+				],
+				"max": [
+					0.015000001,
+					0.018804269,
+					0.029100001
+				]
+			},
+			"properties": {
+				"name": "clip.prt",
+				"feature_id": "41",
+				"source_file_name": "clip.prt.1"
+			}
+		},
+		{
+			"cid": 15,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_256.json",
+			"bbox": {
+				"min": [
+					-0.0015,
+					-0.0016330291,
+					0
+				],
+				"max": [
+					0.0015,
+					0.0016330291,
+					0.022000002
+				]
+			},
+			"properties": {
+				"name": "stift3.prt",
+				"feature_id": "44",
+				"source_file_name": "stift3.prt.1"
+			}
+		},
+		{
+			"cid": 16,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_254.json",
+			"bbox": {
+				"min": [
+					0,
+					0,
+					0
+				],
+				"max": [
+					0.0095000006,
+					0.011500001,
+					0.022000002
+				]
+			},
+			"properties": {
+				"name": "holder2.prt",
+				"feature_id": "40",
+				"source_file_name": "holder2.prt.1"
+			}
+		},
+		{
+			"cid": 17,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_255.json",
+			"bbox": {
+				"min": [
+					-2.7755577e-20,
+					0.0000099999997,
+					-0.009449983
+				],
+				"max": [
+					0.015000001,
+					0.018804269,
+					0.029100001
+				]
+			},
+			"properties": {
+				"name": "clip.prt",
+				"feature_id": "41",
+				"source_file_name": "clip.prt.1"
+			}
+		},
+		{
+			"cid": 18,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_256.json",
+			"bbox": {
+				"min": [
+					-0.0015,
+					-0.0016330291,
+					0
+				],
+				"max": [
+					0.0015,
+					0.0016330291,
+					0.022000002
+				]
+			},
+			"properties": {
+				"name": "stift3.prt",
+				"feature_id": "44",
+				"source_file_name": "stift3.prt.1"
+			}
+		},
+		{
+			"cid": 19,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_258.json",
+			"bbox": {
+				"min": [
+					-0.087500006,
+					-0.087500006,
+					-7.4925309e-13
+				],
+				"max": [
+					0.087500006,
+					0.087500006,
+					0.24000001
+				]
+			},
+			"properties": {
+				"name": "cover2.prt",
+				"feature_id": "40",
+				"source_file_name": "cover2.prt.3"
+			}
+		},
+		{
+			"cid": 20,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_259.json",
+			"bbox": {
+				"min": [
+					-1.1612543e-12,
+					-0.085000001,
+					-0.085000001
+				],
+				"max": [
+					0.23,
+					0.085000001,
+					0.085000001
+				]
+			},
+			"properties": {
+				"name": "filter2.prt",
+				"feature_id": "41",
+				"source_file_name": "filter2.prt.1"
+			}
+		},
+		{
+			"cid": 21,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_656.json",
+			"bbox": {
+				"min": [
+					-0.023500001,
+					-0.015000001,
+					0
+				],
+				"max": [
+					0.19850001,
+					0.26500002,
+					0.1
+				]
+			},
+			"properties": {
+				"name": "4807098.prt",
+				"feature_id": "83",
+				"source_file_name": "4807098.prt.2",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "480-7098",
+				"smt_thickness": "1.500000",
+				"smt_update_bend_allow_info": "false",
+				"smt_part_bend_allowance_factor": "0.640000",
+				"smt_part_bend_allow_factor_type": "y factor",
+				"smt_part_bend_table_name": "catable",
+				"smt_dflt_bend_radius": "1.500000",
+				"smt_dflt_radius_side": "inside",
+				"smt_dflt_bend_angle": "90.000000",
+				"smt_dflt_crnr_rel_type": "v notch",
+				"smt_dflt_crnr_rel_width": "1.500000",
+				"smt_dflt_crnr_rel_depth_type": "blind",
+				"smt_dflt_crnr_rel_depth": "1.500000",
+				"smt_dflt_bend_rel_type": "rip",
+				"smt_dflt_bend_rel_width": "1.500000",
+				"smt_dflt_bend_rel_depth_type": "up to bend",
+				"smt_dflt_bend_rel_depth": "3.000000",
+				"smt_dflt_bend_rel_angle": "45.000000",
+				"smt_gap": "0.750000",
+				"smt_dflt_edge_trea_type": "open",
+				"smt_dflt_edge_trea_width": "-0.750000",
+				"smt_dflt_miter_cut_width": "0.750000",
+				"smt_dflt_miter_cut_offset": "1.650000",
+				"weight": "1.490612",
+				"ptc_material_name": "1e0166",
+				"dsgn_ctl_cd": "w997",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"itm_nm1": "plate-box",
+				"itm_nm2": "",
+				"partname": "plate-box",
+				"ref_cat_id_no": "none",
+				"part_type": "pt",
+				"weight_type": "2",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e2722a",
+				"spec_g_2": "1e2122",
+				"spec_g_3": "1e0507e",
+				"spec_g_4": "1e0421",
+				"spec_g_5": "1e0198r",
+				"spec_g_6": "1e0013y",
+				"spec_g_7": "1e0012a",
+				"spec_g": "7",
+				"spec_h": "0",
+				"model_check": "thu feb 19 2015 00:13:40 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"spec_m": "1",
+				"spec_m_1": "1e0166",
+				"partname_pdm": "plate-box",
+				"f_cat_id_no_pdm": "480-7098",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "plate-box",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 22,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_692.json",
+			"bbox": {
+				"min": [
+					-0.00008349897,
+					-0.00011397013,
+					0
+				],
+				"max": [
+					0.030000001,
+					0.19000001,
+					0.045000002
+				]
+			},
+			"properties": {
+				"name": "4807103.prt",
+				"feature_id": "138",
+				"source_file_name": "4807103.prt.2",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "480-7103",
+				"smt_thickness": "1.500000",
+				"smt_update_bend_allow_info": "false",
+				"smt_part_bend_allowance_factor": "0.640000",
+				"smt_part_bend_allow_factor_type": "y factor",
+				"smt_part_bend_table_name": "catable",
+				"smt_dflt_bend_radius": "1.500000",
+				"smt_dflt_radius_side": "inside",
+				"smt_dflt_bend_angle": "90.000000",
+				"smt_dflt_crnr_rel_type": "v notch",
+				"smt_dflt_crnr_rel_width": "1.500000",
+				"smt_dflt_crnr_rel_depth_type": "blind",
+				"smt_dflt_crnr_rel_depth": "1.500000",
+				"smt_dflt_bend_rel_type": "rip",
+				"smt_dflt_bend_rel_width": "1.500000",
+				"smt_dflt_bend_rel_depth_type": "up to bend",
+				"smt_dflt_bend_rel_depth": "3.000000",
+				"smt_dflt_bend_rel_angle": "45.000000",
+				"smt_gap": "0.750000",
+				"smt_dflt_edge_trea_type": "open",
+				"smt_dflt_edge_trea_width": "-0.750000",
+				"smt_dflt_miter_cut_width": "0.750000",
+				"smt_dflt_miter_cut_offset": "1.650000",
+				"weight": "0.160960",
+				"dsgn_ctl_cd": "w997",
+				"model_check": "tue mar 03 2015 13:41:09 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"ptc_material_name": "1e0166",
+				"itm_nm1": "plate",
+				"itm_nm2": "",
+				"partname": "plate",
+				"ref_cat_id_no": "none",
+				"part_type": "pt",
+				"weight_type": "2",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e2722a",
+				"spec_g_2": "1e2122",
+				"spec_g_3": "1e0507e",
+				"spec_g_4": "1e0421",
+				"spec_g_5": "1e0198r",
+				"spec_g_6": "1e0013y",
+				"spec_g_7": "1e0012a",
+				"spec_g": "7",
+				"spec_m_1": "1e0166",
+				"spec_m": "1",
+				"spec_h": "0",
+				"partname_pdm": "plate",
+				"f_cat_id_no_pdm": "480-7103",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "plate",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 23,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_1091.json",
+			"bbox": {
+				"min": [
+					-0.56565005,
+					-0.24708857,
+					-0.89915007
+				],
+				"max": [
+					0.0089963125,
+					0.022500001,
+					0.062350001
+				]
+			},
+			"properties": {
+				"name": "4722457.prt",
+				"feature_id": "4898",
+				"source_file_name": "4722457.prt.1",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "",
+				"data_type": "",
+				"cat_id_cls_cd": "",
+				"weight": "0.365",
+				"dsgn_ctl_cd": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"partname": "",
+				"part_type": "",
+				"cat_id_vers": "-",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"dc_pr": "x",
+				"vers_typ": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"item_um": "",
+				"model_check": "wed aug 12 2015 10:15:42 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "batch",
+				"ptc_material_name": "1e0151",
+				"material": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no": "none",
+				"weight_type": "",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "",
+				"spec_g_2": "",
+				"spec_g_3": "",
+				"spec_g_4": "",
+				"spec_g": "4",
+				"spec_m_1": "",
+				"spec_m": "1",
+				"spec_h": "0",
+				"ptc_constraint_set": "set4797"
+			}
+		},
+		{
+			"cid": 24,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_1091.json",
+			"bbox": {
+				"min": [
+					-0.56565005,
+					-0.24708857,
+					-0.89915007
+				],
+				"max": [
+					0.0089963125,
+					0.022500001,
+					0.062350001
+				]
+			},
+			"properties": {
+				"name": "4722457.prt",
+				"feature_id": "4901",
+				"source_file_name": "4722457.prt.1",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "",
+				"data_type": "",
+				"cat_id_cls_cd": "",
+				"weight": "0.365",
+				"dsgn_ctl_cd": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"partname": "",
+				"part_type": "",
+				"cat_id_vers": "-",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"dc_pr": "x",
+				"vers_typ": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"item_um": "",
+				"model_check": "wed aug 12 2015 10:15:42 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "batch",
+				"ptc_material_name": "1e0151",
+				"material": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no": "none",
+				"weight_type": "",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "",
+				"spec_g_2": "",
+				"spec_g_3": "",
+				"spec_g_4": "",
+				"spec_g": "4",
+				"spec_m_1": "",
+				"spec_m": "1",
+				"spec_h": "0",
+				"ptc_constraint_set": "set4838"
+			}
+		},
+		{
+			"cid": 25,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_1092.json",
+			"bbox": {
+				"min": [
+					-0.56565005,
+					-0.022500001,
+					-0.89915007
+				],
+				"max": [
+					0.0089963125,
+					0.24708857,
+					0.062350001
+				]
+			},
+			"properties": {
+				"name": "4722461.prt",
+				"feature_id": "4902",
+				"source_file_name": "4722461.prt.1",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "",
+				"data_type": "",
+				"cat_id_cls_cd": "",
+				"weight": "0.365",
+				"dsgn_ctl_cd": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"partname": "",
+				"part_type": "",
+				"cat_id_vers": "-",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"dc_pr": "x",
+				"vers_typ": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"item_um": "",
+				"model_check": "wed aug 12 2015 10:15:42 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "batch",
+				"ptc_material_name": "1e0151",
+				"material": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no": "none",
+				"weight_type": "",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "",
+				"spec_g_2": "",
+				"spec_g_3": "",
+				"spec_g_4": "",
+				"spec_g": "4",
+				"spec_m_1": "",
+				"spec_m": "1",
+				"spec_h": "0",
+				"ptc_constraint_set": "set4839"
+			}
+		},
+		{
+			"cid": 26,
+			"shape": "l-Creo 3D_0_xq30t4f_top_level_1092.json",
+			"bbox": {
+				"min": [
+					-0.56565005,
+					-0.022500001,
+					-0.89915007
+				],
+				"max": [
+					0.0089963125,
+					0.24708857,
+					0.062350001
+				]
+			},
+			"properties": {
+				"name": "4722461.prt",
+				"feature_id": "4905",
+				"source_file_name": "4722461.prt.1",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "",
+				"data_type": "",
+				"cat_id_cls_cd": "",
+				"weight": "0.365",
+				"dsgn_ctl_cd": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"partname": "",
+				"part_type": "",
+				"cat_id_vers": "-",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"dc_pr": "x",
+				"vers_typ": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"item_um": "",
+				"model_check": "wed aug 12 2015 10:15:42 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "batch",
+				"ptc_material_name": "1e0151",
+				"material": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no": "none",
+				"weight_type": "",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "",
+				"spec_g_2": "",
+				"spec_g_3": "",
+				"spec_g_4": "",
+				"spec_g": "4",
+				"spec_m_1": "",
+				"spec_m": "1",
+				"spec_h": "0",
+				"ptc_constraint_set": "set4799"
+			}
+		},
+		{
+			"cid": 27,
+			"children": [
+				{
+					"cidref": 1,
+					"vid": "0",
+					"location": {
+						"position": [
+							0,
+							1.1626,
+							-0.002000000000000057
+						],
+						"orientation": {
+							"matrix": [
+								-1,
+								-1.2246469e-16,
+								0,
+								1.2246469e-16,
+								-1,
+								0,
+								0,
+								0,
+								1
+							]
+						}
+					}
+				},
+				{
+					"cidref": 2,
+					"vid": "1",
+					"location": {
+						"position": [
+							0,
+							0.08929999999999999,
+							0
+						]
+					}
+				}
+			],
+			"properties": {
+				"name": "4722462.asm",
+				"feature_id": "80",
+				"source_file_name": "4722462.asm.2",
+				"cat_id_chg_lvl": "01",
+				"f_cat_id_no": "472-2462",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"itm_nm1": "frame as.-door",
+				"itm_nm2": "(xq30t4f) (enclosure gp)",
+				"cat_id_vers": "-",
+				"dsgn_ctl_cd": "w997",
+				"v_pri": "x",
+				"v_sec": "",
+				"dc_pr": "x",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"vers_typ": "1",
+				"cat_security": "caterpillar: confidential yellow",
+				"mc_intf": "10/14/2014 287",
+				"model_check": "fri jan 30 2015 17:58:54 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"partname": "frame as-door",
+				"ref_cat_id_no": "none",
+				"part_type": "as",
+				"weight_type": "1",
+				"item_um": "pc",
+				"weight": "15.48",
+				"spec_g_1": "1e2722a",
+				"spec_g_2": "1e2122",
+				"spec_g_3": "1e0507d",
+				"spec_g_4": "1e0421",
+				"spec_g_5": "1e0376",
+				"spec_g_6": "1e0198r",
+				"spec_g_7": "1e0099s",
+				"spec_g_8": "1e0013y",
+				"spec_g_9": "1e0012a",
+				"spec_g": "9",
+				"spec_m": "0",
+				"spec_h": "0",
+				"f_cat_id_no_pdm": "472-2462",
+				"partname_pdm": "frame as-door",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "as",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "frame as.-door",
+				"itm_nm2_pdm": "(xq30t4f) (enclosure gp)",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 28,
+			"children": [
+				{
+					"cidref": 3,
+					"vid": "0",
+					"location": {
+						"position": [
+							1.1633,
+							0.2058,
+							0.402
+						]
+					}
+				}
+			],
+			"properties": {
+				"name": "4710122.asm",
+				"feature_id": "1544",
+				"source_file_name": "4710122.asm.1",
+				"cat_id_chg_lvl": "03",
+				"f_cat_id_no": "471-0122",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"dsgn_ctl_cd": "w997",
+				"itm_nm1": "lifting as.",
+				"itm_nm2": "",
+				"cat_id_vers": "-",
+				"v_pri": "x",
+				"v_sec": "",
+				"dc_pr": "x",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"vers_typ": "1",
+				"partname": "lifting as",
+				"ref_cat_id_no": "none",
+				"part_type": "as",
+				"weight_type": "1",
+				"item_um": "pc",
+				"cat_security": "caterpillar: confidential yellow",
+				"model_check": "tue aug 11 2015 16:37:35 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "batch",
+				"mc_intf": "09/23/2014 266",
+				"spec_g_1": "1e2722a",
+				"spec_g_2": "1e2122",
+				"spec_g_3": "1e0507d",
+				"spec_g_4": "1e0421",
+				"spec_g_5": "1e0376",
+				"spec_g_6": "1e0198r",
+				"spec_g_7": "1e0099s",
+				"spec_g_8": "1e0013y",
+				"spec_g_9": "1e0012a",
+				"spec_g": "9",
+				"spec_m": "0",
+				"spec_h": "0",
+				"partname_pdm": "lifting as",
+				"f_cat_id_no_pdm": "471-0122",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "as",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "lifting as.",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1",
+				"weight": "28.53"
+			}
+		},
+		{
+			"cid": 29,
+			"children": [
+				{
+					"cidref": 4,
+					"vid": "0"
+				},
+				{
+					"cidref": 5,
+					"vid": "1",
+					"location": {
+						"orientation": {
+							"matrix": [
+								1,
+								0,
+								0,
+								0,
+								-1,
+								0,
+								0,
+								0,
+								-1
+							]
+						}
+					}
+				}
+			],
+			"properties": {
+				"name": "2471378_lsre01_cp02.asm",
+				"feature_id": "48",
+				"source_file_name": "2471378_lsre01_cp02.asm.1",
+				"units": "mm",
+				"job_number": "",
+				"engine_type_code": "",
+				"comp_with": "",
+				"rel_schemes": "",
+				"introduction_alt": "",
+				"material": "n/a",
+				"material_standard": "n/a",
+				"treatment": "",
+				"treatment_code": "",
+				"group": "",
+				"drawn_by": "",
+				"checked_by": "",
+				"checked_date": "",
+				"approved_by": "",
+				"approved_date": "",
+				"description1": "",
+				"description2": "",
+				"description3": "",
+				"description4": "",
+				"pattern_or_die_number": "",
+				"prototype_number": "",
+				"prototype_issue": "",
+				"part_number": "u35016350",
+				"part_issue": "-",
+				"td1": "",
+				"td2": "",
+				"td3": "",
+				"td4": "",
+				"td5": "",
+				"td6": "",
+				"td7": "",
+				"td8": "",
+				"td9": "",
+				"td10": "",
+				"td11": "",
+				"td12": "",
+				"td13": "",
+				"td14": "",
+				"td15": "",
+				"td16": "",
+				"copyright_date": "2000",
+				"model_name": "u35016350_cp04",
+				"f_cat_id_no": "",
+				"cat_id_chg_lvl": "01",
+				"partname": "2471378_cp02",
+				"cat_id_vers": "rr",
+				"dwg_cls": "6",
+				"weight": "",
+				"weight_type": "",
+				"ref_cat_id_no": "none",
+				"ref_cat_id_vers": "",
+				"data_type ": "asm",
+				"part_type ": "pt",
+				"dsgn_ctl_cd": "w184",
+				"mass": "",
+				"itm_nm1": "",
+				"itm_nm2": "",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "2471378_cp02",
+				"cat_id_vers_pdm": "rr",
+				"dsgn_ctl_cd_pdm": "w184",
+				"item_um": "",
+				"part_type_pdm": "",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6",
+				"vers_typ_pdm": "",
+				"model_check": "mon oct 08 2012 13:02:12 gmt+0000",
+				"mc_errors": "5",
+				"mc_mode": "batch"
+			}
+		},
+		{
+			"cid": 30,
+			"children": [
+				{
+					"cidref": 10,
+					"vid": "0"
+				},
+				{
+					"cidref": 11,
+					"vid": "1",
+					"location": {
+						"position": [
+							0.000220000000000109,
+							-0.000180000000000069,
+							0.0035
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								-1,
+								0,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 12,
+					"vid": "2",
+					"location": {
+						"position": [
+							0.006799999999999917,
+							0.008399999999999963,
+							0
+						]
+					}
+				}
+			],
+			"properties": {
+				"name": "clip_a_filter.asm",
+				"feature_id": "125",
+				"source_file_name": "clip_a_filter.asm.1",
+				"description": "",
+				"modeled_by": "",
+				"ptc_constraint_set": "set20"
+			}
+		},
+		{
+			"cid": 31,
+			"children": [
+				{
+					"cidref": 13,
+					"vid": "0"
+				},
+				{
+					"cidref": 14,
+					"vid": "1",
+					"location": {
+						"position": [
+							0.000220000000000109,
+							-0.000179999999999958,
+							0.003500000000000059
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								-1,
+								0,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 15,
+					"vid": "2",
+					"location": {
+						"position": [
+							0.006799999999999917,
+							0.008400000000000074,
+							0
+						]
+					}
+				}
+			],
+			"properties": {
+				"name": "clip_a_filter.asm",
+				"feature_id": "146",
+				"source_file_name": "clip_a_filter.asm.1",
+				"description": "",
+				"modeled_by": "",
+				"ptc_constraint_set": "set20"
+			}
+		},
+		{
+			"cid": 32,
+			"children": [
+				{
+					"cidref": 16,
+					"vid": "0"
+				},
+				{
+					"cidref": 17,
+					"vid": "1",
+					"location": {
+						"position": [
+							0.000220000000000109,
+							-0.00018000000000018,
+							0.003499999999999615
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								-1,
+								0,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 18,
+					"vid": "2",
+					"location": {
+						"position": [
+							0.006799999999999917,
+							0.008399999999999852,
+							0
+						]
+					}
+				}
+			],
+			"properties": {
+				"name": "clip_a_filter.asm",
+				"feature_id": "147",
+				"source_file_name": "clip_a_filter.asm.1",
+				"description": "",
+				"modeled_by": "",
+				"ptc_constraint_set": "set20"
+			}
+		},
+		{
+			"cid": 33,
+			"children": [
+				{
+					"cidref": 19,
+					"vid": "0"
+				},
+				{
+					"cidref": 20,
+					"vid": "1",
+					"location": {
+						"position": [
+							-5.204170427930421e-18,
+							0,
+							0.002999999999999892
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								1,
+								1,
+								0,
+								0,
+								0,
+								1,
+								0
+							]
+						}
+					}
+				}
+			],
+			"properties": {
+				"name": "filter_asm2.asm",
+				"feature_id": "151",
+				"source_file_name": "filter_asm2.asm.1",
+				"description": "",
+				"modeled_by": ""
+			}
+		},
+		{
+			"cid": 34,
+			"children": [
+				{
+					"cidref": 21,
+					"vid": "0",
+					"location": {
+						"position": [
+							0.02349999999999999,
+							0,
+							-0.1000000000000001
+						]
+					}
+				}
+			],
+			"properties": {
+				"name": "4807099.asm",
+				"feature_id": "155",
+				"source_file_name": "4807099.asm.2",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "480-7099",
+				"dsgn_ctl_cd": "w997",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"itm_nm1": "box as.",
+				"itm_nm2": "",
+				"partname": "box as",
+				"ref_cat_id_no": "none",
+				"part_type": "as",
+				"weight_type": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e2722a",
+				"spec_g_2": "1e0507d",
+				"spec_g_3": "1e0198r",
+				"spec_g_4": "1e0013y",
+				"spec_g_5": "1e0012a",
+				"spec_g": "5",
+				"spec_m": "0",
+				"spec_h": "0",
+				"weight": "1.492",
+				"model_check": "tue mar 03 2015 13:29:56 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"partname_pdm": "box as",
+				"f_cat_id_no_pdm": "480-7099",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "as",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "box as.",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 35,
+			"children": [
+				{
+					"cidref": 27,
+					"vid": "0",
+					"location": {
+						"position": [
+							1.1959,
+							0.305,
+							0.4905
+						]
+					}
+				}
+			],
+			"properties": {
+				"name": "4722464.asm",
+				"feature_id": "50",
+				"source_file_name": "4722464.asm.3",
+				"f_cat_id_no": "472-2464",
+				"mc_intf": "08/12/2015 224",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"weight": "0.000",
+				"dsgn_ctl_cd": "w997",
+				"itm_nm1": "enclosure gp",
+				"itm_nm2": "(xq35t4f)",
+				"partname": "enclosure gp",
+				"ref_cat_id_no": "none",
+				"part_type": "gp",
+				"weight_type": "3",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"model_check": "wed aug 19 2015 19:48:47 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "batch",
+				"spec_g_1": "1e3029 b",
+				"spec_g_2": "1e2972h c",
+				"spec_g_3": "1e2966a",
+				"spec_g_4": "1e2722a",
+				"spec_g_5": "1e0279b",
+				"spec_g_6": "1e0198w",
+				"spec_g_7": "1e0013y",
+				"spec_g_8": "1e0012a",
+				"spec_g": "8",
+				"spec_m": "0",
+				"spec_h": "0",
+				"cat_id_chg_lvl": "02",
+				"partname_pdm": "enclosure gp",
+				"f_cat_id_no_pdm": "472-2464",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "enclosure gp",
+				"itm_nm2_pdm": "(xq35t4f)",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 36,
+			"children": [
+				{
+					"cidref": 28,
+					"vid": "0"
+				}
+			],
+			"properties": {
+				"name": "4710126.asm",
+				"feature_id": "52",
+				"source_file_name": "4710126.asm.1",
+				"cat_id_chg_lvl": "01",
+				"f_cat_id_no": "471-0126",
+				"model_check": "wed feb 18 2015 16:43:07 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"dsgn_ctl_cd": "w997",
+				"itm_nm1": "lifting gp",
+				"itm_nm2": "(xq30t4f)",
+				"partname": "lifting gp",
+				"ref_cat_id_no": "none",
+				"part_type": "gp",
+				"weight_type": "3",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"weight": "0.000",
+				"spec_g_1": "1e3029 a",
+				"spec_g_2": "1e2722a",
+				"spec_g_3": "1e0279b",
+				"spec_g_4": "1e0198w",
+				"spec_g_5": "1e0013y",
+				"spec_g_6": "1e0012a",
+				"spec_g": "6",
+				"spec_m": "0",
+				"spec_h": "0",
+				"mc_intf": "09/24/2014 267",
+				"f_cat_id_no_pdm": "471-0126",
+				"partname_pdm": "lifting gp",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "lifting gp",
+				"itm_nm2_pdm": "(xq30t4f)",
+				"dwg_cls_pdm": "1",
+				"nocheck": ""
+			}
+		},
+		{
+			"cid": 37,
+			"children": [
+				{
+					"cidref": 29,
+					"vid": "0",
+					"location": {
+						"position": [
+							0.1154,
+							-0.111,
+							-0.000399999999999956
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								-1,
+								0,
+								-1,
+								0,
+								-1,
+								0,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 6,
+					"vid": "1",
+					"location": {
+						"position": [
+							0.1154,
+							-0.111,
+							-0.1044000000000001
+						],
+						"orientation": {
+							"matrix": [
+								-0.5,
+								0.86602539,
+								0,
+								0.86602539,
+								0.5,
+								0,
+								0,
+								0,
+								-1
+							]
+						}
+					}
+				},
+				{
+					"cidref": 7,
+					"vid": "2",
+					"location": {
+						"position": [
+							0.1154,
+							-0.111,
+							-0.1244000000000001
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								-1,
+								0,
+								0,
+								0,
+								1,
+								-1,
+								0,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 8,
+					"vid": "3",
+					"location": {
+						"position": [
+							0.1154,
+							-0.22979393923934,
+							-0.1738974746830584
+						],
+						"orientation": {
+							"matrix": [
+								4.4408921e-16,
+								0.70710677,
+								0.70710677,
+								-1.110223e-15,
+								-0.70710677,
+								0.70710677,
+								1,
+								-1.110223e-15,
+								4.4408921e-16
+							]
+						}
+					}
+				},
+				{
+					"cidref": 9,
+					"vid": "4",
+					"location": {
+						"position": [
+							0.2295653325305586,
+							-0.09906886470058884,
+							0.184312875619796
+						],
+						"orientation": {
+							"matrix": [
+								-0.5,
+								0.86602539,
+								0,
+								0.86602539,
+								0.5,
+								1.2246469e-16,
+								1.0605752e-16,
+								6.1232343e-17,
+								-1
+							]
+						}
+					}
+				},
+				{
+					"cidref": 30,
+					"vid": "5",
+					"location": {
+						"position": [
+							0.105,
+							-0.02180000000000004,
+							-0.1239000000000001
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								-1,
+								0,
+								1,
+								0,
+								1,
+								0,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 31,
+					"vid": "6",
+					"location": {
+						"position": [
+							0.04335053398242807,
+							-0.1646066641993582,
+							-0.1239000000000001
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								-1,
+								-0.86602539,
+								-0.5,
+								0,
+								-0.5,
+								0.86602539,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 32,
+					"vid": "7",
+					"location": {
+						"position": [
+							0.1978494660175718,
+							-0.1465933358006419,
+							-0.1239000000000001
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								-1,
+								0.86602539,
+								-0.5,
+								0,
+								-0.5,
+								-0.86602539,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 33,
+					"vid": "8",
+					"location": {
+						"position": [
+							0.1154,
+							-0.111,
+							-0.1113999999999999
+						]
+					}
+				}
+			],
+			"properties": {
+				"name": "2471378_lsre01.asm",
+				"feature_id": "368",
+				"source_file_name": "2471378_lsre01.asm.1",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "247-1378",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"weight": "0.865",
+				"dsgn_ctl_cd": "w123",
+				"itm_nm1": "filter as.-air",
+				"itm_nm2": "",
+				"partname": "filter as-air",
+				"part_type": "as",
+				"cat_id_vers": "ls",
+				"model_check": "mon oct 08 2012 13:02:04 gmt+0000",
+				"mc_errors": "2",
+				"mc_mode": "batch",
+				"ref_cat_id_no": "none",
+				"weight_type": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e2722c",
+				"spec_g_2": "1e0198r",
+				"spec_g_3": "1e0013y",
+				"spec_g_4": "1e0012a",
+				"spec_g": "4",
+				"spec_m": "0",
+				"spec_h": "0",
+				"partname_pdm": "filter as-air",
+				"f_cat_id_no_pdm": "247-1378",
+				"cat_id_vers_pdm": "ls",
+				"dsgn_ctl_cd_pdm": "w123",
+				"part_type_pdm": "as",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "filter as.-air",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 38,
+			"children": [
+				{
+					"cidref": 34,
+					"vid": "0"
+				},
+				{
+					"cidref": 22,
+					"vid": "1",
+					"location": {
+						"position": [
+							0.0315,
+							0.19,
+							-0.1000000000000001
+						],
+						"orientation": {
+							"matrix": [
+								1,
+								0,
+								0,
+								0,
+								-1,
+								0,
+								0,
+								0,
+								-1
+							]
+						}
+					}
+				}
+			],
+			"properties": {
+				"name": "4807106.asm",
+				"feature_id": "76653",
+				"source_file_name": "4807106.asm.3",
+				"cat_id_chg_lvl": "02",
+				"f_cat_id_no": "480-7106",
+				"dsgn_ctl_cd": "w997",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"weight": "0.001",
+				"itm_nm1": "box gp",
+				"itm_nm2": "",
+				"partname": "box gp",
+				"ref_cat_id_no": "none",
+				"part_type": "gp",
+				"weight_type": "3",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"model_check": "tue mar 17 2015 09:24:32 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "mc_regen",
+				"partname_pdm": "box gp",
+				"spec_g_1": "1e2722a",
+				"spec_g_2": "1e0279f",
+				"spec_g_3": "1e0279b",
+				"spec_g_4": "1e0279a",
+				"spec_g_5": "1e0198w",
+				"spec_g_6": "1e0013y",
+				"spec_g_7": "1e0012a",
+				"spec_g": "7",
+				"spec_m": "0",
+				"spec_h": "0",
+				"f_cat_id_no_pdm": "480-7106",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "box gp",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 39,
+			"children": [
+				{
+					"cidref": 35,
+					"vid": "0"
+				}
+			],
+			"properties": {
+				"name": "xq30t4f_enclosure_gp.asm",
+				"feature_id": "53",
+				"source_file_name": "xq30t4f_enclosure_gp.asm.1",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "xq30t4f_enclosure_gp",
+				"dsgn_ctl_cd": "w997",
+				"nocheck": "nocheck",
+				"data_type": "prt",
+				"cat_id_cls_cd": "?",
+				"weight": "111.6",
+				"itm_nm1": "xq30t4f_enclosure_gp",
+				"itm_nm2": "",
+				"partname": "xq30t4f_enclosure_gp",
+				"ref_cat_id_no": "none",
+				"part_type": "pt",
+				"weight_type": "3",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e0013y",
+				"spec_g_2": "1e0012a",
+				"spec_g_3": "1e2722c",
+				"spec_g_4": "1e0198w",
+				"spec_g": "4",
+				"spec_m": "0",
+				"spec_h": "0",
+				"partname_pdm": "xq30t4f_enclosure_gp",
+				"f_cat_id_no_pdm": "xq30t4f_enclosure_gp",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "xq30t4f_enclosure_gp",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 40,
+			"children": [
+				{
+					"cidref": 36,
+					"vid": "0"
+				}
+			],
+			"properties": {
+				"name": "xq30t4f_lifting_gp.asm",
+				"feature_id": "57",
+				"source_file_name": "xq30t4f_lifting_gp.asm.1",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "xq30t4f_lifting_gp",
+				"dsgn_ctl_cd": "w997",
+				"nocheck": "nocheck",
+				"data_type": "prt",
+				"cat_id_cls_cd": "?",
+				"weight": "111.6",
+				"itm_nm1": "xq30t4f_lifting_gp",
+				"itm_nm2": "",
+				"partname": "xq30t4f_lifting_gp",
+				"ref_cat_id_no": "none",
+				"part_type": "pt",
+				"weight_type": "3",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e0013y",
+				"spec_g_2": "1e0012a",
+				"spec_g_3": "1e2722c",
+				"spec_g_4": "1e0198w",
+				"spec_g": "4",
+				"spec_m": "0",
+				"spec_h": "0",
+				"partname_pdm": "xq30t4f_lifting_gp",
+				"f_cat_id_no_pdm": "xq30t4f_lifting_gp",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "xq30t4f_lifting_gp",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 41,
+			"children": [
+				{
+					"cidref": 37,
+					"vid": "0",
+					"location": {
+						"position": [
+							1.163,
+							1.392,
+							-0.1155
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								1,
+								0,
+								1,
+								0,
+								-1,
+								0,
+								0
+							]
+						}
+					}
+				}
+			],
+			"properties": {
+				"name": "4783072.asm",
+				"feature_id": "50",
+				"source_file_name": "4783072.asm.1",
+				"cat_id_chg_lvl": "00",
+				"f_cat_id_no": "478-3072",
+				"dsgn_ctl_cd": "w997",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"weight": "0.000",
+				"itm_nm1": "cleaner gp-air (a)",
+				"itm_nm2": "(xq30t4f)",
+				"partname": "cleaner gp-air-a",
+				"ref_cat_id_no": "none",
+				"part_type": "gp",
+				"weight_type": "3",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"spec_g_1": "1e3029 a",
+				"spec_g_2": "1e2722a",
+				"spec_g_3": "1e0279p",
+				"spec_g_4": "1e0279b",
+				"spec_g_5": "1e0198w",
+				"spec_g_6": "1e0013y",
+				"spec_g_7": "1e0012a",
+				"spec_g": "7",
+				"spec_m": "0",
+				"spec_h": "0",
+				"partname_pdm": "cleaner gp-air-a",
+				"model_check": "fri jan 23 2015 12:42:39 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"f_cat_id_no_pdm": "478-3072",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "cleaner gp-air (a)",
+				"itm_nm2_pdm": "(xq30t4f)",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 42,
+			"children": [
+				{
+					"cidref": 38,
+					"vid": "0",
+					"location": {
+						"position": [
+							0.001500000000000057,
+							0.9737,
+							-0.193
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								0,
+								-1,
+								0,
+								-1,
+								0,
+								-1,
+								0,
+								0
+							]
+						}
+					}
+				}
+			],
+			"properties": {
+				"name": "4775077.asm",
+				"feature_id": "50",
+				"source_file_name": "4775077.asm.1",
+				"cat_id_chg_lvl": "03",
+				"f_cat_id_no": "477-5077",
+				"dsgn_ctl_cd": "w997",
+				"model_check": "tue aug 25 2015 18:37:23 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "batch",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"itm_nm1": "panel gp-electronic",
+				"itm_nm2": "",
+				"partname": "panel gp-elek",
+				"ref_cat_id_no": "none",
+				"part_type": "gp",
+				"weight_type": "3",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"weight": "0.001",
+				"spec_g_1": "1e2722a",
+				"spec_g_2": "1e0279f",
+				"spec_g_3": "1e0279b",
+				"spec_g_4": "1e0198w",
+				"spec_g_5": "1e0013y",
+				"spec_g_6": "1e0012a",
+				"spec_g": "6",
+				"spec_m": "0",
+				"spec_h": "0",
+				"sdp_type": "electric_line",
+				"mc_intf": "05/27/2015 147",
+				"partname_pdm": "panel gp-elek",
+				"f_cat_id_no_pdm": "477-5077",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "panel gp-electronic",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 43,
+			"children": [
+				{
+					"cidref": 41,
+					"vid": "0"
+				}
+			],
+			"properties": {
+				"name": "xq30t4f_cleaner_gp_air.asm",
+				"feature_id": "62",
+				"source_file_name": "xq30t4f_cleaner_gp_air.asm.1",
+				"partname_pdm": "xq30t4f_cleaner_gp_air",
+				"partname": "xq30t4f_cleaner_gp_air",
+				"itm_nm1": "xq30t4f_cleaner_gp_air",
+				"f_cat_id_no": "xq30t4f_cleaner_gp_air",
+				"v_pri": "x",
+				"dc_pr": "x",
+				"dsgn_ctl_cd": "w997",
+				"part_type": "pt",
+				"data_type": "prt",
+				"ref_cat_id_no": "none",
+				"nocheck": "nocheck",
+				"cat_security": "caterpillar: confidential yellow",
+				"item_um": "",
+				"cat_id_cls_cd": "?",
+				"spec_g": "4",
+				"weight_type": "3",
+				"spec_g_3": "1e2722c",
+				"spec_g_4": "1e0198w",
+				"spec_g_1": "1e0013y",
+				"spec_g_2": "1e0012a",
+				"weight": "111.6",
+				"vers_typ": "1",
+				"dwg_cls": "1",
+				"cat_id_chg_lvl": "00",
+				"spec_m": "0",
+				"spec_h": "0",
+				"cat_id_vers": "-",
+				"dwg_cls_txt": "",
+				"v_sec": "",
+				"itm_nm2": "",
+				"f_cat_id_no_pdm": "xq30t4f_cleaner_gp_air",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "xq30t4f_cleaner_gp_air",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 44,
+			"children": [
+				{
+					"cidref": 42,
+					"vid": "0",
+					"location": {
+						"position": [
+							1.822,
+							0.308,
+							0
+						],
+						"orientation": {
+							"matrix": [
+								-1,
+								1.2246469e-16,
+								0,
+								1.2246469e-16,
+								1,
+								1.2246469e-16,
+								0,
+								1.2246469e-16,
+								-1
+							]
+						}
+					}
+				}
+			],
+			"properties": {
+				"name": "xq30t4f_panel_gp_elek.asm",
+				"feature_id": "69",
+				"source_file_name": "xq30t4f_panel_gp_elek.asm.2",
+				"partname_pdm": "panel gp",
+				"partname": "panel gp",
+				"itm_nm1": "xq30t4f_panel gp_elek",
+				"f_cat_id_no": "xq30t4f_panel gp_elek",
+				"v_pri": "x",
+				"dc_pr": "x",
+				"dsgn_ctl_cd": "w997",
+				"part_type": "pt",
+				"data_type": "prt",
+				"ref_cat_id_no": "none",
+				"nocheck": "",
+				"cat_security": "caterpillar: confidential yellow",
+				"item_um": "",
+				"cat_id_cls_cd": "?",
+				"spec_g": "4",
+				"weight_type": "3",
+				"spec_g_3": "1e2722c",
+				"spec_g_4": "1e0198w",
+				"spec_g_1": "1e0013y",
+				"spec_g_2": "1e0012a",
+				"weight": "111.6",
+				"vers_typ": "1",
+				"dwg_cls": "1",
+				"cat_id_chg_lvl": "00",
+				"spec_m": "0",
+				"spec_h": "0",
+				"cat_id_vers": "-",
+				"dwg_cls_txt": "",
+				"v_sec": "",
+				"itm_nm2": "",
+				"model_check": "mon jun 15 2015 14:07:54 gmt+0530",
+				"mc_errors": "2",
+				"mc_mode": "batch",
+				"f_cat_id_no_pdm": "xq30t4f_panel gp_elek",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "xq30t4f_panel gp_elek",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1"
+			}
+		},
+		{
+			"cid": 45,
+			"children": [
+				{
+					"cidref": 0,
+					"vid": "0"
+				},
+				{
+					"cidref": 39,
+					"vid": "1"
+				},
+				{
+					"cidref": 40,
+					"vid": "2"
+				},
+				{
+					"cidref": 43,
+					"vid": "3"
+				},
+				{
+					"cidref": 44,
+					"vid": "4"
+				},
+				{
+					"cidref": 23,
+					"vid": "5",
+					"location": {
+						"position": [
+							1.8084,
+							1.3058,
+							-0.5025000000000001
+						],
+						"orientation": {
+							"matrix": [
+								1,
+								0,
+								0,
+								0,
+								-6.1232343e-17,
+								-1,
+								0,
+								1,
+								-6.1232343e-17
+							]
+						}
+					}
+				},
+				{
+					"cidref": 24,
+					"vid": "6",
+					"location": {
+						"position": [
+							0.5834000000000001,
+							1.3058,
+							0.5025000000000001
+						],
+						"orientation": {
+							"matrix": [
+								0.99619472,
+								0,
+								-0.087155744,
+								-0.087155744,
+								-6.1232343e-17,
+								-0.99619472,
+								0,
+								1,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 25,
+					"vid": "7",
+					"location": {
+						"position": [
+							1.8084,
+							1.3058,
+							0.5025000000000001
+						],
+						"orientation": {
+							"matrix": [
+								-0.99619472,
+								0,
+								-0.087155744,
+								-0.087155744,
+								6.1232343e-17,
+								0.99619472,
+								0,
+								1,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 26,
+					"vid": "8",
+					"location": {
+						"position": [
+							0.5834000000000001,
+							1.3058,
+							-0.5025
+						],
+						"orientation": {
+							"matrix": [
+								-1,
+								0,
+								0,
+								0,
+								6.1232343e-17,
+								1,
+								0,
+								1,
+								-6.1232343e-17
+							]
+						}
+					}
+				}
+			],
+			"properties": {
+				"name": "xq35"
+			}
+		},
+		{
+			"cid": 46,
+			"children": [
+				{
+					"cidref": 45,
+					"vid": "0"
+				}
+			],
+			"properties": {
+				"name": "illustration",
+				"illustration_source_language": "en",
+				"ill_source_language_publish_name": "english",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 4.0 - f000 (14.0.0.25)",
+				"adapter_platform": "i486_nt",
+				"source_file_name": "xq35.pvs"
+			}
+		}
+	],
+	"idmap": {
+		"/": {
+			"cid": 46
+		},
+		"/0": {
+			"cid": 45,
+			"par": 46
+		},
+		"/0/0": {
+			"cid": 0,
+			"par": 45
+		},
+		"/0/1": {
+			"cid": 39,
+			"par": 45
+		},
+		"/0/1/0": {
+			"cid": 35,
+			"par": 39
+		},
+		"/0/1/0/0": {
+			"cid": 27,
+			"par": 35
+		},
+		"/0/1/0/0/0": {
+			"cid": 1,
+			"par": 27
+		},
+		"/0/1/0/0/1": {
+			"cid": 2,
+			"par": 27
+		},
+		"/0/2": {
+			"cid": 40,
+			"par": 45
+		},
+		"/0/2/0": {
+			"cid": 36,
+			"par": 40
+		},
+		"/0/2/0/0": {
+			"cid": 28,
+			"par": 36
+		},
+		"/0/2/0/0/0": {
+			"cid": 3,
+			"par": 28
+		},
+		"/0/3": {
+			"cid": 43,
+			"par": 45
+		},
+		"/0/3/0": {
+			"cid": 41,
+			"par": 43
+		},
+		"/0/3/0/0": {
+			"cid": 37,
+			"par": 41
+		},
+		"/0/3/0/0/0": {
+			"cid": 29,
+			"par": 37
+		},
+		"/0/3/0/0/0/0": {
+			"cid": 4,
+			"par": 29
+		},
+		"/0/3/0/0/0/1": {
+			"cid": 5,
+			"par": 29
+		},
+		"/0/3/0/0/1": {
+			"cid": 6,
+			"par": 37
+		},
+		"/0/3/0/0/2": {
+			"cid": 7,
+			"par": 37
+		},
+		"/0/3/0/0/3": {
+			"cid": 8,
+			"par": 37
+		},
+		"/0/3/0/0/4": {
+			"cid": 9,
+			"par": 37
+		},
+		"/0/3/0/0/5": {
+			"cid": 30,
+			"par": 37
+		},
+		"/0/3/0/0/5/0": {
+			"cid": 10,
+			"par": 30
+		},
+		"/0/3/0/0/5/1": {
+			"cid": 11,
+			"par": 30
+		},
+		"/0/3/0/0/5/2": {
+			"cid": 12,
+			"par": 30
+		},
+		"/0/3/0/0/6": {
+			"cid": 31,
+			"par": 37
+		},
+		"/0/3/0/0/6/0": {
+			"cid": 13,
+			"par": 31
+		},
+		"/0/3/0/0/6/1": {
+			"cid": 14,
+			"par": 31
+		},
+		"/0/3/0/0/6/2": {
+			"cid": 15,
+			"par": 31
+		},
+		"/0/3/0/0/7": {
+			"cid": 32,
+			"par": 37
+		},
+		"/0/3/0/0/7/0": {
+			"cid": 16,
+			"par": 32
+		},
+		"/0/3/0/0/7/1": {
+			"cid": 17,
+			"par": 32
+		},
+		"/0/3/0/0/7/2": {
+			"cid": 18,
+			"par": 32
+		},
+		"/0/3/0/0/8": {
+			"cid": 33,
+			"par": 37
+		},
+		"/0/3/0/0/8/0": {
+			"cid": 19,
+			"par": 33
+		},
+		"/0/3/0/0/8/1": {
+			"cid": 20,
+			"par": 33
+		},
+		"/0/4": {
+			"cid": 44,
+			"par": 45
+		},
+		"/0/4/0": {
+			"cid": 42,
+			"par": 44
+		},
+		"/0/4/0/0": {
+			"cid": 38,
+			"par": 42
+		},
+		"/0/4/0/0/0": {
+			"cid": 34,
+			"par": 38
+		},
+		"/0/4/0/0/0/0": {
+			"cid": 21,
+			"par": 34
+		},
+		"/0/4/0/0/1": {
+			"cid": 22,
+			"par": 38
+		},
+		"/0/5": {
+			"cid": 23,
+			"par": 45
+		},
+		"/0/6": {
+			"cid": 24,
+			"par": 45
+		},
+		"/0/7": {
+			"cid": 25,
+			"par": 45
+		},
+		"/0/8": {
+			"cid": 26,
+			"par": 45
+		}
+	}
+}

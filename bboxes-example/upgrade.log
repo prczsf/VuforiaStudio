@@ -1,0 +1,75 @@
+[2019-10-10T12:18:58.799Z] debug: [twx-studio:upgrade:bboxes-example] Begin upgrade of project
+[2019-10-10T12:18:58.800Z] info: [twx-studio:upgrade:bboxes-example] Upgrading project
+[2019-10-10T12:18:58.847Z] debug: [twx-studio:upgrade:bboxes-example] Contents of view before upgrading
+[2019-10-10T12:18:58.854Z] debug: [twx-studio:upgrade:bboxes-example] Cached device dimensions are obsolete and will be deleted:
+[2019-10-10T12:18:58.861Z] debug: [twx-studio:upgrade:bboxes-example] Setting enablescalegesture to true for 
+[2019-10-10T12:18:58.863Z] debug: [twx-studio:upgrade:bboxes-example] Make sure there are not any stale files lying around
+[2019-10-10T12:18:58.864Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-10-10T12:18:58.885Z] debug: [twx-studio:upgrade:bboxes-example] Create .gitignore for project dir
+[2019-10-10T12:18:58.885Z] debug: [twx-studio:upgrade:bboxes-example] Copying /src/**/* to project, overwrite=false
+[2019-10-10T12:18:58.888Z] debug: [twx-studio:upgrade:bboxes-example] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-10-10T12:18:58.973Z] debug: [twx-studio:upgrade:bboxes-example] Copy of project files complete
+[2019-10-10T12:18:58.974Z] debug: [twx-studio:upgrade:bboxes-example] Updating version to 
+[2019-10-10T12:18:58.974Z] debug: [twx-studio:upgrade:bboxes-example] onupgrade sucessful, now build the project
+[2019-10-10T12:18:58.974Z] debug: [twx-studio:upgrade:bboxes-example] BEGIN buildApp
+[2019-10-10T12:18:58.974Z] debug: [twx-studio:upgrade:bboxes-example] write settings
+[2019-10-10T12:18:58.975Z] debug: [twx-studio:upgrade:bboxes-example] copy runtime extensions
+[2019-10-10T12:18:59.221Z] debug: [twx-studio:upgrade:bboxes-example] packageThemeSet
+[2019-10-10T12:19:00.257Z] debug: [twx-studio:upgrade:bboxes-example] onBuild
+[2019-10-10T12:19:00.257Z] info: [twx-studio:upgrade:bboxes-example] Building ves-ar-extension app:
+[2019-10-10T12:19:00.274Z] debug: [twx-studio:upgrade:bboxes-example] pathDir
+[2019-10-10T12:19:00.275Z] debug: [twx-studio:upgrade:bboxes-example] scaffoldDir
+[2019-10-10T12:19:00.275Z] debug: [twx-studio:upgrade:bboxes-example] copySrc
+[2019-10-10T12:19:00.507Z] debug: [twx-studio:upgrade:bboxes-example] buildApp
+[2019-10-10T12:19:00.732Z] debug: [twx-studio:upgrade:bboxes-example] END buildApp
+[2019-10-10T12:19:00.733Z] debug: [twx-studio:upgrade:bboxes-example] Build succeeded.
+[2019-10-23T11:44:19.428Z] debug: [twx-studio:upgrade:bboxes-example] Begin upgrade of project
+[2019-10-23T11:44:19.430Z] info: [twx-studio:upgrade:bboxes-example] Upgrading project
+[2019-10-23T11:44:19.439Z] debug: [twx-studio:upgrade:bboxes-example] Make sure there are not any stale files lying around
+[2019-10-23T11:44:19.439Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-10-23T11:44:19.449Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-10-23T11:44:19.582Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-10-23T11:44:19.609Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-10-23T11:44:19.633Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-10-23T11:44:19.639Z] debug: [twx-studio:upgrade:bboxes-example] Copying /src/**/* to project, overwrite=false
+[2019-10-23T11:44:19.641Z] debug: [twx-studio:upgrade:bboxes-example] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-10-23T11:44:19.756Z] debug: [twx-studio:upgrade:bboxes-example] Copy of project files complete
+[2019-10-23T11:44:19.756Z] debug: [twx-studio:upgrade:bboxes-example] Updating version to 
+[2019-10-23T11:44:19.756Z] debug: [twx-studio:upgrade:bboxes-example] onupgrade sucessful, now build the project
+[2019-10-23T11:44:19.756Z] debug: [twx-studio:upgrade:bboxes-example] BEGIN buildApp
+[2019-10-23T11:44:19.756Z] debug: [twx-studio:upgrade:bboxes-example] write settings
+[2019-10-23T11:44:19.757Z] debug: [twx-studio:upgrade:bboxes-example] copy runtime extensions
+[2019-10-23T11:44:19.985Z] debug: [twx-studio:upgrade:bboxes-example] packageThemeSet
+[2019-10-23T11:44:21.168Z] debug: [twx-studio:upgrade:bboxes-example] onBuild
+[2019-10-23T11:44:21.168Z] info: [twx-studio:upgrade:bboxes-example] Building ves-ar-extension app:
+[2019-10-23T11:44:21.193Z] debug: [twx-studio:upgrade:bboxes-example] pathDir
+[2019-10-23T11:44:21.193Z] debug: [twx-studio:upgrade:bboxes-example] scaffoldDir
+[2019-10-23T11:44:21.193Z] debug: [twx-studio:upgrade:bboxes-example] copySrc
+[2019-10-23T11:44:21.579Z] debug: [twx-studio:upgrade:bboxes-example] buildApp
+[2019-10-23T11:44:21.892Z] debug: [twx-studio:upgrade:bboxes-example] END buildApp
+[2019-10-23T11:44:21.892Z] debug: [twx-studio:upgrade:bboxes-example] Build succeeded.
+[2019-12-09T11:22:42.038Z] debug: [twx-studio:upgrade:bboxes-example] Begin upgrade of project
+[2019-12-09T11:22:42.040Z] info: [twx-studio:upgrade:bboxes-example] Upgrading project
+[2019-12-09T11:22:42.093Z] debug: [twx-studio:upgrade:bboxes-example] Make sure there are not any stale files lying around
+[2019-12-09T11:22:42.094Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-12-09T11:22:42.099Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-12-09T11:22:42.185Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-12-09T11:22:42.204Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-12-09T11:22:42.221Z] debug: [twx-studio:upgrade:bboxes-example] Removing 
+[2019-12-09T11:22:42.226Z] debug: [twx-studio:upgrade:bboxes-example] Copying /src/**/* to project, overwrite=false
+[2019-12-09T11:22:42.229Z] debug: [twx-studio:upgrade:bboxes-example] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-12-09T11:22:42.311Z] debug: [twx-studio:upgrade:bboxes-example] Copy of project files complete
+[2019-12-09T11:22:42.311Z] debug: [twx-studio:upgrade:bboxes-example] Updating version to 
+[2019-12-09T11:22:42.312Z] debug: [twx-studio:upgrade:bboxes-example] onupgrade sucessful, now build the project
+[2019-12-09T11:22:42.312Z] debug: [twx-studio:upgrade:bboxes-example] BEGIN buildApp
+[2019-12-09T11:22:42.312Z] debug: [twx-studio:upgrade:bboxes-example] write settings
+[2019-12-09T11:22:42.313Z] debug: [twx-studio:upgrade:bboxes-example] copy runtime extensions
+[2019-12-09T11:22:42.816Z] debug: [twx-studio:upgrade:bboxes-example] packageThemeSet
+[2019-12-09T11:22:43.860Z] debug: [twx-studio:upgrade:bboxes-example] onBuild
+[2019-12-09T11:22:43.861Z] info: [twx-studio:upgrade:bboxes-example] Building ves-ar-extension app:
+[2019-12-09T11:22:44.034Z] debug: [twx-studio:upgrade:bboxes-example] pathDir
+[2019-12-09T11:22:44.034Z] debug: [twx-studio:upgrade:bboxes-example] scaffoldDir
+[2019-12-09T11:22:44.034Z] debug: [twx-studio:upgrade:bboxes-example] copySrc
+[2019-12-09T11:22:44.377Z] debug: [twx-studio:upgrade:bboxes-example] buildApp
+[2019-12-09T11:22:44.758Z] debug: [twx-studio:upgrade:bboxes-example] END buildApp
+[2019-12-09T11:22:44.759Z] debug: [twx-studio:upgrade:bboxes-example] Build succeeded.

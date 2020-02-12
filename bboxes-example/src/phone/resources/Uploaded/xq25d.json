@@ -1,0 +1,1004 @@
+{
+	"components": [
+		{
+			"cid": 0,
+			"shape": "XQ35_Diagnostic_0_4589304_INSTL_ONLY_N4SM00_PRT_174.json",
+			"bbox": {
+				"min": [
+					0.071452439,
+					-0.063359387,
+					-0.19373067
+				],
+				"max": [
+					0.084452443,
+					0.32801995,
+					0.063306876
+				]
+			},
+			"properties": {
+				"name": "4589304_instl_only_n4sm00.prt",
+				"feature_id": "127",
+				"source_file_name": "4589304_instl_only_n4sm00.prt.1",
+				"dsgn_ctl_cd": "w407",
+				"ptc_material_name": "1e0001",
+				"data_type": "prt",
+				"f_cat_id_no": "458-9304",
+				"cat_id_cls_cd": "t",
+				"weight": "0.000",
+				"cat_id_chg_lvl": "00",
+				"itm_nm1": "alternator gp",
+				"itm_nm2": "",
+				"partname": "alternator gp",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": "",
+				"part_type": "gp",
+				"weight_type": "4",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "6",
+				"dc_pr": "",
+				"dwg_cls_txt": "records",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential green",
+				"spec_g_1": "1e2966b",
+				"spec_g_2": "1e2722e",
+				"spec_g_3": "1e0198w",
+				"spec_g_4": "1e0013g",
+				"spec_g_5": "1e0012a",
+				"spec_g": "5",
+				"spec_m_1": "1e0001",
+				"spec_m": "1",
+				"spec_h": "0",
+				"model_check": "fri mar 27 2015 21:52:27 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"nocheck": "nocheck",
+				"partname_pdm": "alternator gp",
+				"f_cat_id_no_pdm": "458-9304",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w407",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "alternator gp",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6"
+			}
+		},
+		{
+			"cid": 1,
+			"shape": "XQ35_Diagnostic_0_4E0041_PRT_924.json",
+			"bbox": {
+				"min": [
+					-0.015875001,
+					-0.01833087,
+					-0.001
+				],
+				"max": [
+					0.015875001,
+					0.01833087,
+					0.024
+				]
+			},
+			"properties": {
+				"name": "4e0041.prt",
+				"feature_id": "137",
+				"source_file_name": "4e0041.prt.1",
+				"data_type": "prt",
+				"cat_id_no": "",
+				"f_cat_id_no": "4e-0041",
+				"cat_id_cls_cd": "a",
+				"itm_nm1": "gage",
+				"itm_nm2": "",
+				"status": "preferred",
+				"thd_size_pitch": "1 1/16-12",
+				"partname": "gage",
+				"part_type": "pt",
+				"weight": "0.096",
+				"dsgn_ctl_cd": "u820",
+				"cat_id_vers": "-",
+				"cat_id_chg_lvl": "04",
+				"spec_g": "1",
+				"spec_g_1": "1e2722",
+				"spec_m": "1",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"dc_pr": "x",
+				"vers_typ": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"spec_m_1": "appdsup a",
+				"pdmrev": "1.5++",
+				"pdmdb": "dekalb",
+				"pdmrl": "wip",
+				"weight_type": "2",
+				"item_um": "pc",
+				"model_check": "wed feb 20 2013 14:34:31 gmt-0700",
+				"mc_errors": "0",
+				"mc_config": "check/corpstd_lgck.mch, start/bustd_lgst.mcs, start/corpstd_lgst.mcs, start/lay.",
+				"mc_mode": "mc_regen",
+				"f_cat_id_no_pdm": "4e-0041",
+				"partname_pdm": "gage",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "u820",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "gage",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1",
+				"set_type": "service repair"
+			}
+		},
+		{
+			"cid": 2,
+			"shape": "XQ35_Diagnostic_0_3984976_INSTL_ONLY_N4SM00_PRT_180.json",
+			"bbox": {
+				"min": [
+					-0.41150001,
+					-0.25400007,
+					-0.114
+				],
+				"max": [
+					-0.0024999999,
+					0.015924029,
+					0.22777671
+				]
+			},
+			"properties": {
+				"name": "3984976_instl_only_n4sm00.prt",
+				"feature_id": "123",
+				"source_file_name": "3984976_instl_only_n4sm00.prt.1",
+				"ptc_material_name": "1e0001",
+				"data_type": "prt",
+				"f_cat_id_no": "398-4976",
+				"cat_id_cls_cd": "t",
+				"weight": "0.000",
+				"cat_id_chg_lvl": "03",
+				"dsgn_ctl_cd": "w407",
+				"itm_nm1": "pan gp-oil",
+				"itm_nm2": "",
+				"partname": "pan gp-oil",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": "",
+				"part_type": "gp",
+				"weight_type": "4",
+				"v_pri": "",
+				"v_sec": "",
+				"vers_typ": "",
+				"item_um": "pc",
+				"dwg_cls": "6",
+				"dc_pr": "",
+				"dwg_cls_txt": "records",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential green",
+				"spec_g_1": "1e2966b",
+				"spec_g_2": "1e2722e",
+				"spec_g_3": "1e0198w",
+				"spec_g_4": "1e0013g",
+				"spec_g_5": "1e0012a",
+				"spec_g": "5",
+				"spec_m_1": "1e0001",
+				"spec_m": "1",
+				"spec_h": "0",
+				"model_check": "fri mar 27 2015 21:59:33 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"nocheck": "nocheck",
+				"mfg_wp_material": "1e0001",
+				"partname_pdm": "pan gp-oil",
+				"f_cat_id_no_pdm": "398-4976",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w407",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "pan gp-oil",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6"
+			}
+		},
+		{
+			"cid": 3,
+			"shape": "XQ35_Diagnostic_0_radiator.json",
+			"bbox": {
+				"min": [
+					0.30782497,
+					0.56150001,
+					-0.38243002
+				],
+				"max": [
+					0.47399998,
+					1.2380251,
+					0.38517499
+				]
+			},
+			"properties": {
+				"name": "xq30t4f_top_level.asm",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 3.0 - m020 (13.2.20.23)",
+				"adapter_platform": "x86e_win64",
+				"source_file_name": "radiator.pvs"
+			}
+		},
+		{
+			"cid": 4,
+			"shape": "XQ35_Diagnostic_0_generator.json",
+			"bbox": {
+				"min": [
+					1.200743,
+					0.39669999,
+					-0.21079999
+				],
+				"max": [
+					1.7797,
+					1.0548,
+					0.20969999
+				]
+			},
+			"properties": {
+				"name": "xq30t4f_top_level.asm",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 3.0 - m020 (13.2.20.23)",
+				"adapter_platform": "x86e_win64",
+				"source_file_name": "generator.pvs"
+			}
+		},
+		{
+			"cid": 5,
+			"shape": "XQ35_Diagnostic_0_3985867_INSTL_ONLY_N4SM00_PRT_176.json",
+			"bbox": {
+				"min": [
+					-0.1410899,
+					0.40235001,
+					-0.0010005814
+				],
+				"max": [
+					-0.085910104,
+					0.42934999,
+					0.059000023
+				]
+			},
+			"properties": {
+				"name": "3985867_instl_only_n4sm00.prt",
+				"feature_id": "101",
+				"source_file_name": "3985867_instl_only_n4sm00.prt.1",
+				"ptc_material_name": "1e0001",
+				"data_type": "prt",
+				"f_cat_id_no": "398-5867",
+				"cat_id_cls_cd": "t",
+				"weight": "0.000",
+				"cat_id_chg_lvl": "01",
+				"dsgn_ctl_cd": "w407",
+				"itm_nm1": "filler gp-oil",
+				"itm_nm2": "",
+				"partname": "filler gp-oil",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": "",
+				"part_type": "gp",
+				"weight_type": "4",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "6",
+				"dc_pr": "",
+				"dwg_cls_txt": "records",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential green",
+				"spec_g_1": "1e2966b",
+				"spec_g_2": "1e2722e",
+				"spec_g_3": "1e0198w",
+				"spec_g_4": "1e0013g",
+				"spec_g_5": "1e0012a",
+				"spec_g": "5",
+				"spec_m_1": "1e0001",
+				"spec_m": "1",
+				"spec_h": "0",
+				"model_check": "thu mar 26 2015 15:15:47 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"nocheck": "nocheck",
+				"partname_pdm": "filler gp-oil",
+				"f_cat_id_no_pdm": "398-5867",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w407",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "filler gp-oil",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6"
+			}
+		},
+		{
+			"cid": 6,
+			"shape": "XQ35_Diagnostic_0_3988178_INSTL_ONLY_N4SM00_PRT_175.json",
+			"bbox": {
+				"min": [
+					-0.31575,
+					-0.02375,
+					0.16261999
+				],
+				"max": [
+					-0.23825,
+					0.053750001,
+					0.24762
+				]
+			},
+			"properties": {
+				"name": "3988178_instl_only_n4sm00.prt",
+				"feature_id": "100",
+				"source_file_name": "3988178_instl_only_n4sm00.prt.1",
+				"ptc_material_name": "1e0001",
+				"data_type": "prt",
+				"f_cat_id_no": "398-8178",
+				"cat_id_cls_cd": "t",
+				"weight": "0.000",
+				"cat_id_chg_lvl": "00",
+				"dsgn_ctl_cd": "w407",
+				"itm_nm1": "filter gp-eng o",
+				"itm_nm2": "",
+				"partname": "filter gp-eng o",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": "",
+				"part_type": "gp",
+				"weight_type": "4",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "6",
+				"dc_pr": "",
+				"dwg_cls_txt": "records",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential green",
+				"spec_g_1": "1e2966b",
+				"spec_g_2": "1e2722e",
+				"spec_g_3": "1e0198w",
+				"spec_g_4": "1e0013g",
+				"spec_g_5": "1e0012a",
+				"spec_g": "5",
+				"spec_m_1": "1e0001",
+				"spec_m": "1",
+				"spec_h": "0",
+				"model_check": "thu mar 26 2015 14:48:45 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"nocheck": "nocheck",
+				"partname_pdm": "filter gp-eng o",
+				"f_cat_id_no_pdm": "398-8178",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w407",
+				"part_type_pdm": "gp",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "filter gp-eng o",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "6"
+			}
+		},
+		{
+			"cid": 7,
+			"shape": "XQ35_Diagnostic_0_0361865_CP23_PRT_919.json",
+			"bbox": {
+				"min": [
+					-0.029464001,
+					-0.0066251927,
+					-0.029464001
+				],
+				"max": [
+					0.029464001,
+					0.0051350072,
+					0.029464001
+				]
+			},
+			"properties": {
+				"name": "0361865_cp23.prt",
+				"feature_id": "1463",
+				"source_file_name": "0361865_cp23.prt.1",
+				"data_type": "prt",
+				"f_cat_id_no": "",
+				"cat_id_cls_cd": "?",
+				"weight": "3293.",
+				"dsgn_ctl_cd": "w351",
+				"itm_nm1": "cap-23",
+				"itm_nm2": "",
+				"partname": "cap-23",
+				"part_type": "pt",
+				"cat_id_vers": "-",
+				"cat_id_chg_lvl": "07",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"dc_pr": "x",
+				"vers_typ": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"item_um": "pc",
+				"weight_type": "1",
+				"ptc_material_name": "1e1541a",
+				"model_check": "wed may 21 2014 15:17:50 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"f_cat_id_no_pdm": "",
+				"partname_pdm": "cap-23",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w351",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "cap-23",
+				"itm_nm2_pdm": "",
+				"dwg_cls_pdm": "1",
+				"material": "1e1541a",
+				"spec_m": "1",
+				"spec_m_1": "1e1541a"
+			}
+		},
+		{
+			"cid": 8,
+			"shape": "XQ35_Diagnostic_0_voltage_selector.json",
+			"bbox": {
+				"min": [
+					1.5167513,
+					0.83430004,
+					0.20647827
+				],
+				"max": [
+					1.6517544,
+					0.97680002,
+					0.28847682
+				]
+			},
+			"properties": {
+				"name": "xq30t4f_top_level.asm",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 3.0 - m020 (13.2.20.23)",
+				"adapter_platform": "x86e_win64",
+				"source_file_name": "voltage_selector.pvs"
+			}
+		},
+		{
+			"cid": 9,
+			"shape": "XQ35_Diagnostic_0_engine.json",
+			"bbox": {
+				"min": [
+					0.60600001,
+					0.42570001,
+					-0.25947595
+				],
+				"max": [
+					1.2337017,
+					1.0956116,
+					0.29043522
+				]
+			},
+			"properties": {
+				"name": "xq30t4f_top_level.asm",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 3.0 - m020 (13.2.20.23)",
+				"adapter_platform": "x86e_win64",
+				"source_file_name": "engine.pvs"
+			}
+		},
+		{
+			"cid": 10,
+			"shape": "XQ35_Diagnostic_0_2306368_LSRE01_PRT_248.json",
+			"bbox": {
+				"min": [
+					-0.1516888,
+					-1.8728942e-14,
+					-0.095402397
+				],
+				"max": [
+					0.1516888,
+					0.33441046,
+					0.095402397
+				]
+			},
+			"properties": {
+				"name": "2306368_lsre01.prt",
+				"feature_id": "217",
+				"source_file_name": "2306368_lsre01.prt.1",
+				"material": "",
+				"bom_description": "",
+				"dwg_no_size": "",
+				"data_type": "prt",
+				"f_cat_id_no": "230-6368",
+				"cat_id_cls_cd": "t",
+				"itm_nm1": "battery-maintenance free",
+				"itm_nm2": "(group 65) (12 v) (wet)",
+				"cat_id_vers": "-",
+				"cat_id_chg_lvl": "02",
+				"dsgn_ctl_cd": "p462",
+				"v_pri": "x",
+				"v_sec": "",
+				"dc_pr": "x",
+				"dwg_cls": "1",
+				"dwg_cls_txt": "",
+				"vers_typ": "1",
+				"spec_g_1": "1e2722f",
+				"spec_g": "7",
+				"spec_g_2": "1e1245",
+				"cat_security": "caterpillar: confidential yellow",
+				"weight": "20.50",
+				"partname": "battery",
+				"part_type": "pt",
+				"spec_m_1": "appdpart a",
+				"spec_m": "2",
+				"spec_g_3": "1e0507h",
+				"spec_g_4": "1e0279x",
+				"spec_g_5": "1e0198f",
+				"item_um": "pc",
+				"weight_type": "1",
+				"f_cat_id_no_pdm": "230-6368",
+				"partname_pdm": "battery",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "p462",
+				"part_type_pdm": "pt",
+				"ref_cat_id_no_pdm": "",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "battery-maintenance free",
+				"itm_nm2_pdm": "(group 65) (12 v) (wet)",
+				"dwg_cls_pdm": "1",
+				"vers_typ_pdm": "1",
+				"model_check": "tue feb 03 2015 17:34:05 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"spec_g_6": "1e0198e",
+				"spec_g_7": "1e0013y",
+				"ptc_material_name": "1e1533j",
+				"spec_m_2": "1e1533j",
+				"ref_cat_id_vers": "",
+				"ref_cat_id_no": ""
+			}
+		},
+		{
+			"cid": 11,
+			"shape": "XQ35_Diagnostic_0_gas_tank.json",
+			"bbox": {
+				"min": [
+					0.31595486,
+					0.022500001,
+					-0.33669513
+				],
+				"max": [
+					1.9668452,
+					0.42675972,
+					0.33669513
+				]
+			},
+			"properties": {
+				"name": "xq30t4f_top_level.asm",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 3.0 - m020 (13.2.20.23)",
+				"adapter_platform": "x86e_win64",
+				"source_file_name": "gas_tank.pvs"
+			}
+		},
+		{
+			"cid": 12,
+			"shape": "XQ35_Diagnostic_0_4842695_PRT_226.json",
+			"bbox": {
+				"min": [
+					-0.041617554,
+					-0.015621,
+					-0.042219978
+				],
+				"max": [
+					0.041617554,
+					0.017526001,
+					0.039922621
+				]
+			},
+			"properties": {
+				"name": "4842695.prt",
+				"feature_id": "1055",
+				"source_file_name": "4842695.prt.1",
+				"cat_id_chg_lvl": "01",
+				"f_cat_id_no": "484-2695",
+				"weight": "0.000000",
+				"dsgn_ctl_cd": "w997",
+				"data_type": "prt",
+				"cat_id_cls_cd": "t",
+				"itm_nm1": "cap-tank",
+				"itm_nm2": "(xq60t4f)",
+				"partname": "cap-tank",
+				"ref_cat_id_no": "none",
+				"part_type": "pt",
+				"weight_type": "1",
+				"v_pri": "x",
+				"v_sec": "",
+				"vers_typ": "1",
+				"item_um": "pc",
+				"dwg_cls": "1",
+				"dc_pr": "x",
+				"dwg_cls_txt": "",
+				"cat_id_vers": "-",
+				"cat_security": "caterpillar: confidential yellow",
+				"model_check": "tue aug 04 2015 19:07:56 gmt+0530",
+				"mc_errors": "0",
+				"mc_mode": "interactive",
+				"ptc_material_name": "1e1088a",
+				"spec_g_1": "1e2813 b",
+				"spec_g_2": "1e2722b",
+				"spec_g_3": "1e0507d",
+				"spec_g_4": "1e0435a",
+				"spec_g_5": "1e0198r",
+				"spec_g_6": "1e0013y",
+				"spec_g_7": "1e0012a",
+				"spec_g": "7",
+				"spec_m_1": "source a",
+				"spec_m": "2",
+				"spec_h": "0",
+				"spec_m_2": "1e1088a",
+				"partname_pdm": "cap-tank",
+				"f_cat_id_no_pdm": "484-2695",
+				"cat_id_vers_pdm": "-",
+				"dsgn_ctl_cd_pdm": "w997",
+				"part_type_pdm": "pt",
+				"vers_typ_pdm": "1",
+				"ref_cat_id_no_pdm": "none",
+				"ref_cat_id_vers_pdm": "",
+				"itm_nm1_pdm": "cap-tank",
+				"itm_nm2_pdm": "(xq60t4f)",
+				"dwg_cls_pdm": "1",
+				"set_type": "service repair"
+			}
+		},
+		{
+			"cid": 13,
+			"shape": "XQ35_Diagnostic_0_air_filter.json",
+			"bbox": {
+				"min": [
+					0.98540002,
+					1.1501852,
+					-0.10354459
+				],
+				"max": [
+					1.3489183,
+					1.3844446,
+					0.1549833
+				]
+			},
+			"properties": {
+				"name": "xq30t4f_top_level.asm",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 3.0 - m020 (13.2.20.23)",
+				"adapter_platform": "x86e_win64",
+				"source_file_name": "air_filter.pvs"
+			}
+		},
+		{
+			"cid": 14,
+			"shape": "XQ35_Diagnostic_0_fuel_filter.json",
+			"bbox": {
+				"min": [
+					0.87711507,
+					0.67426002,
+					-0.25672358
+				],
+				"max": [
+					1.0322863,
+					0.91170925,
+					-0.15229993
+				]
+			},
+			"properties": {
+				"name": "xq30t4f_top_level.asm",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 3.0 - m020 (13.2.20.23)",
+				"adapter_platform": "x86e_win64",
+				"source_file_name": "fuel_filter.pvs"
+			}
+		},
+		{
+			"cid": 15,
+			"children": [
+				{
+					"cidref": 0,
+					"vid": "19",
+					"location": {
+						"position": [
+							0.7316999999999998,
+							0.6216999999999999,
+							-0.0002999999999999972
+						],
+						"orientation": {
+							"matrix": [
+								-1,
+								0,
+								0,
+								0,
+								1,
+								-6.1232343e-17,
+								0,
+								0,
+								-1
+							]
+						}
+					}
+				},
+				{
+					"cidref": 1,
+					"vid": "21",
+					"location": {
+						"position": [
+							0.456260000000025,
+							1.184829999999929,
+							0.2445249999999918
+						],
+						"orientation": {
+							"matrix": [
+								-6.1232343e-17,
+								1,
+								0,
+								6.1232343e-17,
+								0,
+								-1,
+								-1,
+								-6.1232343e-17,
+								-6.1232343e-17
+							]
+						}
+					}
+				},
+				{
+					"cidref": 2,
+					"vid": "22",
+					"location": {
+						"position": [
+							0.7316999999999998,
+							0.6216999999999999,
+							-0.0002999999999999972
+						],
+						"orientation": {
+							"matrix": [
+								-1,
+								0,
+								0,
+								0,
+								1,
+								-6.1232343e-17,
+								0,
+								0,
+								-1
+							]
+						}
+					}
+				},
+				{
+					"cidref": 3,
+					"vid": "25"
+				},
+				{
+					"cidref": 4,
+					"vid": "26"
+				},
+				{
+					"cidref": 5,
+					"vid": "32",
+					"location": {
+						"position": [
+							0.7316999999999998,
+							0.6216999999999999,
+							-0.0002999999999999972
+						],
+						"orientation": {
+							"matrix": [
+								-1,
+								0,
+								0,
+								0,
+								1,
+								-6.1232343e-17,
+								0,
+								0,
+								-1
+							]
+						}
+					}
+				},
+				{
+					"cidref": 6,
+					"vid": "33",
+					"location": {
+						"position": [
+							0.7316999999999998,
+							0.6216999999999999,
+							-0.0002999999999999972
+						],
+						"orientation": {
+							"matrix": [
+								-1,
+								0,
+								0,
+								0,
+								1,
+								-6.1232343e-17,
+								0,
+								0,
+								-1
+							]
+						}
+					}
+				},
+				{
+					"cidref": 7,
+					"vid": "34",
+					"location": {
+						"position": [
+							0.364175000000025,
+							1.239167999999943,
+							0.1320249999999916
+						],
+						"orientation": {
+							"matrix": [
+								6.1232343e-17,
+								0,
+								-1,
+								-6.1232343e-17,
+								1,
+								0,
+								1,
+								6.1232343e-17,
+								6.1232343e-17
+							]
+						}
+					}
+				},
+				{
+					"cidref": 8,
+					"vid": "36"
+				},
+				{
+					"cidref": 9,
+					"vid": "37"
+				},
+				{
+					"cidref": 10,
+					"vid": "38",
+					"location": {
+						"position": [
+							1.5539872,
+							0.358,
+							0.3384664000000001
+						]
+					}
+				},
+				{
+					"cidref": 11,
+					"vid": "39"
+				},
+				{
+					"cidref": 12,
+					"vid": "40",
+					"location": {
+						"position": [
+							1.0209,
+							0.4249282669650985,
+							-0.3001274561706533
+						],
+						"orientation": {
+							"matrix": [
+								0,
+								-0.061048541,
+								-0.99813479,
+								0,
+								0.99813479,
+								-0.061048541,
+								1,
+								0,
+								0
+							]
+						}
+					}
+				},
+				{
+					"cidref": 13,
+					"vid": "41"
+				},
+				{
+					"cidref": 14,
+					"vid": "42"
+				}
+			],
+			"properties": {
+				"name": "xq35_master"
+			}
+		},
+		{
+			"cid": 16,
+			"children": [
+				{
+					"cidref": 15,
+					"vid": "0"
+				}
+			],
+			"properties": {
+				"name": "illustration",
+				"adapter_name": "pvschange",
+				"adapter_version": "creo 4.0 - f000 (14.0.0.25)",
+				"adapter_platform": "i486_nt",
+				"source_file_name": "xq25d.pvs"
+			}
+		}
+	],
+	"idmap": {
+		"/": {
+			"cid": 16
+		},
+		"/0": {
+			"cid": 15,
+			"par": 16
+		},
+		"/0/19": {
+			"cid": 0,
+			"par": 15
+		},
+		"/0/21": {
+			"cid": 1,
+			"par": 15
+		},
+		"/0/22": {
+			"cid": 2,
+			"par": 15
+		},
+		"/0/25": {
+			"cid": 3,
+			"par": 15
+		},
+		"/0/26": {
+			"cid": 4,
+			"par": 15
+		},
+		"/0/32": {
+			"cid": 5,
+			"par": 15
+		},
+		"/0/33": {
+			"cid": 6,
+			"par": 15
+		},
+		"/0/34": {
+			"cid": 7,
+			"par": 15
+		},
+		"/0/36": {
+			"cid": 8,
+			"par": 15
+		},
+		"/0/37": {
+			"cid": 9,
+			"par": 15
+		},
+		"/0/38": {
+			"cid": 10,
+			"par": 15
+		},
+		"/0/39": {
+			"cid": 11,
+			"par": 15
+		},
+		"/0/40": {
+			"cid": 12,
+			"par": 15
+		},
+		"/0/41": {
+			"cid": 13,
+			"par": 15
+		},
+		"/0/42": {
+			"cid": 14,
+			"par": 15
+		}
+	}
+}
