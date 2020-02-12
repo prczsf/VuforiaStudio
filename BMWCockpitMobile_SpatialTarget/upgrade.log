@@ -1,0 +1,167 @@
+[2019-07-18T10:19:35.423Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Begin upgrade of project BMWCockpitMobile
+[2019-07-18T10:19:35.424Z] info: [twx-studio:upgrade:BMWCockpitMobile] Upgrading project BMWCockpitMobile C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile from 1.40.1573 to 8.4.5.4404 (1.40.1573)
+[2019-07-18T10:19:35.431Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Make sure there are not any stale files lying around
+[2019-07-18T10:19:35.433Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Create .gitignore for project dir
+[2019-07-18T10:19:35.433Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Copying /src/**/* to project, overwrite=false
+[2019-07-18T10:19:35.435Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-07-18T10:19:35.507Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Copy of project files complete
+[2019-07-18T10:19:35.507Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Updating version to  8.4.5.4404 (1.40.1573)
+[2019-07-18T10:19:35.507Z] debug: [twx-studio:upgrade:BMWCockpitMobile] onupgrade sucessful, now build the project
+[2019-07-18T10:19:35.507Z] debug: [twx-studio:upgrade:BMWCockpitMobile] BEGIN buildApp BMWCockpitMobile_1563445175507
+[2019-07-18T10:19:35.507Z] debug: [twx-studio:upgrade:BMWCockpitMobile] write settings
+[2019-07-18T10:19:35.508Z] debug: [twx-studio:upgrade:BMWCockpitMobile] copy runtime extensions
+[2019-07-18T10:19:35.687Z] debug: [twx-studio:upgrade:BMWCockpitMobile] packageThemeSet
+[2019-07-18T10:19:36.578Z] debug: [twx-studio:upgrade:BMWCockpitMobile] onBuild
+[2019-07-18T10:19:36.578Z] info: [twx-studio:upgrade:BMWCockpitMobile] Building ves-ar-extension app: BMWCockpitMobile
+[2019-07-18T10:19:36.595Z] debug: [twx-studio:upgrade:BMWCockpitMobile] pathDir C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile
+[2019-07-18T10:19:36.596Z] debug: [twx-studio:upgrade:BMWCockpitMobile] scaffoldDir C:\Users\bakp\AppData\Roaming\VuforiaStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\src-scaffold
+[2019-07-18T10:19:36.596Z] debug: [twx-studio:upgrade:BMWCockpitMobile] copySrc
+[2019-07-18T10:19:36.812Z] debug: [twx-studio:upgrade:BMWCockpitMobile] buildApp
+[2019-07-18T10:19:36.954Z] debug: [twx-studio:upgrade:BMWCockpitMobile] END buildApp BMWCockpitMobile_1563445175507
+[2019-07-18T10:19:36.954Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Build succeeded.
+[2019-07-31T07:38:36.866Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Begin upgrade of project BMWCockpitMobile
+[2019-07-31T07:38:36.869Z] info: [twx-studio:upgrade:BMWCockpitMobile] Upgrading project BMWCockpitMobile C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile from 1.40.1573 to 8.4.6.4436 (1.41.1589)
+[2019-07-31T07:38:36.911Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Make sure there are not any stale files lying around
+[2019-07-31T07:38:36.912Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile/css/
+[2019-07-31T07:38:36.917Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile/dist/
+[2019-07-31T07:38:37.002Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile/extensions/
+[2019-07-31T07:38:37.022Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile/src/phone/resources/Default/
+[2019-07-31T07:38:37.037Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile/theme/
+[2019-07-31T07:38:37.042Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Copying /src/**/* to project, overwrite=false
+[2019-07-31T07:38:37.044Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-07-31T07:38:37.133Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Copy of project files complete
+[2019-07-31T07:38:37.133Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Updating version to  8.4.6.4436 (1.41.1589)
+[2019-07-31T07:38:37.134Z] debug: [twx-studio:upgrade:BMWCockpitMobile] onupgrade sucessful, now build the project
+[2019-07-31T07:38:37.134Z] debug: [twx-studio:upgrade:BMWCockpitMobile] BEGIN buildApp BMWCockpitMobile_1564558717134
+[2019-07-31T07:38:37.134Z] debug: [twx-studio:upgrade:BMWCockpitMobile] write settings
+[2019-07-31T07:38:37.135Z] debug: [twx-studio:upgrade:BMWCockpitMobile] copy runtime extensions
+[2019-07-31T07:38:37.482Z] debug: [twx-studio:upgrade:BMWCockpitMobile] packageThemeSet
+[2019-07-31T07:38:38.546Z] debug: [twx-studio:upgrade:BMWCockpitMobile] onBuild
+[2019-07-31T07:38:38.546Z] info: [twx-studio:upgrade:BMWCockpitMobile] Building ves-ar-extension app: BMWCockpitMobile
+[2019-07-31T07:38:38.602Z] debug: [twx-studio:upgrade:BMWCockpitMobile] pathDir C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile
+[2019-07-31T07:38:38.602Z] debug: [twx-studio:upgrade:BMWCockpitMobile] scaffoldDir C:\Users\bakp\AppData\Roaming\VuforiaStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\src-scaffold
+[2019-07-31T07:38:38.602Z] debug: [twx-studio:upgrade:BMWCockpitMobile] copySrc
+[2019-07-31T07:38:39.002Z] debug: [twx-studio:upgrade:BMWCockpitMobile] buildApp
+[2019-07-31T07:38:39.790Z] debug: [twx-studio:upgrade:BMWCockpitMobile] END buildApp BMWCockpitMobile_1564558717134
+[2019-07-31T07:38:39.790Z] debug: [twx-studio:upgrade:BMWCockpitMobile] Build succeeded.
+
+2019-08-19T08:44:06.638Z: Project "BMWCockpitMobile" saved as new project "BMWCockpitMobile_HoloLens"[2019-08-19T08:44:08.210Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Begin upgrade of project BMWCockpitMobile_HoloLens
+[2019-08-19T08:44:08.213Z] info: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Upgrading project BMWCockpitMobile HoloLens C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile_HoloLens from 1.41.1589 to 8.4.6.4436 (1.41.1589)
+[2019-08-19T08:44:08.264Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Make sure there are not any stale files lying around
+[2019-08-19T08:44:08.265Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile_HoloLens/src/phone/resources/Default/
+[2019-08-19T08:44:08.284Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Create .gitignore for project dir
+[2019-08-19T08:44:08.285Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Copying /src/**/* to project, overwrite=false
+[2019-08-19T08:44:08.286Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-08-19T08:44:08.362Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Copy of project files complete
+[2019-08-19T08:44:08.362Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Updating version to  8.4.6.4436 (1.41.1589)
+[2019-08-19T08:44:08.363Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] onupgrade sucessful, now build the project
+[2019-08-19T08:44:08.363Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] BEGIN buildApp BMWCockpitMobile_HoloLens_1566204248363
+[2019-08-19T08:44:08.363Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] write settings
+[2019-08-19T08:44:08.364Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] copy runtime extensions
+[2019-08-19T08:44:08.570Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] packageThemeSet
+[2019-08-19T08:44:09.535Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] onBuild
+[2019-08-19T08:44:09.535Z] info: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Building ves-ar-extension app: BMWCockpitMobile HoloLens
+[2019-08-19T08:44:09.550Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] pathDir C:\Users\bakp\Documents\VuforiaStudio\Projects\BMWCockpitMobile_HoloLens
+[2019-08-19T08:44:09.550Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] scaffoldDir C:\Users\bakp\AppData\Roaming\VuforiaStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\src-scaffold
+[2019-08-19T08:44:09.551Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] copySrc
+[2019-08-19T08:44:09.788Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] buildApp
+[2019-08-19T08:44:10.394Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] END buildApp BMWCockpitMobile_HoloLens_1566204248363
+[2019-08-19T08:44:10.394Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Build succeeded.
+[2019-08-26T06:22:05.301Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Begin upgrade of project
+[2019-08-26T06:22:05.302Z] info: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Upgrading project
+[2019-08-26T06:22:05.346Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Make sure there are not any stale files lying around
+[2019-08-26T06:22:05.346Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Removing 
+[2019-08-26T06:22:05.351Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Removing 
+[2019-08-26T06:22:05.450Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Removing 
+[2019-08-26T06:22:05.470Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Removing 
+[2019-08-26T06:22:05.489Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Removing 
+[2019-08-26T06:22:05.494Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Copying /src/**/* to project, overwrite=false
+[2019-08-26T06:22:05.497Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-08-26T06:22:05.592Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Copy of project files complete
+[2019-08-26T06:22:05.592Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Updating version to 
+[2019-08-26T06:22:05.592Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] onupgrade sucessful, now build the project
+[2019-08-26T06:22:05.593Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] BEGIN buildApp
+[2019-08-26T06:22:05.593Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] write settings
+[2019-08-26T06:22:05.594Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] copy runtime extensions
+[2019-08-26T06:22:05.933Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] packageThemeSet
+[2019-08-26T06:22:07.145Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] onBuild
+[2019-08-26T06:22:07.145Z] info: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Building ves-ar-extension app:
+[2019-08-26T06:22:07.309Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] pathDir
+[2019-08-26T06:22:07.309Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] scaffoldDir
+[2019-08-26T06:22:07.310Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] copySrc
+[2019-08-26T06:22:07.646Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] buildApp
+[2019-08-26T06:22:08.491Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] END buildApp
+[2019-08-26T06:22:08.491Z] debug: [twx-studio:upgrade:BMWCockpitMobile_HoloLens] Build succeeded.
+
+2019-08-30T07:50:24.585Z: Project "BMWCockpitMobile ThingMark" saved as new project "BMWCockpitMobile_SpatialTarget"[2019-08-30T07:53:17.389Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Begin upgrade of project
+[2019-08-30T07:53:17.389Z] info: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Upgrading project
+[2019-08-30T07:53:17.393Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Make sure there are not any stale files lying around
+[2019-08-30T07:53:17.393Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-08-30T07:53:17.416Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Create .gitignore for project dir
+[2019-08-30T07:53:17.417Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copying /src/**/* to project, overwrite=false
+[2019-08-30T07:53:17.418Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-08-30T07:53:17.496Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copy of project files complete
+[2019-08-30T07:53:17.496Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Updating version to 
+[2019-08-30T07:53:17.496Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] onupgrade sucessful, now build the project
+[2019-08-30T07:53:17.496Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] BEGIN buildApp
+[2019-08-30T07:53:17.496Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] write settings
+[2019-08-30T07:53:17.497Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] copy runtime extensions
+[2019-08-30T07:53:17.771Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] packageThemeSet
+[2019-08-30T07:53:18.841Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] onBuild
+[2019-08-30T07:53:18.841Z] info: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Building ves-ar-extension app:
+[2019-08-30T07:53:18.857Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] pathDir
+[2019-08-30T07:53:18.857Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] scaffoldDir
+[2019-08-30T07:53:18.857Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] copySrc
+[2019-08-30T07:53:19.125Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] buildApp
+[2019-08-30T07:53:19.891Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] END buildApp
+[2019-08-30T07:53:19.891Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Build succeeded.
+[2019-10-10T08:32:38.246Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Begin upgrade of project
+[2019-10-10T08:32:38.248Z] info: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Upgrading project
+[2019-10-10T08:32:38.295Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Make sure there are not any stale files lying around
+[2019-10-10T08:32:38.296Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-10-10T08:32:38.301Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-10-10T08:32:38.395Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-10-10T08:32:38.415Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-10-10T08:32:38.432Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-10-10T08:32:38.438Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copying /src/**/* to project, overwrite=false
+[2019-10-10T08:32:38.439Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-10-10T08:32:38.508Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copy of project files complete
+[2019-10-10T08:32:38.509Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Updating version to 
+[2019-10-10T08:32:38.509Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] onupgrade sucessful, now build the project
+[2019-10-10T08:32:38.509Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] BEGIN buildApp
+[2019-10-10T08:32:38.509Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] write settings
+[2019-10-10T08:32:38.510Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] copy runtime extensions
+[2019-10-10T08:32:38.714Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] packageThemeSet
+[2019-10-10T08:32:39.643Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] onBuild
+[2019-10-10T08:32:39.643Z] info: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Building ves-ar-extension app:
+[2019-10-10T08:32:39.661Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] pathDir
+[2019-10-10T08:32:39.661Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] scaffoldDir
+[2019-10-10T08:32:39.661Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] copySrc
+[2019-10-10T08:32:39.911Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] buildApp
+[2019-10-10T08:32:40.524Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] END buildApp
+[2019-10-10T08:32:40.524Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Build succeeded.
+[2019-11-18T14:12:31.652Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Begin upgrade of project
+[2019-11-18T14:12:31.654Z] info: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Upgrading project
+[2019-11-18T14:12:31.660Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Make sure there are not any stale files lying around
+[2019-11-18T14:12:31.660Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-11-18T14:12:31.669Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-11-18T14:12:31.772Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-11-18T14:12:31.791Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-11-18T14:12:31.808Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Removing 
+[2019-11-18T14:12:31.813Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copying /src/**/* to project, overwrite=false
+[2019-11-18T14:12:31.815Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-11-18T14:12:31.897Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Copy of project files complete
+[2019-11-18T14:12:31.897Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Updating version to 
+[2019-11-18T14:12:31.897Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] onupgrade sucessful, now build the project
+[2019-11-18T14:12:31.897Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] BEGIN buildApp
+[2019-11-18T14:12:31.897Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] write settings
+[2019-11-18T14:12:31.898Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] copy runtime extensions
+[2019-11-18T14:12:32.113Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] packageThemeSet
+[2019-11-18T14:12:33.099Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] onBuild
+[2019-11-18T14:12:33.099Z] info: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Building ves-ar-extension app:
+[2019-11-18T14:12:33.120Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] pathDir
+[2019-11-18T14:12:33.120Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] scaffoldDir
+[2019-11-18T14:12:33.121Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] copySrc
+[2019-11-18T14:12:33.418Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] buildApp
+[2019-11-18T14:12:34.087Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] END buildApp
+[2019-11-18T14:12:34.088Z] debug: [twx-studio:upgrade:BMWCockpitMobile_SpatialTarget] Build succeeded.

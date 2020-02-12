@@ -1,0 +1,97 @@
+[
+  { "id": 1, "widget": "labelStep1", "name": "Combined Instrument", "status": "UNCHECKED", "number": "7627794", "fullname": "combined Instrument chrome", "description": "Check assembly of correct variant", "filename": "Combined Instrument.png", "framePosition": {
+    "width": 100,
+    "height": 40,
+    "x": -0.114,
+    "y": 0.133,
+    "z": 0.058,
+    "rotX": -17,
+    "rotY": 0,
+    "rotZ": 0
+  }, "helpImagePosition": {
+    "width": 0,
+    "height": 0,
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0
+  }},
+  { "id": 2, "widget": "labelStep2", "name": "Cover Driver’s Side", "status": "UNCHECKED", "number": "8806219", "fullname": "cover driver’s side piano black", "description": "Check assembly of correct variant", "filename": "Cover Driver Side.png", "framePosition": {
+    "width": 60,
+    "height": 40,
+    "x": -0.184,
+    "y": 0.113,
+    "z": 0.038,
+    "rotX": -28,
+    "rotY": 0,
+    "rotZ": 0
+  }, "helpImagePosition": {
+    "width": 0,
+    "height": 0,
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0
+  }},
+  { "id": 3, "widget": "labelStep3", "name": "Control Unit Light", "status": "UNCHECKED", "number": "6671530", "fullname": "control unit light piano black with fog light switch", "description": "Check assembly of correct variant", "filename": "Control Unit Light.png", "framePosition": {
+    "width": 50,
+    "height": 30,
+    "x": -0.176,
+    "y": 0.083,
+    "z": 0.048,
+    "rotX": -2,
+    "rotY": 0,
+    "rotZ": 0
+  }, "helpImagePosition": {
+    "width": 0,
+    "height": 0,
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0
+  }},
+  { "id": 4, "widget": "labelStep4", "name": "Cover Centerspeaker", "status": "UNCHECKED", "number": "9322816", "fullname": "cover centerspeaker high", "description": "Check assembly of correct variant", "filename": "Cover Centerspeaker.png", "framePosition": {
+    "width": 95,
+    "height": 50,
+    "x": -0.001,
+    "y": 0.15,
+    "z": -0.012,
+    "rotX": -58,
+    "rotY": 0,
+    "rotZ": 0
+  }, "helpImagePosition": {
+    "width": 0,
+    "height": 0,
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0
+  }},
+  { "id": 5, "widget": "labelStep5", "name": "Cover Passenger’s Side", "status": "UNCHECKED", "number": "9836220", "fullname": "cover passenger’s side silver/black", "description": "Check assembly of correct variant", "filename": "Cover Passenger Side.png", "framePosition": {
+    "width": 270,
+    "height": 70,
+    "x": 0.079,
+    "y": 0.106,
+    "z": 0.058,
+    "rotX": -20,
+    "rotY": 0,
+    "rotZ": 0
+  }, "helpImagePosition": {
+    "width": 0,
+    "height": 0,
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0
+  }}
+]
