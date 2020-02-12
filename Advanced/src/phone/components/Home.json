@@ -1,0 +1,433 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DLabel-1",
+                    "state-format-value": "text",
+                    "widget-name": "3DLabel-1",
+                    "text": "Engine part",
+                    "scale": "1.0000",
+                    "x": "0.0276",
+                    "y": "0.0972",
+                    "z": "0.0000",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "billboard": "true"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1562150112403",
+                        "source-type": "data",
+                        "source-name": "Car1",
+                        "source-item-type": "service",
+                        "source-item-name": "GetPropertyValues",
+                        "source-item-field-name": "RPM",
+                        "binding-type": "current_row_field",
+                        "from-expression": "app.mdl['Car1'].svc['GetPropertyValues'].data.current['RPM']",
+                        "to-property": "text"
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "attributes": {
+                        "databind-id": "db-1562150892528",
+                        "source-type": "ui",
+                        "source-label": "Toggle Button",
+                        "source-name": "toggleButton-3",
+                        "source-item-type": "property",
+                        "source-item-name": "pressed",
+                        "binding-type": "widget_property",
+                        "from-expression": "app.view['Home'].wdg['toggleButton-3']['pressed']",
+                        "to-property": "visible"
+                      },
+                      "name": "twx-databind"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "thingMark-1",
+                    "tracking-indicator": "true",
+                    "widget-name": "thingMark-1",
+                    "width": "0.0254",
+                    "x": "0.0284",
+                    "y": "0.0000",
+                    "z": "-0.0131",
+                    "rx": "-90.00",
+                    "ry": "-0.00",
+                    "rz": "-0.00"
+                  },
+                  "name": "twx-dt-target",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1562150512186",
+                        "source-type": "data",
+                        "source-name": "vumark",
+                        "source-item-type": "value",
+                        "source-item-name": "vumark",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['vumark']",
+                        "to-property": "markerId"
+                      },
+                      "name": "twx-databind"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-1",
+                    "widget-name": "model-1",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/blue_pump.pvz",
+                    "scale": "0.2000",
+                    "x": "-0.0802",
+                    "y": "0.0500",
+                    "z": "-0.0431",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "sequence": "Uploaded/teardown.pvi"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlay-1",
+            "widget-name": "2D Overlay",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "panel-1",
+                    "widget-name": "Top Panel",
+                    "is-widget-container": "true",
+                    "position": "top"
+                  },
+                  "name": "twx-overlay-container",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "2DOverlayBody-1",
+                    "widget-name": "2D Body",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-overlay-body",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-2",
+                            "widget-name": "Left Panel",
+                            "is-widget-container": "true",
+                            "position": "left"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-3",
+                            "widget-name": "Center Panel",
+                            "is-widget-container": "true",
+                            "position": "center"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "card-1",
+                                    "widget-name": "card-1",
+                                    "is-widget-container": "true"
+                                  },
+                                  "name": "twx-card",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1562150825219",
+                                        "source-type": "ui",
+                                        "source-label": "Toggle Button",
+                                        "source-name": "toggleButton-2",
+                                        "source-item-type": "property",
+                                        "source-item-name": "pressed",
+                                        "binding-type": "widget_property",
+                                        "from-expression": "app.view['Home'].wdg['toggleButton-2']['pressed']",
+                                        "to-property": "visible"
+                                      },
+                                      "name": "twx-databind"
+                                    },
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "valueDisplay-1",
+                                            "state-format-value": "value",
+                                            "widget-name": "valueDisplay-1",
+                                            "value": "Paweł",
+                                            "label": "Owner"
+                                          },
+                                          "name": "twx-valuedisplay"
+                                        },
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "valueDisplay-2",
+                                            "state-format-value": "value",
+                                            "widget-name": "valueDisplay-2",
+                                            "value": "Active",
+                                            "label": "Warranty"
+                                          },
+                                          "name": "twx-valuedisplay"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-4",
+                            "widget-name": "Right Panel",
+                            "is-widget-container": "true",
+                            "position": "right"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "panel-5",
+                    "widget-name": "Bottom Panel",
+                    "is-widget-container": "true",
+                    "position": "bottom"
+                  },
+                  "name": "twx-overlay-container",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "gridLayout-1",
+                            "widget-name": "gridLayout-1",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-gridlayout",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "row-1",
+                                    "widget-name": "row-1",
+                                    "is-widget-container": "true"
+                                  },
+                                  "name": "twx-row",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-1",
+                                            "widget-name": "column-1",
+                                            "is-widget-container": "true",
+                                            "alignment": "center"
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "toggleButton-1",
+                                                    "widget-name": "toggleButton-1",
+                                                    "src": "Uploaded/small_play.png",
+                                                    "srcnotpressed": "Uploaded/small_play.png"
+                                                  },
+                                                  "name": "twx-toggle-button",
+                                                  "children": [
+                                                    {
+                                                      "attributes": {
+                                                        "eventbind-id": "eb-1562150649317",
+                                                        "source-type": "widget",
+                                                        "source-label": "Toggle Button",
+                                                        "source-name": "toggleButton-1",
+                                                        "source-event": "click",
+                                                        "handler-type": "ui",
+                                                        "handler-name": "model-1",
+                                                        "handler-service": "play",
+                                                        "handler-path": "app.view[\"Home\"].wdg[\"model-1\"].svc.play"
+                                                      },
+                                                      "name": "twx-eventbind"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-2",
+                                            "widget-name": "column-2",
+                                            "is-widget-container": "true",
+                                            "alignment": "center"
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "toggleButton-2",
+                                                    "widget-name": "toggleButton-2",
+                                                    "src": "Uploaded/info.png",
+                                                    "srcnotpressed": "Uploaded/info.png"
+                                                  },
+                                                  "name": "twx-toggle-button"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "column-3",
+                                            "widget-name": "column-3",
+                                            "is-widget-container": "true",
+                                            "alignment": "center"
+                                          },
+                                          "name": "twx-col",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "toggleButton-3",
+                                                    "widget-name": "toggleButton-3",
+                                                    "src": "Uploaded/i.png",
+                                                    "srcnotpressed": "Uploaded/i.png"
+                                                  },
+                                                  "name": "twx-toggle-button"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}

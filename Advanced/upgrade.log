@@ -1,0 +1,46 @@
+[2019-07-03T10:25:18.916Z] debug: [twx-studio:upgrade:Advanced] Begin upgrade of project Advanced
+[2019-07-03T10:25:18.917Z] info: [twx-studio:upgrade:Advanced] Upgrading project Advanced C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced from 1.40.1573 to 8.4.5.4404 (1.40.1573)
+[2019-07-03T10:25:18.923Z] debug: [twx-studio:upgrade:Advanced] Make sure there are not any stale files lying around
+[2019-07-03T10:25:18.925Z] debug: [twx-studio:upgrade:Advanced] Create .gitignore for project dir
+[2019-07-03T10:25:18.926Z] debug: [twx-studio:upgrade:Advanced] Copying /src/**/* to project, overwrite=false
+[2019-07-03T10:25:18.927Z] debug: [twx-studio:upgrade:Advanced] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-07-03T10:25:19.020Z] debug: [twx-studio:upgrade:Advanced] Copy of project files complete
+[2019-07-03T10:25:19.020Z] debug: [twx-studio:upgrade:Advanced] Updating version to  8.4.5.4404 (1.40.1573)
+[2019-07-03T10:25:19.020Z] debug: [twx-studio:upgrade:Advanced] onupgrade sucessful, now build the project
+[2019-07-03T10:25:19.020Z] debug: [twx-studio:upgrade:Advanced] BEGIN buildApp Advanced_1562149519020
+[2019-07-03T10:25:19.020Z] debug: [twx-studio:upgrade:Advanced] write settings
+[2019-07-03T10:25:19.021Z] debug: [twx-studio:upgrade:Advanced] copy runtime extensions
+[2019-07-03T10:25:19.278Z] debug: [twx-studio:upgrade:Advanced] packageThemeSet
+[2019-07-03T10:25:20.381Z] debug: [twx-studio:upgrade:Advanced] onBuild
+[2019-07-03T10:25:20.382Z] info: [twx-studio:upgrade:Advanced] Building ves-ar-extension app: Advanced
+[2019-07-03T10:25:20.401Z] debug: [twx-studio:upgrade:Advanced] pathDir C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced
+[2019-07-03T10:25:20.401Z] debug: [twx-studio:upgrade:Advanced] scaffoldDir C:\Users\bakp\AppData\Roaming\VuforiaStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\src-scaffold
+[2019-07-03T10:25:20.401Z] debug: [twx-studio:upgrade:Advanced] copySrc
+[2019-07-03T10:25:20.584Z] debug: [twx-studio:upgrade:Advanced] buildApp
+[2019-07-03T10:25:20.752Z] debug: [twx-studio:upgrade:Advanced] END buildApp Advanced_1562149519020
+[2019-07-03T10:25:20.753Z] debug: [twx-studio:upgrade:Advanced] Build succeeded.
+[2019-08-02T08:02:01.218Z] debug: [twx-studio:upgrade:Advanced] Begin upgrade of project Advanced
+[2019-08-02T08:02:01.219Z] info: [twx-studio:upgrade:Advanced] Upgrading project Advanced C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced from 1.40.1573 to 8.4.6.4436 (1.41.1589)
+[2019-08-02T08:02:01.223Z] debug: [twx-studio:upgrade:Advanced] Make sure there are not any stale files lying around
+[2019-08-02T08:02:01.223Z] debug: [twx-studio:upgrade:Advanced] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced/css/
+[2019-08-02T08:02:01.231Z] debug: [twx-studio:upgrade:Advanced] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced/dist/
+[2019-08-02T08:02:01.470Z] debug: [twx-studio:upgrade:Advanced] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced/extensions/
+[2019-08-02T08:02:01.504Z] debug: [twx-studio:upgrade:Advanced] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced/src/phone/resources/Default/
+[2019-08-02T08:02:01.524Z] debug: [twx-studio:upgrade:Advanced] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced/theme/
+[2019-08-02T08:02:01.530Z] debug: [twx-studio:upgrade:Advanced] Copying /src/**/* to project, overwrite=false
+[2019-08-02T08:02:01.531Z] debug: [twx-studio:upgrade:Advanced] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-08-02T08:02:01.602Z] debug: [twx-studio:upgrade:Advanced] Copy of project files complete
+[2019-08-02T08:02:01.603Z] debug: [twx-studio:upgrade:Advanced] Updating version to  8.4.6.4436 (1.41.1589)
+[2019-08-02T08:02:01.603Z] debug: [twx-studio:upgrade:Advanced] onupgrade sucessful, now build the project
+[2019-08-02T08:02:01.603Z] debug: [twx-studio:upgrade:Advanced] BEGIN buildApp Advanced_1564732921603
+[2019-08-02T08:02:01.603Z] debug: [twx-studio:upgrade:Advanced] write settings
+[2019-08-02T08:02:01.604Z] debug: [twx-studio:upgrade:Advanced] copy runtime extensions
+[2019-08-02T08:02:01.798Z] debug: [twx-studio:upgrade:Advanced] packageThemeSet
+[2019-08-02T08:02:02.782Z] debug: [twx-studio:upgrade:Advanced] onBuild
+[2019-08-02T08:02:02.783Z] info: [twx-studio:upgrade:Advanced] Building ves-ar-extension app: Advanced
+[2019-08-02T08:02:02.801Z] debug: [twx-studio:upgrade:Advanced] pathDir C:\Users\bakp\Documents\VuforiaStudio\Projects\Advanced
+[2019-08-02T08:02:02.801Z] debug: [twx-studio:upgrade:Advanced] scaffoldDir C:\Users\bakp\AppData\Roaming\VuforiaStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\src-scaffold
+[2019-08-02T08:02:02.801Z] debug: [twx-studio:upgrade:Advanced] copySrc
+[2019-08-02T08:02:02.995Z] debug: [twx-studio:upgrade:Advanced] buildApp
+[2019-08-02T08:02:03.259Z] debug: [twx-studio:upgrade:Advanced] END buildApp Advanced_1564732921603
+[2019-08-02T08:02:03.260Z] debug: [twx-studio:upgrade:Advanced] Build succeeded.
