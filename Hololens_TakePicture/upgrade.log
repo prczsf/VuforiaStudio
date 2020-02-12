@@ -1,0 +1,22 @@
+[2019-08-29T09:10:24.952Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Begin upgrade of project
+[2019-08-29T09:10:24.953Z] info: [twx-studio:upgrade:Hololens_TakePicture] Upgrading project
+[2019-08-29T09:10:24.960Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Make sure there are not any stale files lying around
+[2019-08-29T09:10:24.961Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Create .gitignore for project dir
+[2019-08-29T09:10:24.962Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Copying /src/**/* to project, overwrite=false
+[2019-08-29T09:10:24.964Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-08-29T09:10:25.059Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Copy of project files complete
+[2019-08-29T09:10:25.059Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Updating version to 
+[2019-08-29T09:10:25.059Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Copying project specific default resources.
+[2019-08-29T09:10:25.163Z] debug: [twx-studio:upgrade:Hololens_TakePicture] onupgrade sucessful, now build the project
+[2019-08-29T09:10:25.163Z] debug: [twx-studio:upgrade:Hololens_TakePicture] BEGIN buildApp
+[2019-08-29T09:10:25.163Z] debug: [twx-studio:upgrade:Hololens_TakePicture] write settings
+[2019-08-29T09:10:25.164Z] debug: [twx-studio:upgrade:Hololens_TakePicture] copy runtime extensions
+[2019-08-29T09:10:25.399Z] debug: [twx-studio:upgrade:Hololens_TakePicture] packageThemeSet
+[2019-08-29T09:10:26.346Z] debug: [twx-studio:upgrade:Hololens_TakePicture] onBuild
+[2019-08-29T09:10:26.346Z] info: [twx-studio:upgrade:Hololens_TakePicture] Building ves-ar-extension app:
+[2019-08-29T09:10:26.364Z] debug: [twx-studio:upgrade:Hololens_TakePicture] pathDir
+[2019-08-29T09:10:26.364Z] debug: [twx-studio:upgrade:Hololens_TakePicture] scaffoldDir
+[2019-08-29T09:10:26.364Z] debug: [twx-studio:upgrade:Hololens_TakePicture] copySrc
+[2019-08-29T09:10:26.573Z] debug: [twx-studio:upgrade:Hololens_TakePicture] buildApp
+[2019-08-29T09:10:26.734Z] debug: [twx-studio:upgrade:Hololens_TakePicture] END buildApp
+[2019-08-29T09:10:26.734Z] debug: [twx-studio:upgrade:Hololens_TakePicture] Build succeeded.

@@ -1,0 +1,37 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": [
+    "holographic"
+  ],
+  "experiences": [
+    {
+      "vumark": "37047:2",
+      "experienceType": "vumark",
+      "id": 1,
+      "index-keys": [
+        "urn:vuforia:vumark:37047:2"
+      ],
+      "title": {
+        "en": "Hololens TakePicture"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Home",
+      "url-template": "index.html?expId=1&vumark={{vuforia:vumark}}",
+      "entryPoint": "index.html?expId=1",
+      "thumbnail": ""
+    }
+  ],
+  "accessType": "public",
+  "designedfor": [
+    "offline"
+  ]
+}
