@@ -1,0 +1,37 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": [
+    "w320dp",
+    "spatial-tracking"
+  ],
+  "experiences": [
+    {
+      "vumark": "37047:1",
+      "experienceType": "vumark",
+      "index-keys": [
+        "urn:vuforia:vumark:37047:1"
+      ],
+      "title": {
+        "en": "AutoModelItemsCreator"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Home",
+      "url-template": "index.html?expId=1&vumark={{vuforia:vumark}}",
+      "thumbnail": "public/Uploaded/img_378095.png",
+      "thingTemplateName": "",
+      "id": 1,
+      "entryPoint": "index.html?expId=1"
+    }
+  ],
+  "accessType": "private",
+  "designedfor": []
+}

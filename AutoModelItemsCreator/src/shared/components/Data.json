@@ -1,0 +1,79 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [
+    {
+      "attributes": {
+        "name": "MetadataCreatorFR",
+        "twx-entity-type": "Things",
+        "twx-entity-name": "MetadataCreatorFR"
+      },
+      "name": "twx-model",
+      "children": [
+        {
+          "attributes": {
+            "name": "CreateMetadata",
+            "id": "CreateMetadata"
+          },
+          "name": "twx-model-service"
+        },
+        {
+          "attributes": {
+            "name": "SavePVZ",
+            "id": "SavePVZ"
+          },
+          "name": "twx-model-service"
+        },
+        {
+          "attributes": {
+            "name": "LoadJSON",
+            "id": "LoadJSON"
+          },
+          "name": "twx-model-service"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "vumark",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "ThingMark",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "template",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing Template",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "thing",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "debug",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "debug",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    }
+  ],
+  "name": "twx-app-mdl"
+}

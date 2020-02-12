@@ -1,0 +1,56 @@
+{
+  "name": "AutoModelItemsCreator",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "AutoModelItemsCreator",
+  "thingworxServer": "http://192.168.156.151:2019",
+  "version": "1.45.1631",
+  "device": {
+    "name": "iphone",
+    "width": "375",
+    "height": "667"
+  },
+  "state": {
+    "orientation": "portrait"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ],
+      "fragments": []
+    }
+  },
+  "mainNavigationMenuStyle": "leftSideMenu",
+  "previewUrl": "/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts",
+  "theme": "twx-light",
+  "thumbnail": "Uploaded/img_378095.png",
+  "designedForOffline": false
+}
