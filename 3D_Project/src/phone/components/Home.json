@@ -1,0 +1,191 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true",
+            "dropshadow": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-1",
+                    "widget-name": "3DImage-1",
+                    "src": "Uploaded/number1.png",
+                    "class": "number-image",
+                    "scale": "0.2000",
+                    "x": "0.0427",
+                    "y": "0.0844",
+                    "z": "-0.0102",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "billboard": "true"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "attributes": {
+                        "eventbind-id": "eb-1562916756936",
+                        "source-type": "widget",
+                        "source-label": "3D Image",
+                        "source-name": "3DImage-1",
+                        "source-event": "click",
+                        "handler-type": "ui",
+                        "handler-name": "model-3",
+                        "handler-service": "playAll",
+                        "handler-path": "app.view[\"Home\"].wdg[\"model-3\"].svc.playAll"
+                      },
+                      "name": "twx-eventbind"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-2",
+                    "widget-name": "3DImage-2",
+                    "src": "Uploaded/number2.png",
+                    "class": "number-image",
+                    "scale": "0.2000",
+                    "x": "-0.0266",
+                    "y": "0.0859",
+                    "z": "-0.0082",
+                    "rx": "-0.93",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "billboard": "true"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "spatialTarget-1",
+                    "widget-name": "spatialTarget-1",
+                    "x": "0.0080",
+                    "z": "0.0200",
+                    "rx": "-90"
+                  },
+                  "name": "twx-dt-target-spatial"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-3",
+                    "widget-name": "model-3",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/CZ Steps_Low.pvz",
+                    "scale": "0.3000",
+                    "x": "-0.0386",
+                    "y": "0.0487",
+                    "z": "-0.0077",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "sequence": "Uploaded/l-Creo 3D - RemoveSilencer.pvi"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1562917027489",
+                        "source-type": "data",
+                        "source-name": "sequence",
+                        "source-item-type": "value",
+                        "source-item-name": "sequence",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['sequence']",
+                        "to-property": "sequence"
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "attributes": {
+                        "databind-id": "db-1562919435055",
+                        "source-type": "data",
+                        "source-name": "gunZRot",
+                        "source-item-type": "value",
+                        "source-item-name": "gunZRot",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['gunZRot']",
+                        "to-property": "rz"
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-1",
+                            "widget-name": "modelItem-1",
+                            "click-expression": "fire()",
+                            "is-widget-container": "true",
+                            "model": "model-3",
+                            "idpath": "/0/38",
+                            "scale": "1.0000",
+                            "x": "0.0528",
+                            "y": "-0.0170",
+                            "z": "0.0000",
+                            "rx": "180.00",
+                            "ry": "1",
+                            "rz": "195"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "attributes": {
+                                "databind-id": "db-1562919398695",
+                                "source-type": "data",
+                                "source-name": "triggerZRot",
+                                "source-item-type": "value",
+                                "source-item-name": "triggerZRot",
+                                "binding-type": "custom_field",
+                                "from-expression": "app.params['triggerZRot']",
+                                "to-property": "rz"
+                              },
+                              "name": "twx-databind"
+                            },
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}

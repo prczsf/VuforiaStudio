@@ -1,0 +1,34 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": [
+    "holographic",
+    "spatial-tracking"
+  ],
+  "experiences": [
+    {
+      "vumark": "",
+      "experienceType": "vumark",
+      "id": 1,
+      "index-keys": [],
+      "title": {
+        "en": "3D Project"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Home",
+      "url-template": "index.html?expId=1",
+      "entryPoint": "index.html?expId=1",
+      "thumbnail": ""
+    }
+  ],
+  "accessType": "private",
+  "designedfor": []
+}

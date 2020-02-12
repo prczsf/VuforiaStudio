@@ -1,0 +1,48 @@
+[2019-07-12T05:29:47.890Z] debug: [twx-studio:upgrade:3D_Project] Begin upgrade of project 3D_Project
+[2019-07-12T05:29:47.892Z] info: [twx-studio:upgrade:3D_Project] Upgrading project 3D Project C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project from 1.40.1573 to 8.4.5.4404 (1.40.1573)
+[2019-07-12T05:29:47.942Z] debug: [twx-studio:upgrade:3D_Project] Make sure there are not any stale files lying around
+[2019-07-12T05:29:47.945Z] debug: [twx-studio:upgrade:3D_Project] Create .gitignore for project dir
+[2019-07-12T05:29:47.945Z] debug: [twx-studio:upgrade:3D_Project] Copying /src/**/* to project, overwrite=false
+[2019-07-12T05:29:47.947Z] debug: [twx-studio:upgrade:3D_Project] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-07-12T05:29:48.034Z] debug: [twx-studio:upgrade:3D_Project] Copy of project files complete
+[2019-07-12T05:29:48.034Z] debug: [twx-studio:upgrade:3D_Project] Updating version to  8.4.5.4404 (1.40.1573)
+[2019-07-12T05:29:48.034Z] debug: [twx-studio:upgrade:3D_Project] Copying project specific default resources.
+[2019-07-12T05:29:48.138Z] debug: [twx-studio:upgrade:3D_Project] onupgrade sucessful, now build the project
+[2019-07-12T05:29:48.138Z] debug: [twx-studio:upgrade:3D_Project] BEGIN buildApp 3D_Project_1562909388138
+[2019-07-12T05:29:48.139Z] debug: [twx-studio:upgrade:3D_Project] write settings
+[2019-07-12T05:29:48.139Z] debug: [twx-studio:upgrade:3D_Project] copy runtime extensions
+[2019-07-12T05:29:48.324Z] debug: [twx-studio:upgrade:3D_Project] packageThemeSet
+[2019-07-12T05:29:49.258Z] debug: [twx-studio:upgrade:3D_Project] onBuild
+[2019-07-12T05:29:49.258Z] info: [twx-studio:upgrade:3D_Project] Building ves-ar-extension app: 3D Project
+[2019-07-12T05:29:49.275Z] debug: [twx-studio:upgrade:3D_Project] pathDir C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project
+[2019-07-12T05:29:49.275Z] debug: [twx-studio:upgrade:3D_Project] scaffoldDir C:\Users\bakp\AppData\Roaming\VuforiaStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\src-scaffold
+[2019-07-12T05:29:49.275Z] debug: [twx-studio:upgrade:3D_Project] copySrc
+[2019-07-12T05:29:49.463Z] debug: [twx-studio:upgrade:3D_Project] buildApp
+[2019-07-12T05:29:49.613Z] debug: [twx-studio:upgrade:3D_Project] END buildApp 3D_Project_1562909388138
+[2019-07-12T05:29:49.614Z] debug: [twx-studio:upgrade:3D_Project] Build succeeded.
+[2019-08-02T08:02:13.308Z] debug: [twx-studio:upgrade:3D_Project] Begin upgrade of project 3D_Project
+[2019-08-02T08:02:13.309Z] info: [twx-studio:upgrade:3D_Project] Upgrading project 3D Project C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project from 1.40.1573 to 8.4.6.4436 (1.41.1589)
+[2019-08-02T08:02:13.312Z] debug: [twx-studio:upgrade:3D_Project] Make sure there are not any stale files lying around
+[2019-08-02T08:02:13.312Z] debug: [twx-studio:upgrade:3D_Project] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project/css/
+[2019-08-02T08:02:13.317Z] debug: [twx-studio:upgrade:3D_Project] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project/dist/
+[2019-08-02T08:02:13.406Z] debug: [twx-studio:upgrade:3D_Project] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project/extensions/
+[2019-08-02T08:02:13.424Z] debug: [twx-studio:upgrade:3D_Project] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project/src/phone/resources/Default/
+[2019-08-02T08:02:13.444Z] debug: [twx-studio:upgrade:3D_Project] Removing  C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project/theme/
+[2019-08-02T08:02:13.449Z] debug: [twx-studio:upgrade:3D_Project] Copying /src/**/* to project, overwrite=false
+[2019-08-02T08:02:13.450Z] debug: [twx-studio:upgrade:3D_Project] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-08-02T08:02:13.521Z] debug: [twx-studio:upgrade:3D_Project] Copy of project files complete
+[2019-08-02T08:02:13.521Z] debug: [twx-studio:upgrade:3D_Project] Updating version to  8.4.6.4436 (1.41.1589)
+[2019-08-02T08:02:13.521Z] debug: [twx-studio:upgrade:3D_Project] Copying project specific default resources.
+[2019-08-02T08:02:13.628Z] debug: [twx-studio:upgrade:3D_Project] onupgrade sucessful, now build the project
+[2019-08-02T08:02:13.628Z] debug: [twx-studio:upgrade:3D_Project] BEGIN buildApp 3D_Project_1564732933628
+[2019-08-02T08:02:13.628Z] debug: [twx-studio:upgrade:3D_Project] write settings
+[2019-08-02T08:02:13.629Z] debug: [twx-studio:upgrade:3D_Project] copy runtime extensions
+[2019-08-02T08:02:13.859Z] debug: [twx-studio:upgrade:3D_Project] packageThemeSet
+[2019-08-02T08:02:14.810Z] debug: [twx-studio:upgrade:3D_Project] onBuild
+[2019-08-02T08:02:14.810Z] info: [twx-studio:upgrade:3D_Project] Building ves-ar-extension app: 3D Project
+[2019-08-02T08:02:14.832Z] debug: [twx-studio:upgrade:3D_Project] pathDir C:\Users\bakp\Documents\VuforiaStudio\Projects\3D_Project
+[2019-08-02T08:02:14.833Z] debug: [twx-studio:upgrade:3D_Project] scaffoldDir C:\Users\bakp\AppData\Roaming\VuforiaStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\src-scaffold
+[2019-08-02T08:02:14.833Z] debug: [twx-studio:upgrade:3D_Project] copySrc
+[2019-08-02T08:02:15.060Z] debug: [twx-studio:upgrade:3D_Project] buildApp
+[2019-08-02T08:02:15.272Z] debug: [twx-studio:upgrade:3D_Project] END buildApp 3D_Project_1564732933628
+[2019-08-02T08:02:15.272Z] debug: [twx-studio:upgrade:3D_Project] Build succeeded.
