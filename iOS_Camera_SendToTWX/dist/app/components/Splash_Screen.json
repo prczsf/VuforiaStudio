@@ -1,0 +1,84 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "mobile-2D"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "splashScreenGrid",
+            "widget-name": "splashScreenGrid",
+            "is-widget-container": "true",
+            "class": "",
+            "evenlyspacedrows": "true"
+          },
+          "name": "twx-gridlayout",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-1",
+                    "widget-name": "row-1",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-1",
+                            "widget-name": "column-1",
+                            "is-widget-container": "true",
+                            "justification": "center",
+                            "alignment": "center"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "image-2",
+                                    "widget-name": "image-2",
+                                    "imgsrc": "Uploaded/splash_screen.png"
+                                  },
+                                  "name": "twx-image2"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}

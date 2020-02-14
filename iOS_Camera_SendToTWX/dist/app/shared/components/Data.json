@@ -1,0 +1,84 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [
+    {
+      "attributes": {
+        "name": "ImageThing",
+        "twx-entity-type": "Things",
+        "twx-entity-name": "ImageThing"
+      },
+      "name": "twx-model",
+      "children": [
+        {
+          "attributes": {
+            "name": "AddImageService",
+            "id": "AddImageService"
+          },
+          "name": "twx-model-service",
+          "children": [
+            {
+              "attributes": {
+                "name": "mediaFileName",
+                "value": ""
+              },
+              "name": "twx-service-parameter-value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "vumark",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "ThingMark",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "template",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing Template",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "thing",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "photo",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "photo",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "debugText",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "debugText",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    }
+  ],
+  "name": "twx-app-mdl"
+}

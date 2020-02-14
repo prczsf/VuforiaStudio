@@ -1,0 +1,37 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": [
+    "w320dp"
+  ],
+  "experiences": [
+    {
+      "vumark": "37047:3",
+      "experienceType": "vumark",
+      "id": 1,
+      "index-keys": [
+        "urn:vuforia:vumark:37047:3"
+      ],
+      "title": {
+        "en": "iOS Camera SendToTWX"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Camera",
+      "url-template": "index.html?expId=1&vumark={{vuforia:vumark}}",
+      "entryPoint": "index.html?expId=1",
+      "thumbnail": "public/Uploaded/BMW-320d-M-Sport-package-Portimao-Blue-02.jpg"
+    }
+  ],
+  "accessType": "public",
+  "designedfor": [
+    "offline"
+  ]
+}

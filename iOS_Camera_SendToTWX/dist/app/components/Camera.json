@@ -1,0 +1,411 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "mobile-2D"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "gridLayout-2",
+            "widget-name": "gridLayout-2",
+            "is-widget-container": "true",
+            "class": "background",
+            "evenlyspacedrows": "true"
+          },
+          "name": "twx-gridlayout",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-2",
+                    "widget-name": "row-2",
+                    "is-widget-container": "true",
+                    "rowclass": "a"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-4",
+                            "widget-name": "column-4",
+                            "is-widget-container": "true",
+                            "justification": "center",
+                            "alignment": "center"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "image-2",
+                                    "image-align": "center",
+                                    "widget-name": "image-2",
+                                    "class": ""
+                                  },
+                                  "name": "twx-image2",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1566810425864",
+                                        "source-type": "data",
+                                        "source-name": "captureImage",
+                                        "source-item-type": "value",
+                                        "source-item-name": "captureImage",
+                                        "binding-type": "custom_field",
+                                        "from-expression": "app.params['captureImage']",
+                                        "to-property": "imgsrc"
+                                      },
+                                      "name": "twx-databind"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "label-1",
+                                    "state-format-value": "text",
+                                    "widget-name": "label-1"
+                                  },
+                                  "name": "twx-label",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1570080573092",
+                                        "source-type": "data",
+                                        "source-name": "debugLog",
+                                        "source-item-type": "value",
+                                        "source-item-name": "debugLog",
+                                        "binding-type": "custom_field",
+                                        "from-expression": "app.params['debugLog']",
+                                        "to-property": "text"
+                                      },
+                                      "name": "twx-databind"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-3",
+                            "widget-name": "column-3",
+                            "is-widget-container": "true",
+                            "class": "",
+                            "alignment": "flex-start",
+                            "fixedcolsize": "96px"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "snapshotButtonR",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "snapshotButtonR",
+                                    "click-expression": "takePhotoR();",
+                                    "class": "snapshot-button",
+                                    "src": "Uploaded/photo.png",
+                                    "srcnotpressed": "Uploaded/photo.png",
+                                    "width": "96px",
+                                    "height": "96px"
+                                  },
+                                  "name": "twx-toggle-button"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "snapshotButtonBackR",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "snapshotButtonBackR",
+                                    "click-expression": "snapBack();",
+                                    "class": "snapshot-button",
+                                    "src": "Uploaded/arrowLeft-removebg-preview.png",
+                                    "srcnotpressed": "Uploaded/arrowLeft-removebg-preview.png",
+                                    "width": "96px",
+                                    "height": "96px"
+                                  },
+                                  "name": "twx-toggle-button",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "eventbind-id": "eb-1567066215749",
+                                        "source-type": "widget",
+                                        "source-label": "Toggle Button",
+                                        "source-name": "snapshotButtonBackR",
+                                        "source-event": "click",
+                                        "handler-namespace": "app",
+                                        "handler-name": "fn",
+                                        "handler-service": "navigate",
+                                        "handler-path": "app-fn-navigate"
+                                      },
+                                      "name": "twx-eventbind",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "name": "viewname",
+                                            "value": "Home"
+                                          },
+                                          "name": "twx-event-data"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "acceptPhotoButtonR",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "acceptPhotoButtonR",
+                                    "click-expression": "clickedAcceptPhotoButton();",
+                                    "class": "snapshot-button",
+                                    "src": "Uploaded/check.png",
+                                    "srcnotpressed": "Uploaded/check.png",
+                                    "width": "96px",
+                                    "height": "96px",
+                                    "visible": "false"
+                                  },
+                                  "name": "twx-toggle-button",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "eventbind-id": "eb-1567066230436",
+                                        "source-type": "widget",
+                                        "source-label": "Toggle Button",
+                                        "source-name": "acceptPhotoButtonR",
+                                        "source-event": "click",
+                                        "handler-namespace": "app",
+                                        "handler-name": "fn",
+                                        "handler-service": "navigate",
+                                        "handler-path": "app-fn-navigate"
+                                      },
+                                      "name": "twx-eventbind",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "name": "viewname",
+                                            "value": "Home"
+                                          },
+                                          "name": "twx-event-data"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "declinePhotoButtonR",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "declinePhotoButtonR",
+                                    "click-expression": "clickedDeclinePhotoButtonR();",
+                                    "class": "snapshot-button",
+                                    "src": "Uploaded/x.png",
+                                    "srcnotpressed": "Uploaded/x.png",
+                                    "width": "96px",
+                                    "height": "96px",
+                                    "visible": "false"
+                                  },
+                                  "name": "twx-toggle-button"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-1",
+                    "widget-name": "row-1",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-1",
+                            "widget-name": "column-1",
+                            "is-widget-container": "true",
+                            "flexdirection": "row",
+                            "justification": "center",
+                            "fixedcolsize": ""
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "snapshotButtonD",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "snapshotButtonD",
+                                    "click-expression": "takePhotoD();",
+                                    "class": "snapshot-button-down",
+                                    "src": "Uploaded/photo.png",
+                                    "srcnotpressed": "Uploaded/photo.png",
+                                    "width": "96px",
+                                    "height": "96px"
+                                  },
+                                  "name": "twx-toggle-button"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "snapshotButtonBackD",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "snapshotButtonBackD",
+                                    "click-expression": "snapBack();",
+                                    "class": "snapshot-button-down",
+                                    "src": "Uploaded/arrowLeft-removebg-preview.png",
+                                    "srcnotpressed": "Uploaded/arrowLeft-removebg-preview.png",
+                                    "width": "96px",
+                                    "height": "96px"
+                                  },
+                                  "name": "twx-toggle-button",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "eventbind-id": "eb-1567066221253",
+                                        "source-type": "widget",
+                                        "source-label": "Toggle Button",
+                                        "source-name": "snapshotButtonBackD",
+                                        "source-event": "click",
+                                        "handler-namespace": "app",
+                                        "handler-name": "fn",
+                                        "handler-service": "navigate",
+                                        "handler-path": "app-fn-navigate"
+                                      },
+                                      "name": "twx-eventbind",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "name": "viewname",
+                                            "value": "Home"
+                                          },
+                                          "name": "twx-event-data"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "acceptPhotoButtonD",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "acceptPhotoButtonD",
+                                    "click-expression": "clickedAcceptPhotoButton();",
+                                    "class": "snapshot-button-down",
+                                    "src": "Uploaded/check.png",
+                                    "srcnotpressed": "Uploaded/check.png",
+                                    "width": "96px",
+                                    "height": "96px",
+                                    "visible": "false"
+                                  },
+                                  "name": "twx-toggle-button",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "eventbind-id": "eb-1567066236068",
+                                        "source-type": "widget",
+                                        "source-label": "Toggle Button",
+                                        "source-name": "acceptPhotoButtonD",
+                                        "source-event": "click",
+                                        "handler-namespace": "app",
+                                        "handler-name": "fn",
+                                        "handler-service": "navigate",
+                                        "handler-path": "app-fn-navigate"
+                                      },
+                                      "name": "twx-eventbind",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "name": "viewname",
+                                            "value": "Home"
+                                          },
+                                          "name": "twx-event-data"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "declinePhotoButtonD",
+                                    "background-color": "",
+                                    "background-color-pressed": "",
+                                    "widget-name": "declinePhotoButtonD",
+                                    "click-expression": "clickedDeclinePhotoButtonD();",
+                                    "class": "snapshot-button-down",
+                                    "src": "Uploaded/x.png",
+                                    "srcnotpressed": "Uploaded/x.png",
+                                    "width": "96px",
+                                    "height": "96px",
+                                    "visible": "false"
+                                  },
+                                  "name": "twx-toggle-button"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
