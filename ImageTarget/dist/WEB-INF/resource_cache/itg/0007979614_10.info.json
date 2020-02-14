@@ -1,0 +1,13 @@
+{
+  "filePath": "app/resources/Uploaded/0007979614_10.jpg",
+  "destination": "app/resources/_generated_/itg",
+  "conversionInfo": {
+    "targets": {
+      "88fe2a18-f9e5-4191-b290-93495a87e1c6": {
+        "targetSize": "0.0254",
+        "imageTargetId": "imageTarget-1",
+        "referencedByView": "Home"
+      }
+    }
+  }
+}
