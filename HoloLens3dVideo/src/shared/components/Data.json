@@ -35,11 +35,21 @@
     },
     {
       "attributes": {
-        "id": "image_url",
+        "id": "width",
         "isbound": "false",
         "isdeletable": "true",
-        "name": "image_url",
-        "value": ""
+        "name": "width",
+        "value": "640"
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "height",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "height",
+        "value": "360"
       },
       "name": "twx-app-param"
     },
@@ -107,26 +117,6 @@
         "voicealias": "Stop Scan"
       },
       "name": "twx-app-event"
-    },
-    {
-      "attributes": {
-        "id": "width",
-        "isbound": "false",
-        "isdeletable": "true",
-        "name": "width",
-        "value": "640"
-      },
-      "name": "twx-app-param"
-    },
-    {
-      "attributes": {
-        "id": "height",
-        "isbound": "false",
-        "isdeletable": "true",
-        "name": "height",
-        "value": "360"
-      },
-      "name": "twx-app-param"
     }
   ],
   "name": "twx-app-mdl"
