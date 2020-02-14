@@ -1,0 +1,73 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "gauge3dImage",
+                    "widget-name": "gauge3dImage",
+                    "scale": "1.0000",
+                    "x": "-0.0792",
+                    "y": "0.0000",
+                    "z": "0.0000",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-1",
+                    "widget-name": "model-1",
+                    "modelloaded-expression": "printOn3dImage();",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/TEST1.pvz",
+                    "x": "0.12245059758424759",
+                    "y": "0.39881232380867004",
+                    "z": "-0.01656485628336668"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
